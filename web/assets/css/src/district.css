@@ -1,0 +1,133 @@
+a {
+  color: #0058a9; }
+  a:focus {
+    color: #003d76;
+    background-color: transparent;
+    transition: color 0.3s, background-color 0.3s; }
+  a:active {
+    color: #003d76;
+    background-color: transparent;
+    transition: color 0.3s, background-color 0.3s; }
+  a:hover {
+    color: #003d76;
+    background-color: transparent;
+    transition: color 0.3s, background-color 0.3s; }
+
+@media screen and (min-width: 1025px) {
+  .header__logo {
+    margin-right: calc(100% - 783px); } }
+
+.header__cta-link {
+  text-shadow: none;
+  background-color: #55a51c; }
+  .header__cta-link:focus {
+    color: #e6e6e6;
+    background-color: #3f7915;
+    transition: color 0.3s, background-color 0.3s; }
+  .header__cta-link:active {
+    color: #e6e6e6;
+    background-color: #3f7915;
+    transition: color 0.3s, background-color 0.3s; }
+  .header__cta-link:hover {
+    color: #e6e6e6;
+    background-color: #3f7915;
+    transition: color 0.3s, background-color 0.3s; }
+
+.circles__number {
+  color: #ffffff; }
+
+.link__button-table {
+  color: #55a51c;
+  border-color: #55a51c; }
+  .link__button-table:focus {
+    color: #3f7915;
+    background-color: rgba(85, 165, 28, 0.1);
+    transition: color 0.3s, background-color 0.3s; }
+  .link__button-table:active {
+    color: #3f7915;
+    background-color: rgba(85, 165, 28, 0.1);
+    transition: color 0.3s, background-color 0.3s; }
+  .link__button-table:hover {
+    color: #3f7915;
+    background-color: rgba(85, 165, 28, 0.1);
+    transition: color 0.3s, background-color 0.3s; }
+
+.spotlight-links__section-content-item-link {
+  color: #0058a9; }
+  .spotlight-links__section-content-item-link:focus {
+    color: #003d76;
+    background-color: transparent;
+    transition: color 0.3s, background-color 0.3s; }
+  .spotlight-links__section-content-item-link:active {
+    color: #003d76;
+    background-color: transparent;
+    transition: color 0.3s, background-color 0.3s; }
+  .spotlight-links__section-content-item-link:hover {
+    color: #003d76;
+    background-color: transparent;
+    transition: color 0.3s, background-color 0.3s; }
+
+.spotlight-links__section-image-item-link {
+  color: #0058a9; }
+  .spotlight-links__section-image-item-link:focus {
+    color: #003d76;
+    background-color: transparent;
+    transition: color 0.3s, background-color 0.3s; }
+  .spotlight-links__section-image-item-link:active {
+    color: #003d76;
+    background-color: transparent;
+    transition: color 0.3s, background-color 0.3s; }
+  .spotlight-links__section-image-item-link:hover {
+    color: #003d76;
+    background-color: transparent;
+    transition: color 0.3s, background-color 0.3s; }
+
+.link-blocks__link-list-link {
+  color: #0058a9; }
+  .link-blocks__link-list-link:focus {
+    color: #003d76;
+    background-color: transparent;
+    transition: color 0.3s, background-color 0.3s; }
+  .link-blocks__link-list-link:active {
+    color: #003d76;
+    background-color: transparent;
+    transition: color 0.3s, background-color 0.3s; }
+  .link-blocks__link-list-link:hover {
+    color: #003d76;
+    background-color: transparent;
+    transition: color 0.3s, background-color 0.3s; }
+
+.link-blocks__ribbon-text {
+  color: #0058a9; }
+  .link-blocks__ribbon-text:focus {
+    color: #003d76;
+    background-color: transparent;
+    transition: color 0.3s, background-color 0.3s; }
+  .link-blocks__ribbon-text:active {
+    color: #003d76;
+    background-color: transparent;
+    transition: color 0.3s, background-color 0.3s; }
+  .link-blocks__ribbon-text:hover {
+    color: #003d76;
+    background-color: transparent;
+    transition: color 0.3s, background-color 0.3s; }
+
+.link__button-primary {
+  color: #ffffff;
+  background-color: #55a51c;
+  text-shadow: none; }
+  .link__button-primary:focus {
+    color: #e6e6e6;
+    background-color: #3f7915;
+    transition: color 0.3s, background-color 0.3s; }
+  .link__button-primary:active {
+    color: #e6e6e6;
+    background-color: #3f7915;
+    transition: color 0.3s, background-color 0.3s; }
+  .link__button-primary:hover {
+    color: #e6e6e6;
+    background-color: #3f7915;
+    transition: color 0.3s, background-color 0.3s; }
+
+.table-listing__list-item-campus-circle, .inline-table__list-item-campus-circle, .interest-builder__list-item-campus-circle {
+  background-color: #55a51c; }
