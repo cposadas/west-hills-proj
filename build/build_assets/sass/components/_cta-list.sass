@@ -1,0 +1,39 @@
+.cta-list
+  position: relative
+  z-index: 20
+  display: flex
+  flex-wrap: wrap
+  max-width: 118rem
+  padding:
+    left: $site-padding-mobile
+    right: $site-padding-mobile
+  margin:
+    left: auto
+    right: auto
+    bottom: 2rem
+
+  +media(min, $breakpoints-tablet)
+    padding:
+      left: $site-padding-desktop
+      right: $site-padding-desktop
+    margin:
+      bottom: 3rem
+
+  &__item
+    flex-basis: 100%
+    margin:
+      bottom: 1rem
+
+    +media(min, $breakpoints-tablet)
+      flex-basis: (1/4)*100%
+      margin:
+        bottom: 2rem
+
+  &__link
+    color: $colors-home-primary-2
+    font-weight: 700
+    text-transform: uppercase
+
+  &__button-container
+    position: relative
+    z-index: 20

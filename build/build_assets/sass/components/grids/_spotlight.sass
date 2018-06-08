@@ -1,0 +1,220 @@
+.spotlight
+  background-color: $colors-home-primary-2
+
+  &.\--top
+    padding:
+      top: 5rem
+    +media(min, $breakpoints-mobile)
+      padding:
+        top: 7.5rem
+
+  &__items
+    max-width: 118rem
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+    padding:
+      left: 0
+      right: 0
+      bottom: 4rem
+    margin:
+      left: auto
+      right: auto
+    +media(min, $breakpoints-mobile)
+      padding:
+        left: $site-padding-desktop
+        right: $site-padding-desktop
+        bottom: 7.5rem
+
+    &.\--single
+      padding:
+        bottom: 0
+        top: 5rem
+      +media(min, $breakpoints-mobile)
+        padding:
+          top: 7.5rem
+
+  &__link
+    flex-basis: 100%
+    color: $colors-home-primary-2
+    margin:
+      bottom: 4px
+    +linkStates($colors-home-primary-2, 0s)
+
+    +media(min, $breakpoints-mobile)
+      flex-basis: 50%
+      width: 50%
+      max-width: 50%
+      border:
+        left: 2px solid transparent
+        right: 2px solid transparent
+
+    &.\--featured
+      flex-basis: 100%
+      max-width: 100%
+      display: flex
+      flex-wrap: wrap
+      +media(min, $breakpoints-mobile)
+        flex-wrap: nowrap
+
+      .spotlight__content-container
+        &:first-child
+          +media(min, $breakpoints-mobile)
+            flex-basis: (1/3)*100%
+            flex-shrink: 0
+          .spotlight__content
+            &:after
+              background-color: transparent
+
+      .spotlight__content-container:first-of-type
+        order: 2
+        padding:
+          bottom: 0
+
+        +media(min, $breakpoints-mobile)
+          order: 1
+
+        .spotlight__content-title
+          color: $colors-home-primary-0
+          position: relative
+          top: auto
+          +media(min, $breakpoints-mobile)
+            color: $colors-home-primary-2
+
+        .spotlight__content
+          min-height: auto
+          +media(min, $breakpoints-mobile)
+            min-height: 33.5rem
+          background-color: transparent
+          padding:
+            top: 2rem
+            bottom: 5.5rem
+
+          +media(min, $breakpoints-mobile)
+            padding:
+              left: 2rem
+              right: 2rem
+              top: 4rem
+              bottom: 2rem
+            background-color: $colors-home-primary-0
+
+        .spotlight__content-date
+          display: none
+          +media(min, $breakpoints-mobile)
+            display: block
+          +media(min, $breakpoints-tablet-portrait)
+            display: inherit
+
+        .spotlight__content-text
+          display: none
+          +media(min, $breakpoints-tablet-portrait)
+            display: inherit
+
+      .spotlight__content-container:last-of-type
+        order: 1
+        padding:
+          bottom: 0
+
+        +media(min, $breakpoints-mobile)
+          order: 2
+
+      .spotlight__content
+        +media(min, $breakpoints-mobile)
+          display: block
+          min-height: 33.5rem
+
+    &:hover
+      .spotlight__content
+        &:after
+          background-color: fade-out(#000000, .5)
+
+  &__content-container
+    flex-basis: 100%
+    padding:
+      bottom: 13rem
+    +media(min, $breakpoints-mobile)
+      margin:
+        right: 2px
+        bottom: 2px
+      padding:
+        left: 2px
+        right: 2px
+        bottom: 0
+
+  &__content
+    background-color: $colors-home-primary-0
+    background-size: cover
+    background-position: center center
+    width: 100%
+    height: 100%
+    min-height: 25rem
+    position: relative
+    display: flex
+    align-items: center
+    padding:
+      left: 2rem
+      right: 2rem
+      top: 4rem
+      bottom: 2rem
+    +media(min, $breakpoints-mobile)
+      align-items: flex-end
+
+      &:before
+        content: ""
+        position: absolute
+        left: 0
+        top: 0
+        width: 100%
+        height: 100%
+        background-image: linear-gradient(to top, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 17%,rgba(0,0,0,0) 53%,rgba(0,0,0,0) 100%)
+
+      &:after
+        content: ''
+        background-color: fade-out(#000000, .7)
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        transition: background-color .3s
+
+  &__content-date
+    position: relative
+    z-index: 1
+    font:
+      style: italic
+      size: 1.4rem
+    margin:
+      bottom: 1.5rem
+
+  &__content-title
+    position: absolute
+    top: calc(100% + 2rem)
+    z-index: 1
+    max-width: 40rem
+    color: $colors-home-primary-0
+    margin:
+      bottom: 0
+
+    +media(min, $breakpoints-tablet-portrait)
+      position: relative
+      color: $colors-home-primary-2
+
+
+  &__content-text
+    position: relative
+    z-index: 1
+    max-width: 40rem
+
+  &__content-category
+    font-style: italic
+    position: absolute
+    bottom: 0
+    right: 0
+    background-color: $colors-home-secondary-0
+    width: 11.5rem
+    height: 4rem
+    display: flex
+    justify-content: center
+    align-items: center
+    z-index: 1

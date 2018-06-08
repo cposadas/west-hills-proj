@@ -1,0 +1,130 @@
+@import global/site-vars
+@import helpers/mixins
+@import global/typography-lemoore
+
+
+.header__logo
+  +media(min, $breakpoints-tablet)
+    margin:
+      right: calc(100% - 783px)
+.header__cta-link
+  background-color: $colors-lemoore-primary-1
+  color: $colors-home-primary-0
+  text-shadow: none
+  +linkStates(darken($colors-home-primary-0, 10%), .3s, darken($colors-lemoore-primary-1, 10%))
+.main-nav__items
+
+
+.main-nav__item
+
+
+
+.header__top-bar
+
+.circles__number
+  color: $colors-home-primary-2
+
+.icon-grid__item:hover:before
+
+.icon-grid__item:focus:before
+
+
+.base-grid__item:before
+
+
+.dual-container
+
+
+.icon-grid__item
+
+
+.icon-grid__item:focus
+
+
+.link__button-table
+  color: $colors-lemoore-primary-1
+  border-color: $colors-lemoore-primary-1
+
+.link__button-table:hover
+  background-color: fade-out($colors-lemoore-primary-1, .9)
+  color: $colors-lemoore-primary-1
+
+.link__button-focus
+
+
+.event-listing__filter-bar
+
+.icon-cta__icon
+  color: $colors-lemoore-primary-1
+
+
+.icon-cta__link
+  color: $colors-home-primary-0
+
+.news-blocks__item-content-title
+
+
+.spotlight__content-title
+
+
+.table__head
+
+
+.table__column-head
+
+
+.filter-bar__bar
+
+.interest-builder__list-heading
+
+
+.spotlight-links__section-content-item-date
+
+
+.spotlight-links__section-content-item-link
+
+
+.spotlight-links__section-image-item-link
+
+
+.link-blocks__link-list-link
+
+
+.link-blocks__ribbon-date
+
+
+.link-blocks__ribbon-text
+
+
+.wysiwyg
+
+
+.footer
+
+
+  &__intro
+
+
+  &__contact-tel
+
+
+  &__aside
+
+
+.link
+  &__button-primary
+    color: $colors-home-primary-0
+    background-color: $colors-lemoore-primary-1
+    +linkStates(darken($colors-home-primary-0, 10%), .3s, darken($colors-lemoore-primary-1, 10%))
+    text-shadow: none
+
+  &__button-secondary
+
+
+  &__button-tertiary
+
+
+  &__button-outline
+
+.table-listing__list-item-campus-circle, .inline-table__list-item-campus-circle, .interest-builder__list-item-campus-circle
+  background-color: $colors-lemoore-primary-1

@@ -1,0 +1,133 @@
+{
+  "colors" : {
+    "home" : {
+      "primary" : ["#002664", "#e67617", "#ffffff", "#eeeeee"],
+      "secondary" : ["#00a8e1", "#55a51c", "#fbac35", "#b81237", "#0058a9"],
+      "tertiary" : ["#000000", "#595959", "#7e99aa", "#afafaf", "#6c6c6c"]
+    },
+    "lemoore" : {
+      "primary" : ["#002664", "#fbac35", "#ffffff"],
+      "secondary" : ["#55a51c", "#e67617", "#00a8e1", "#0058a9"],
+      "tertiary" : ["#000000", "#595959", "#b18e5f", "#afafaf"]
+    },
+    "coalinga": {
+      "primary" : ["#0058a9", "#b81237", "#ffffff"],
+      "secondary" : ["#55a51c", "#fbac35", "#002664"],
+      "tertiary" : ["#000000", "#595959", "#92c7ea", "#afafaf"]
+    },
+    "district" : {
+      "primary" : ["#0058a9", "#55a51c", "#ffffff"],
+      "secondary" : ["#00a8e1", "#fbac35", "#e67617", "#b81237", "#0058a9"],
+      "tertiary" : ["#000000", "#595959", "#7e99aa", "#afafaf"]
+    }
+  },
+  "fonts" : {
+    "primary" : "'PT Sans', sans-serif"
+  },
+  "breakpoints" : {
+      "mobile": "641px",
+      "tablet": "1025px",
+      "wide": "1921px"
+  },
+  "site" : {
+    "max-width" : "114rem",
+    "padding" : {
+      "desktop" : "2rem",
+      "mobile" : "1.5rem"
+    }
+  },
+
+  "bodyText" : {
+    "sizeM" : "1.6rem",
+    "lineHeightM" : 1.5,
+    "letterSpacingM" : ".02em",
+    "weightM" : 400,
+    "size" : "1.6rem",
+    "lineHeight" : 1.5,
+    "letterSpacing" : ".02em",
+    "weight" : 400,
+    "color" : "$colors-home-tertiary-0"
+  },
+  "headers" : {
+    "primary" : [
+      {
+        "sizeM" : "3.6rem",
+        "lineHeightM" : 1.3,
+        "letterSpacingM" : ".01rem",
+        "weightM" : 400,
+        "size" : "5.5rem",
+        "lineHeight" : 1.2,
+        "letterSpacing" : ".01rem",
+        "weight" : 400,
+        "color" : "$colors-home-primary-0",
+        "colorAlt" : "$colors-home-primary-2",
+        "bottomMargin" : "2rem"
+      },
+      {
+        "sizeM" : "3.3rem",
+        "lineHeightM" : 1.3,
+        "letterSpacingM" : ".01rem",
+        "weightM" : 400,
+        "size" : "4.5rem",
+        "lineHeight" : 1.2,
+        "letterSpacing" : ".01rem",
+        "weight" : 400,
+        "color" : "$colors-home-primary-0",
+        "colorAlt" : "$colors-home-primary-2",
+        "bottomMargin" : "2rem"
+      },
+      {
+        "sizeM" : "3rem",
+        "lineHeightM" : 1.3,
+        "letterSpacingM" : ".01rem",
+        "weightM" : 700,
+        "size" : "4rem",
+        "lineHeight" : 1.3,
+        "letterSpacing" : ".01rem",
+        "weight" : 700,
+        "color" : "$colors-home-primary-0",
+        "colorAlt" : "$colors-home-primary-2",
+        "bottomMargin" : "2rem"
+      },
+      {
+        "sizeM" : "2.2rem",
+        "lineHeightM" : 1.3,
+        "letterSpacingM" : ".02em",
+        "weightM" : 700,
+        "size" : "3.2rem",
+        "lineHeight" : 1.3,
+        "letterSpacing" : ".02em",
+        "weight" : 700,
+        "color" : "$colors-home-primary-0",
+        "colorAlt" : "$colors-home-primary-2",
+        "bottomMargin" : "2rem"
+      },
+      {
+        "sizeM" : "2rem",
+        "lineHeightM" : 1.3,
+        "letterSpacingM" : ".02em",
+        "weightM" : 700,
+        "size" : "2.4rem",
+        "lineHeight" : 1.3,
+        "letterSpacing" : ".02em",
+        "weight" : 700,
+        "color" : "$colors-home-primary-0",
+        "colorAlt" : "$colors-home-primary-2",
+        "bottomMargin" : "2rem"
+      },
+      {
+        "sizeM" : "1.8rem",
+        "lineHeightM" : 1.4,
+        "letterSpacingM" : ".02em",
+        "weightM" : 700,
+        "size" : "1.8rem",
+        "lineHeight" : 1.4,
+        "letterSpacing" : ".02em",
+        "weight" : 700,
+        "color" : "$colors-home-primary-0",
+        "colorAlt" : "$colors-home-primary-2",
+        "bottomMargin" : "2rem"
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+.block-listing
+
+  &__items
+    display: flex
+    flex-wrap: wrap
+    width: 100%
+    padding:
+      top: 4rem
+      bottom: 4rem
+
+  &__item
+    flex-basis: 100%
+    margin:
+      bottom: 8px
+    +media(min, $breakpoints-mobile)
+      flex-basis: calc(100% / 2)
+      max-width: calc(100% / 2)
+
+    +media(min, $breakpoints-tablet)
+      flex-basis: calc(100% / 3)
+      max-width: calc(100% / 3)
+
+    &:nth-child(1n-1)
+      .block-listing__content-container
+        padding:
+          right: 8px
+          left: 8px
+
+    &:hover
+      .block-listing__content
+        background-color: $colors-home-primary-0
+
+      .block-listing__title
+        color: $colors-home-primary-2
+
+      .block-listing__sub-title
+        color: $colors-home-primary-2
+
+      .block-listing__info
+        color: $colors-home-primary-2
+
+      .block-listing__location
+        color: $colors-home-primary-0
+
+    &:focus
+      .block-listing__content
+        background-color: $colors-home-primary-0
+
+  &__content-container
+    display: block
+    height: 100%
+    width: 100%
+
+  &__content
+    height: 17rem
+    background-color: fade-out($colors-home-tertiary-3, .8)
+    position: relative
+    padding:
+      top: 2.5rem
+      bottom: 3rem
+      left: 3rem
+      right: 3rem
+    transition: background-color .3s
+
+  &__title
+    margin:
+      bottom: 1rem
+    transition: color .3s
+
+  &__sub-title
+    color: $bodyText-color
+    font-style: italic
+    text-transform: uppercase
+    margin:
+      bottom: 2rem
+    transition: color .3s
+  &__info
+    color: $bodyText-color
+    transition: color .3s
+
+  &__location
+    width: 3rem
+    height: 3rem
+    border-radius: 50%
+    background-color: $colors-home-tertiary-3
+    color: $colors-home-primary-2
+    display: flex
+    justify-content: center
+    align-items: center
+    text-transform: uppercase
+    font-size: 1.6rem
+    position: absolute
+    top: 2.5rem
+    right: 2.5rem
+    transition: color .3s

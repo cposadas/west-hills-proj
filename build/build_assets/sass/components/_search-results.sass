@@ -1,0 +1,55 @@
+.search-results
+  display: block
+  max-width: 118rem
+  width: 100%
+  padding:
+    left: 1.5rem
+    right: 1.5rem
+    bottom: 5rem
+  margin:
+    left: auto
+    right: auto
+
+  +media(min, $breakpoints-tablet)
+    padding:
+      left: 2rem
+      right: 2rem
+  &__item
+    margin:
+      bottom: 4rem
+
+  &__item-link
+
+  &__item-description
+    margin:
+      bottom: 0
+    color: $colors-coalinga-tertiary-0
+
+  &__filter-order
+    display: flex
+    justify-content: center
+    align-items: center
+    max-width: 118rem
+    width: 100%
+    padding:
+      left: 1.5rem
+      right: 1.5rem
+    margin:
+      left: auto
+      right: auto
+    +media(min, $breakpoints-tablet)
+      justify-content: flex-end
+      padding:
+        left: 2rem
+        right: 2rem
+  &__filter-order-label
+    border: none
+    font-size: 1.4rem
+    font-style: italic
+    color: $colors-home-tertiary-4
+    margin:
+      bottom: 0
+
+  &__filter-order-select
+    margin:
+     bottom: 0

@@ -1,0 +1,92 @@
+.event-blocks
+  display: flex
+  flex-wrap: wrap
+  margin:
+    bottom: 4rem
+
+  &__item
+    flex-basis: 100%
+    margin:
+      bottom: 4px
+
+    +media(min, $breakpoints-mobile)
+      flex-basis: (1/2)*100%
+
+    +media(min, $breakpoints-tablet-portrait)
+      flex-basis: (1/3)*100%
+
+    &:nth-child(2n-1)
+      .event-blocks__content-container
+        padding:
+          left: 4px
+          right: 4px
+
+    &:hover
+      .event-blocks__content-image
+        &:after
+          background-color: fade-out(#000000, .5)
+
+  &__content-container
+    +media(min, $breakpoints-mobile)
+      padding:
+        left: 0
+        right: 0
+  &__content-image
+    height: 17rem
+    position: relative
+    background-size: cover
+    background-position: center center
+    background-repeat: no-repeat
+
+    &:before
+      position: absolute
+      top: 0
+      bottom: 0
+      width: 100%
+      height: 100%
+      display: flex
+      justify-content: center
+      align-items: center
+      font-size: 6rem
+      color: $colors-home-primary-2
+
+    &:after
+      content: ''
+      background-color: fade-out(#000000, .7)
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      transition: background-color .3s
+
+  &__category
+    width: 11.5rem
+    height: 4rem
+    display: flex
+    justify-content: center
+    align-items: center
+    position: absolute
+    z-index: 10
+    right: 0
+    bottom: 0
+    color: $colors-home-primary-2
+    font-style: italic
+
+  &__content
+    background-color: $colors-home-primary-2
+    padding:
+      left: 2rem
+      right: 2rem
+      bottom: 2rem
+      top: 2rem
+
+  &__date
+    text-transform: uppercase
+    font-style: italic
+    color: $colors-home-tertiary-4
+    margin:
+      bottom: .5rem
+
+  &__title
+    color: $colors-home-primary-0

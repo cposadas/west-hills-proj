@@ -1,0 +1,387 @@
+.main-nav
+  background-color: $colors-home-primary-0
+  height: calc(100vh - 100px)
+  width: 26.5rem
+  position: absolute
+  top: 6rem
+  left: 100%
+  z-index: 10
+  overflow-y: scroll
+  transition: transform .3s
+
+  &:before
+    content: ''
+    display: block
+    width: 4px
+    height: 100vh
+    position: fixed
+    left: auto
+    top: auto
+    background: linear-gradient(to right, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%)
+    z-index: 100
+
+  +media(min, $breakpoints-tablet)
+    flex-basis: 100%
+    position: relative
+    height: 5rem
+    top: auto
+    left: auto
+    overflow-y: visible
+    border:
+      bottom: 1px solid fade-out(#000, .1)
+
+    &:before
+      display: none
+
+  &.\--shrunk
+    height: 5rem
+    transition: transform .3s
+    transform: translate3d(0, -4.5rem, 0)
+    border:
+      bottom: .5rem solid $colors-home-primary-0
+
+  &__title
+    height: 0
+    color: transparent
+    overflow: hidden
+    position: absolute
+    margin:
+      bottom: 0
+
+  &__mobile-search
+    display: flex
+    background-color: $colors-home-primary-2
+    +media(min, $breakpoints-tablet)
+      display: none
+
+  &__mobile-search-input
+    appearance: none
+    flex-basis: calc(100% - 5rem)
+    height: 5rem
+    border:
+      radius: 0
+      width: 0
+      color: transparent
+    margin:
+      bottom: 0
+
+    &::-webkit-input-placeholder
+      color: $colors-home-primary-0
+
+    &:-ms-input-placeholder
+      color: $colors-home-primary-0
+
+    &::-moz-placeholder
+      color: $colors-home-primary-0
+      opacity: 1
+
+    &:-moz-placeholder
+      color: $colors-home-primary-0
+      opacity: 1
+
+  &__mobile-search-submit
+    appearance: none
+    flex-basis: 5rem
+    height: 5rem
+    position: relative
+    background-color: $colors-home-primary-2
+    color: $colors-home-primary-0
+    min-width: 0
+    padding:
+      left: 0
+      right: 0
+      top: 0
+      bottom: 0
+    border:
+      radius: 0
+      width: 0
+      color: transparent
+
+    &:before
+      color: $colors-home-primary-0
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      display: flex
+      justify-content: center
+      align-items: center
+      font-size: 2rem
+
+    &:hover, &:active, &:focus
+      &:before
+        background-color: $colors-home-primary-2
+        color: $colors-home-primary-0
+
+  &__mobile-login
+    background-color: $colors-home-primary-1
+    color: $colors-home-primary-2
+    height: 5.5rem
+    width: 100%
+    align-items: center
+    display: flex
+    position: relative
+    padding:
+      left: 5.5rem
+      right: 4.5rem
+    +media(min, $breakpoints-tablet)
+      display: none
+
+    &:before
+      font-size: 2.5rem
+      position: absolute
+      left: 0
+      top: 0
+      width: 100%
+      height: 100%
+      display: flex
+      justify-content: flex-start
+      align-items: center
+      padding:
+        left: 2rem
+    &:after
+      font-size: 1.6rem
+      position: absolute
+      left: 0
+      top: 0
+      width: 100%
+      height: 100%
+      display: flex
+      justify-content: flex-end
+      align-items: center
+      padding:
+        right: 2rem
+
+  &__items
+    display: block
+    background-color: $colors-home-primary-0
+    width: 100%
+    height: 100%
+    +media(min, $breakpoints-tablet)
+      display: flex
+      flex-wrap: nowrap
+      justify-content: center
+      height: 100%
+      width: auto
+      border:
+        top: 5px solid $colors-home-primary-0
+
+  &__item
+    width: 100%
+    +media(min, $breakpoints-tablet)
+      background-color: $colors-home-primary-0
+      display: flex
+      position: relative
+      width: auto
+      height: 100%
+      padding:
+        left: 1rem
+        right: 1rem
+
+      &:hover
+        .main-nav__item-link
+          position: relative
+
+          &:after
+            position: absolute
+            display: block
+            content: ""
+            width: 100%
+            height: .5rem
+            background-color: rgba(0,0,0,.4)
+            top: 0
+            left: 0
+            margin-top: -5px
+            z-index: 99999
+
+        .main-nav__item-dropdown
+          transform: translate3d(0, 0, 0)
+          transition: transform .6s
+
+      &:focus
+        .main-nav__item-dropdown
+          transform: translate3d(0, 0, 0)
+          transition: transform .6s
+
+  &__item
+    &:hover
+      .main-nav__item-link
+        background-color: rgba(0,0,0,.4)
+        color: $colors-home-primary-2
+
+    &.\--active
+      a.main-nav__item-link
+        color: rgba(255, 255, 255, 0.4)
+
+  &__item-link
+    display: none
+    +media(min, $breakpoints-tablet)
+      display: flex
+      font-size: 1.5rem
+      letter-spacing: .07rem
+      color: $colors-home-primary-2
+      text-transform: uppercase
+      align-items: center
+      padding:
+        left: 2rem
+        right: 2rem
+
+      &:hover
+        background-color: rgba(0,0,0,.4)
+        color: $colors-home-primary-2
+
+      &:after
+        position: absolute
+        display: none
+        content: ""
+        width: 100%
+        height: .5rem
+        background-color: rgba(0,0,0,.4)
+        top: 0
+        left: 0
+        margin-top: -5px
+        z-index: 99999
+
+  &__item-link:hover ~ .main-nav__item-dropdown
+    transform: translate3d(0, 0, 0)
+    transition: transform .6s
+
+  &__item-link:focus ~ .main-nav__item-dropdown
+    transform: translate3d(0, 0, 0)
+    transition: transform .6s
+
+  &__item-button
+    display: block
+    width: 100%
+    background-color: $colors-home-primary-0
+    color: $colors-home-primary-2
+    text-align: left
+    position: relative
+    padding:
+      left: 2rem
+      right: 1.5rem
+    border:
+      radius: 0
+      top: 1px solid $colors-home-primary-2
+
+    +media(min, $breakpoints-tablet)
+      display: none
+
+    &.\--open
+      &:before
+        transform: rotate(180deg)
+
+    &:before
+      display: flex
+      align-items: center
+      justify-content: flex-end
+      position: absolute
+      width: 6rem
+      height: 100%
+      top: 0
+      right: 0
+      transform: rotate(0deg)
+      transition: transform .3s
+      padding:
+        right: 2rem
+        left: 2rem
+
+    &:hover, &:active, &:focus
+      background-color: $colors-home-primary-0
+
+  &__item-dropdown
+    display: none
+    background-color: $colors-home-primary-2
+    flex-wrap: wrap
+    +media(min, $breakpoints-tablet)
+      box-shadow: 3px 0px 9px 1px rgba(0, 0, 0, 0.3)
+      flex-wrap: nowrap
+      position: absolute
+      display: flex
+      top: 100%
+      left: -50%
+      z-index: -1
+      transform: translate3d(0, -110%, 0)
+      padding:
+        top: 3rem
+        bottom: 3rem
+      border:
+        left: 1px solid darken($colors-home-primary-2, 10%)
+        right: 1px solid darken($colors-home-primary-2, 10%)
+        bottom: 1px solid darken($colors-home-primary-2, 10%)
+
+    &:hover
+      transform: translate3d(0, 0, 0)
+      transition: transform .6s
+    &:focus
+      transform: translate3d(0, 0, 0)
+      transition: transform .6s
+
+    &.\--open
+      display: flex
+
+      +media(min, $breakpoints-tablet)
+        transform: translate3d(0, 0, 0)
+        transition: transform .6s
+
+  &__item-mobile-link
+    display: flex
+    background: rgba(175,175,175,.2)
+    color: $colors-home-tertiary-0
+    flex-basis: 100%
+    height: 5.5rem
+    align-items: center
+    position: relative
+    padding:
+      left: 2rem
+      right: 4rem
+    margin:
+      bottom: 2rem
+    &:after
+      font-size: 2rem
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      display: flex
+      justify-content: flex-end
+      align-items: center
+      padding:
+        right: 2rem
+
+    +media(min, $breakpoints-tablet)
+      display: none
+
+  &__item-dropdown-column
+    flex-basis: 100%
+    padding:
+      left: 2rem
+      right: 2rem
+    +media(min, $breakpoints-tablet)
+      flex-basis: initial
+      min-width: 25.5rem
+      padding:
+        left: 2rem
+        right: 2rem
+
+  &__item-dropdown-column-title
+    font-size: 1.8rem
+    text-transform: uppercase
+    font-weight: bold
+    color: $colors-home-primary-0
+    margin:
+      bottom: 2rem
+
+  &__item-dropdown-column-items
+
+  &__item-dropdown-column-item
+    margin:
+      bottom: 1.5rem
+
+  &__item-dropdown-column-link
+    color: $colors-home-tertiary-1
+
+    &:hover, &:active
+      color: $colors-home-secondary-4

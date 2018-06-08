@@ -1,0 +1,278 @@
+.people
+  display: flex
+  background-color: $colors-home-primary-2
+  flex-wrap: wrap
+  padding:
+    top: 7.5rem
+
+  +media(min, $breakpoints-tablet)
+    flex-wrap: nowrap
+    padding:
+      top: 14.5rem
+
+  &__main
+    flex-basis: 100%
+    padding:
+      left: $site-padding-mobile
+      right: $site-padding-mobile
+    order: 1
+
+    +media(min, $breakpoints-tablet)
+      order: 1
+      flex-basis: 64.24%
+      padding:
+        left: $site-padding-desktop
+        right: $site-padding-desktop
+
+  &__header
+    max-width: 76rem
+    +media(min, $breakpoints-tablet)
+      padding:
+        right: 10rem
+      margin:
+        left: auto
+
+  &__header-title
+    text-transform: uppercase
+
+  &__content
+    max-width: 76rem
+    +media(min, $breakpoints-tablet)
+      padding:
+        right: 10rem
+      margin:
+        left: auto
+
+  &__search-bar
+    max-width: 76rem
+    +media(min, $breakpoints-tablet)
+      padding:
+        right: 10rem
+      margin:
+        left: auto
+
+  &__search-bar-error
+    font-weight: 700
+    margin:
+      bottom: 2rem
+
+  &__content-container
+    max-width: 76rem
+    padding:
+      bottom: 4rem
+    +media(min, $breakpoints-tablet)
+      padding:
+        right: 10rem
+        bottom: 8.5rem
+      margin:
+        left: auto
+
+  &__items
+    margin:
+      bottom: 5rem
+
+  &__item
+    padding:
+      top: 3rem
+      bottom: 2.5rem
+      left: 1.5rem
+    border:
+      bottom: 1px solid $colors-home-tertiary-3
+    &:nth-child(2n-1)
+      background-color: fade-out($colors-home-tertiary-3, .8)
+    +media(min, $breakpoints-tablet)
+      padding:
+        left: 3.5rem
+
+  &__question
+    position: relative
+    background-color: transparent
+    color: $bodyText-color
+    min-width: 0
+    height: auto
+    min-height: 2.5rem
+    text-transform: initial
+    text-align: left
+    font-weight: 400
+    width: 100%
+    padding:
+      top: 0
+      bottom: 0
+      left: 0
+      right: 6rem
+    transition: color .3s, font-weight .3s
+
+    +linkStates($colors-home-primary-0, .3s, transparent)
+
+    &.\--open
+      font-weight: 700
+      color: $colors-home-primary-0
+
+      &:after
+        transform: rotate(180deg)
+
+    &:after
+      position: absolute
+      display: flex
+      top: 0
+      right: 0
+      width: 2.5rem
+      height: 100%
+      justify-content: flex-end
+      align-items: center
+      font-size: 2.5rem
+      transition: transform .3s
+      margin:
+        right: 2rem
+
+    &.\--open
+      color: $colors-home-primary-0
+      font-weight: 700
+
+  &__answer
+    display: none
+    padding:
+      right: 1.5rem
+      top: 2.5rem
+    +media(min, $breakpoints-tablet)
+      padding:
+        right: 16rem
+
+    &.\--open
+      display: block
+
+  &__sidebar
+    background-color: fade-out($colors-home-tertiary-3, .8)
+    flex-basis: 100%
+    position: relative
+    margin:
+      bottom: 0
+    padding:
+      top: 2rem
+      bottom: 2rem
+    order: 2
+    +media(min, $breakpoints-tablet)
+      order: 2
+      flex-basis: 35.76%
+      margin:
+        bottom: 0
+      &:before
+        content: ''
+        display: block
+        width: 100%
+        height: 9rem
+        background-color: fade-out($colors-home-tertiary-3, .8)
+        position: absolute
+        top: -9rem
+        left: 0
+
+  &__sidebar-section
+    max-width: 36rem
+    padding:
+      left: $site-padding-mobile
+      right: $site-padding-mobile
+    +media(min, $breakpoints-tablet)
+      padding:
+        left: $site-padding-desktop
+        right: $site-padding-desktop
+
+  &__sidebar-section-title
+    background-color: transparent
+    width: 100%
+    text-align: left
+    text-shadow: none
+    border:
+      radius: 0
+      bottom: 1px solid $colors-home-primary-0
+    padding:
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+
+    +linkStates($colors-home-primary-0, 0s, transparent)
+
+  &__sidebar-section-title-text
+    text-transform: none
+    margin:
+      bottom: 0
+
+  &__sidebar-section-sub-header
+    border:
+      bottom: 1px solid $colors-home-primary-0
+
+  &__sidebar-section-items
+    margin:
+      bottom: 4rem
+
+  &__sidebar-section-item
+    padding:
+      bottom: 8px
+    border:
+      bottom: 1px solid fade-out($colors-home-tertiary-3, .8)
+    margin:
+      bottom: 8px
+
+  &__sidebar-section-item-button
+    color: $colors-home-tertiary-4
+    background-color: transparent
+    min-width: 0
+    font-weight: 400
+    height: auto
+    padding:
+      top: 0
+      bottom: 0
+      left: 0
+      right: 0
+
+    +linkStates($colors-home-primary-0, .3s, transparent)
+
+  &__sidebar-links
+    display: flex
+    flex-wrap: wrap
+
+  &__sidebar-email
+    flex-basis: 100%
+    margin:
+      bottom: .5rem
+
+  &__sidebar-link
+    flex-basis: 100%
+    margin:
+      bottom: 3rem
+
+  &__sidebar-phone
+    flex-basis: 100%
+    margin:
+      bottom: .5rem
+
+  &__sidebar-cta-buttons
+    flex-basis: 100%
+    a
+      margin:
+        bottom: 1.5rem
+      &:first-child
+        margin:
+          right: 1rem
+
+  &__categories
+    font-size: 1.4rem
+    text-transform: uppercase
+    color: $colors-home-tertiary-4
+    font-style: italic
+    margin:
+      bottom: 3.5rem
+
+  &__education-list-title
+    margin:
+      top: 3.5rem
+
+  &__education-list
+    display: flex
+
+  &__education-list-item
+    flex-basis: calc(100% / 3)
+
+  &__education-list-item-title
+    margin:
+      bottom: 1.5rem

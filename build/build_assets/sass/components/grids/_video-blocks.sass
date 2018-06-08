@@ -1,0 +1,126 @@
+.video-blocks
+  display: flex
+  flex-wrap: wrap
+  padding:
+    bottom: 4rem
+
+  &__item
+    cursor: pointer
+    flex-basis: 100%
+    padding:
+      bottom: 4px
+    +media(min, $breakpoints-mobile)
+      flex-basis: (1/3)*100%
+
+  &__content-container
+    +media(min, $breakpoints-mobile)
+      padding:
+        left: 2px
+        right: 2px
+
+  &__content-image
+    height: 17rem
+    position: relative
+    background-size: cover
+    background-position: center center
+    background-repeat: no-repeat
+    &:before
+      position: absolute
+      top: 0
+      bottom: 0
+      width: 100%
+      height: 100%
+      display: flex
+      justify-content: center
+      align-items: center
+      font-size: 6rem
+      color: $colors-home-primary-2
+
+  &__content-title
+    background-color: $colors-home-primary-2
+    padding:
+      left: 2rem
+      right: 2rem
+      bottom: 2rem
+      top: 2rem
+
+  &__overlay
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: fade-out(#000000, .1)
+    z-index: 1000
+    align-items: center
+    justify-content: center
+    display: none
+
+    &.\--open
+      display: flex
+
+  &__overlay-container
+    max-width: 78rem
+    width: 100%
+    padding:
+      left: 1.5rem
+      right: 1.5rem
+    margin:
+      left: 0
+      right: 0
+
+    +media(min, $breakpoints-mobile)
+      max-width: 79rem
+      padding:
+        left: 2rem
+        right: 2rem
+
+  &__overlay-close
+    min-width: 0
+    background-color: transparent
+    display: block
+    font-weight: 400
+    position: relative
+    padding:
+      left: 0
+      right: 4.5rem
+      top: 0
+      bottom: 0
+    margin:
+      right: 0
+      left: auto
+    +linkStates(darken($colors-home-primary-2, 10%), .3s, transparent)
+
+    &:after
+      display: flex
+      justify-content: flex-end
+      align-items: center
+      font-size: 1.6rem
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+
+  &__overlay-video
+    position: relative
+    width: 100%
+    padding:
+      top: 56.25%
+    margin:
+      bottom: 1.5rem
+    iframe
+      position: absolute
+      width: 100%
+      height: 100%
+      top: 0
+      left: 0
+
+  &__overlay-description
+    color: $colors-home-primary-2
+    margin:
+      bottom: 2.5rem
+
+  &__overlay-button-container
+    display: flex
+    justify-content: center

@@ -1,0 +1,54 @@
+.step-process
+  padding:
+    bottom: 2.5rem
+
+  &__item
+    display: flex
+    width: 100%
+    max-width: 118rem
+    padding:
+      bottom: 5rem
+    margin:
+      left: auto
+      right: auto
+
+    &:last-of-type
+      .step-process__item-number:after
+        display: none
+
+  &__item-number
+    background: $colors-home-secondary-1
+    color: $colors-home-primary-2
+    border-radius: 4rem
+    padding: .9rem 2rem
+    font-size: 2.2rem
+    font-weight: bold
+    align-self: flex-start
+    position: relative
+
+    &:after
+      content: ""
+      width: 1px
+      height: 100%
+      background: $colors-home-tertiary-3
+      position: absolute
+      left: 50%
+      top: 100%
+      margin:
+        top: 2.5rem
+
+  &__item-content
+    padding:
+      left: 2.5rem
+
+    +media(min, $breakpoints-tablet)
+      padding:
+        left: 5rem
+
+  &__title
+    margin:
+      bottom: 1.5rem
+
+  &__description
+    margin:
+      bottom: 2.5rem

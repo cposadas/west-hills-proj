@@ -1,0 +1,134 @@
+{
+  "sections": [
+    {
+      "header": "I like to...",
+      "options": [
+        {
+          "name": "work_outdoors",
+          "displayName": "Work Outdoors",
+          "imageUrl": "http://lorempixel.com/300/200"
+        },
+        {
+          "name": "work_with_my_hands",
+          "displayName": "Work with my hands",
+          "imageUrl": "http://lorempixel.com/300/201"
+        },
+        {
+          "name": "numbers_charts",
+          "displayName": "Work with numbers and charts",
+          "imageUrl": "http://lorempixel.com/300/202"
+        },
+        {
+          "name": "public_speaking",
+          "displayName": "speak publically",
+          "imageUrl": "http://lorempixel.com/300/203"
+        },
+        {
+          "name": "work_outdoors",
+          "displayName": "Work Outdoors",
+          "imageUrl": "http://lorempixel.com/300/200"
+        },
+        {
+          "name": "work_with_my_hands",
+          "displayName": "Work with my hands",
+          "imageUrl": "http://lorempixel.com/300/201"
+        },
+        {
+          "name": "numbers_charts",
+          "displayName": "Work with numbers and charts",
+          "imageUrl": "http://lorempixel.com/300/202"
+        },
+        {
+          "name": "public_speaking",
+          "displayName": "speak publically",
+          "imageUrl": "http://lorempixel.com/300/203"
+        },
+        {
+          "name": "work_outdoors",
+          "displayName": "Work Outdoors",
+          "imageUrl": "http://lorempixel.com/300/200"
+        },
+        {
+          "name": "work_with_my_hands",
+          "displayName": "Work with my hands",
+          "imageUrl": "http://lorempixel.com/300/201"
+        },
+        {
+          "name": "numbers_charts",
+          "displayName": "Work with numbers and charts",
+          "imageUrl": "http://lorempixel.com/300/202"
+        },
+        {
+          "name": "public_speaking",
+          "displayName": "speak publically",
+          "imageUrl": "http://lorempixel.com/300/203"
+        }
+      ]
+    },
+    {
+      "header": "I want to study",
+      "options": [
+        {
+          "name": "work_outdoors",
+          "displayName": "Work Outdoors",
+          "imageUrl": "http://lorempixel.com/300/200"
+        },
+        {
+          "name": "work_with_my_hands",
+          "displayName": "Work with my hands",
+          "imageUrl": "http://lorempixel.com/300/201"
+        },
+        {
+          "name": "numbers_charts",
+          "displayName": "Work with numbers and charts",
+          "imageUrl": "http://lorempixel.com/300/202"
+        },
+        {
+          "name": "public_speaking",
+          "displayName": "speak publically",
+          "imageUrl": "http://lorempixel.com/300/203"
+        },
+        {
+          "name": "work_outdoors",
+          "displayName": "Work Outdoors",
+          "imageUrl": "http://lorempixel.com/300/200"
+        },
+        {
+          "name": "work_with_my_hands",
+          "displayName": "Work with my hands",
+          "imageUrl": "http://lorempixel.com/300/201"
+        },
+        {
+          "name": "numbers_charts",
+          "displayName": "Work with numbers and charts",
+          "imageUrl": "http://lorempixel.com/300/202"
+        },
+        {
+          "name": "public_speaking",
+          "displayName": "speak publically",
+          "imageUrl": "http://lorempixel.com/300/203"
+        },
+        {
+          "name": "work_outdoors",
+          "displayName": "Work Outdoors",
+          "imageUrl": "http://lorempixel.com/300/200"
+        },
+        {
+          "name": "work_with_my_hands",
+          "displayName": "Work with my hands",
+          "imageUrl": "http://lorempixel.com/300/201"
+        },
+        {
+          "name": "numbers_charts",
+          "displayName": "Work with numbers and charts",
+          "imageUrl": "http://lorempixel.com/300/202"
+        },
+        {
+          "name": "public_speaking",
+          "displayName": "speak publically",
+          "imageUrl": "http://lorempixel.com/300/203"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+.bricks
+
+  &__row
+    display: flex
+    width: 100%
+    flex-wrap: wrap
+    +media(min, $data-breakpoints-mobile)
+      flex-wrap: nowrap
+
+    .bricks__brick
+      &:last-child
+        +media(min, $data-breakpoints-mobile)
+          flex-basis: 37%
+          border-right: 0
+        .bricks__brick-content
+          +media(min, $data-breakpoints-mobile)
+            max-width: 47.5rem
+
+    &:nth-child(2n)
+      .bricks__brick
+        +media(min, $data-breakpoints-mobile)
+          flex-basis: 37%
+        .bricks__brick-content
+          +media(min, $data-breakpoints-mobile)
+            max-width: 47.5rem
+        &:last-child
+          +media(min, $data-breakpoints-mobile)
+            flex-basis: 63%
+
+
+
+
+  &__brick
+    display: flex
+    background-position: center center
+    background-size: cover
+    min-height: 25rem
+    align-items: flex-start
+    flex-basis: 100%
+    border-bottom: 1px solid $data-colors-primary-2
+    position: relative
+    background-repeat: no-repeat
+
+    &:before
+      content: ''
+      display: block
+      position: absolute
+      top: 0
+      left: 0
+      z-index: 10
+      width: 100%
+      height: 100%
+      background-color: fade-out($data-colors-secondary-3, .6)
+
+
+    &:after
+      content: ''
+      display: block
+      position: absolute
+      top: 0
+      left: 0
+      z-index: 20
+      width: 100%
+      height: 100%
+      background-color: fade-out($data-colors-secondary-0, .4)
+      opacity: 0
+      transition: opacity .5s
+      will-change: opacity
+
+
+    +media(min, $data-breakpoints-mobile)
+      align-items: center
+      height: 40rem
+      flex-basis: 63%
+      border-right: 1px solid $data-colors-primary-2
+      justify-content: center
+      background-size: cover
+
+      &:hover
+
+        &:after
+          opacity: 1
+          transition: opacity .5s
+
+  &__brick-content
+    width: 100%
+    z-index: 30
+    padding:
+      left: 2rem
+      right: 2rem
+      top: 5rem
+      bottom: 4rem
+    +media(min, $data-breakpoints-mobile)
+      max-width: 57rem
+      width: 100%
+      padding:
+        top: 0
+        bottom: 0
+

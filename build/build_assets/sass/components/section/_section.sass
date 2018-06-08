@@ -1,0 +1,41 @@
+.section
+
+  &__container
+    background-size: cover
+    background-position: center center
+    background-repeat: no-repeat
+
+    &.\--color-fill
+      background: $colors-district-primary-2
+
+    &.\--color-fill-alt
+      background-color: #f0f0f0
+
+  &__content
+    max-width: 118rem
+    width: 100%
+    padding:
+      left: 1.5rem
+      right: 1.5rem
+    margin:
+      left: auto
+      right: auto
+    +media(min, $breakpoints-tablet)
+      padding:
+        left: 2rem
+        right: 2rem
+
+    &.\--color-fill
+      background: $colors-district-primary-2
+
+    &.\--color-fill-alt
+      background-color: #f0f0f0
+
+  &__content-full
+    width: 100%
+
+    &.\--color-fill
+      background-color: $colors-home-primary-2
+
+    &.\--color-fill-alt
+      background-color: #f0f0f0

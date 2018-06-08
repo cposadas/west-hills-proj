@@ -1,0 +1,284 @@
+.header
+  position: fixed
+  top: 0
+  left: 0
+  max-width: 192rem
+  width: 100%
+  height: 60px
+  display: flex
+  flex-wrap: wrap
+  z-index: 100
+  transition: transform .3s
+
+  +media(min, $breakpoints-tablet)
+    height: 115px
+    transition: height .3s
+
+  +media(min, 1921px)
+    left: calc(50% - 960px)
+
+  &.\--open
+    transform: translate3d(-26.5rem, 0, 0)
+    transition: transform .3s
+    +media(min, $breakpoints-tablet)
+      transform: translate3d(0,0,0)
+
+  &__top-bar
+    flex-basis: 100%
+    height: 60px
+    display: flex
+    justify-content: flex-end
+    background-color: $colors-home-primary-2
+    position: relative
+    z-index: 20
+    border:
+      bottom: 5px solid $colors-home-primary-0
+    +media(min, $breakpoints-tablet)
+      height: 7rem
+      border:
+        bottom: 0
+
+  &__logo
+    display: flex
+    justify-content: flex-start
+    align-items: center
+    flex-basis: calc(100% - 5.5rem)
+    margin:
+      right: auto
+      left: 1.5rem
+      bottom: 0
+    +media(min, $breakpoints-tablet)
+      flex-basis: 20rem
+      max-height: 7rem
+      margin:
+        right: calc(100% - 71rem)
+        left: 3.5rem
+
+  &__logo-link
+    display: flex
+    align-items: center
+
+  &__logo-image
+    width: 150px
+    height: auto
+    +media(min, $breakpoints-tablet)
+      width: 100%
+      height: auto
+
+  &__mobile-toggle
+    width: 5.5rem
+    height: 100%
+    min-width: 0
+    text-shadow: none
+    background-color: $colors-home-primary-2
+    color: $colors-home-primary-0
+    border:
+      radius: 0
+      right: 1px solid $colors-home-tertiary-3
+    padding:
+      left: 0
+      right: 0
+      top: 0
+      bottom: 0
+
+    &:hover, &:active, &:focus
+      background-color: transparent
+      color: $colors-home-primary-0
+
+    &:before
+      font-size: 2.4rem
+
+    &.\--open
+      &:before
+        content: map-get($icons, close)
+
+    +media(min, $breakpoints-tablet)
+      display: none
+
+  &__selector
+    font-size: 1.2rem
+    letter-spacing: .05rem
+    position: absolute
+    width: 26.5rem
+    top: 0
+    left: 100%
+    height: 6rem
+    border:
+      left: 1px solid $colors-home-tertiary-3
+      bottom: 5px solid $colors-home-primary-0
+
+    +media(min, $breakpoints-tablet)
+      height: 100%
+      position: relative
+      width: auto
+      top: auto
+      left: auto
+      border:
+        bottom: 0
+
+  &__selector-current
+    font-family: $fonts-primary
+    font-size: 1.2rem
+    text-shadow: none
+    letter-spacing: .05rem
+    color: $colors-home-primary-0
+    display: flex
+    height: 100%
+    justify-content: center
+    align-items: center
+    position: relative
+    background-color: $colors-home-primary-2
+    min-width: 0
+    text-transform: none
+    border-radius: 0
+    width: 100%
+    padding:
+      right: 4rem
+      left: 1.5rem
+      top: 0
+      bottom: 0
+    +media(min, $breakpoints-tablet)
+      width: auto
+
+    &:before
+      font-size: 1rem
+      position: absolute
+      top: 0
+      right: 1.5rem
+      width: 2rem
+      height: 100%
+      display: flex
+      justify-content: flex-end
+      align-items: center
+
+    +linkStates(darken($colors-home-primary-0, 10%), .3s, darken($colors-home-primary-2, 10%))
+
+  &__selector-list
+    background-color: $colors-home-primary-2
+    display: flex
+    flex-wrap: wrap
+    z-index: -1
+    transform: translate3d(0,-100%, 0)
+    position: absolute
+    top: 100%
+    left: 0
+    width: 100%
+    border:
+      left: 1px solid rgba(175,175,175,.3)
+      right: 1px solid rgba(175,175,175,.3)
+      bottom: 1px solid rgba(175,175,175,.3)
+
+    &.\--open
+      transform: translate3d(0,0,0)
+      transition: transform .6s
+
+  &__selector-item
+    flex-basis: 100%
+
+  &__selector-link
+    color: $colors-home-tertiary-1
+    display: block
+    padding:
+      left: 1.5rem
+      right: 1.5rem
+      top: 1rem
+      bottom: 1rem
+
+    +linkStates($colors-home-tertiary-1, .3s, darken($colors-home-primary-2, 10%))
+  &__login
+    display: none
+    +media(min, $breakpoints-tablet)
+      display: block
+
+  &__login-link
+    color: $colors-home-primary-0
+    font-weight: 700
+    font-size: 1.2rem
+    position: relative
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 100%
+    padding:
+      left: 5rem
+      right: 1.5rem
+    border:
+      left: 1px solid $colors-home-tertiary-3
+
+    &:before
+      color: $colors-home-primary-0
+      position: absolute
+      top: 0
+      left: 1.5rem
+      width: 3rem
+      height: 100%
+      font-size: 3rem
+      display: flex
+      align-items: center
+    +linkStates(darken($colors-home-primary-0, 25%), .3s, darken($colors-home-primary-2, 10%))
+
+    +media(min, $breakpoints-tablet)
+      height: 7rem
+
+  &__search
+    display: none
+    width: 6rem
+    height: 100%
+    +media(min, $breakpoints-tablet)
+      display: block
+
+  &__search-button
+    background-color: $colors-home-primary-2
+    width: 100%
+    min-width: 0
+    height: 100%
+    position: relative
+    border:
+      radius: 0
+      left: 1px solid $colors-home-tertiary-3
+    padding:
+      top: 0
+      bottom: 0
+      left: 0
+      right: 0
+
+    &:before
+      position: absolute
+      width: 100%
+      height: 100%
+      top: 0
+      left: 0
+      display: flex
+      justify-content: center
+      align-items: center
+      color: $colors-home-primary-0
+      font-size: 3rem
+    +linkStates(darken($colors-home-primary-0, 25%), .3s, darken($colors-home-primary-2, 10%))
+
+  &__cta
+    width: 16rem
+    height: 100%
+    display: none
+    +media(min, $breakpoints-tablet)
+      display: flex
+
+  &__cta-link
+    text-align: center
+    color: $colors-home-primary-2
+    flex-basis: 100%
+    height: 100%
+    background-color: $colors-home-primary-1
+    display: flex
+    align-items: center
+    justify-content: center
+    font-size: 1.6rem
+    letter-spacing: .07rem
+    text-shadow: 0 0 2px #000
+    font-weight: bold
+    text-transform: uppercase
+    +linkStates(darken($colors-home-primary-2, 10%), .3s, darken($colors-home-primary-1, 10%))
+
+#info-select
+  display: none
+  +media(min, $breakpoints-tablet)
+    display: block

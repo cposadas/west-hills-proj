@@ -1,0 +1,218 @@
+body
+  font-family: $fonts-primary
+  color: $bodyText-color
+  font-weight: $bodyText-weightM
+  letter-spacing: $bodyText-letterSpacingM
+  font-size: $bodyText-sizeM
+  line-height: $bodyText-lineHeightM
+
+  +media(min, $breakpoints-tablet)
+    font-weight: $bodyText-weight
+    letter-spacing: $bodyText-letterSpacing
+    font-size: $bodyText-size
+    line-height: $bodyText-lineHeight
+
+%header1
+  font-size: $headers-primary-0-sizeM
+  font-weight: $headers-primary-0-weightM
+  letter-spacing: $headers-primary-0-letterSpacingM
+  line-height: $headers-primary-0-lineHeightM
+  color: $headers-primary-0-color
+  margin-bottom: $headers-primary-0-bottomMargin
+  +media(min, $breakpoints-tablet)
+    font-size: $headers-primary-0-size
+    font-weight: $headers-primary-0-weight
+    letter-spacing: $headers-primary-0-letterSpacing
+    line-height: $headers-primary-0-lineHeight
+  &.\--alt-color
+    color: $headers-primary-0-colorAlt
+
+%header2
+  font-size: $headers-primary-1-sizeM
+  font-weight: $headers-primary-1-weightM
+  letter-spacing: $headers-primary-1-letterSpacingM
+  line-height: $headers-primary-1-lineHeightM
+  color: $headers-primary-1-color
+  margin-bottom: $headers-primary-1-bottomMargin
+  +media(min, $breakpoints-tablet)
+    font-size: $headers-primary-1-size
+    font-weight: $headers-primary-1-weight
+    letter-spacing: $headers-primary-1-letterSpacing
+    line-height: $headers-primary-1-lineHeight
+  &.\--alt-color
+    color: $headers-primary-1-colorAlt
+
+%header3
+  font-size: $headers-primary-2-sizeM
+  font-weight: $headers-primary-2-weightM
+  letter-spacing: $headers-primary-2-letterSpacingM
+  line-height: $headers-primary-2-lineHeightM
+  color: $headers-primary-2-color
+  margin-bottom: $headers-primary-1-bottomMargin
+  +media(min, $breakpoints-tablet)
+    font-size: $headers-primary-2-size
+    font-weight: $headers-primary-2-weight
+    letter-spacing: $headers-primary-2-letterSpacing
+    line-height: $headers-primary-2-lineHeight
+  &.\--alt-color
+    color: $headers-primary-2-colorAlt
+
+%header4
+  font-size: $headers-primary-3-sizeM
+  font-weight: $headers-primary-3-weightM
+  letter-spacing: $headers-primary-3-letterSpacingM
+  line-height: $headers-primary-3-lineHeightM
+  color: $headers-primary-3-color
+  margin-bottom: $headers-primary-1-bottomMargin
+  +media(min, $breakpoints-tablet)
+    font-size: $headers-primary-3-size
+    font-weight: $headers-primary-3-weight
+    letter-spacing: $headers-primary-3-letterSpacing
+    line-height: $headers-primary-3-lineHeight
+  &.\--alt-color
+    color: $headers-primary-3-colorAlt
+
+%header5
+  font-size: $headers-primary-4-sizeM
+  font-weight: $headers-primary-4-weightM
+  letter-spacing: $headers-primary-4-letterSpacingM
+  line-height: $headers-primary-4-lineHeightM
+  color: $headers-primary-4-color
+  margin-bottom: $headers-primary-1-bottomMargin
+  +media(min, $breakpoints-tablet)
+    font-size: $headers-primary-4-size
+    font-weight: $headers-primary-4-weight
+    letter-spacing: $headers-primary-4-letterSpacing
+    line-height: $headers-primary-4-lineHeight
+  &.\--alt-color
+    color: $headers-primary-4-colorAlt
+
+%header6
+  font-size: $headers-primary-5-sizeM
+  font-weight: $headers-primary-5-weightM
+  letter-spacing: $headers-primary-5-letterSpacingM
+  line-height: $headers-primary-5-lineHeightM
+  color: $headers-primary-5-color
+  margin-bottom: $headers-primary-0-bottomMargin
+  +media(min, $breakpoints-tablet)
+    font-size: $headers-primary-5-size
+    font-weight: $headers-primary-5-weight
+    letter-spacing: $headers-primary-5-letterSpacing
+    line-height: $headers-primary-5-lineHeight
+  &.\--alt-color
+    color: $headers-primary-5-colorAlt
+
+h1, .header1
+  @extend %header1
+
+h2, .header2
+  @extend %header2
+
+h3, .header3
+  @extend %header3
+
+h4, .header4
+  @extend %header4
+
+h5, .header5
+  @extend %header5
+
+h6, .header6
+  @extend %header6
+
+p
+  margin:
+    bottom: 2.5rem
+a
+  color: $colors-home-secondary-4
+  text-decoration: none
+  cursor: pointer
+  +linkStates($colors-home-primary-0, .3s)
+em
+  font-style: italic
+strong
+  font-weight: 700
+b
+  font-weight: 700
+i
+  font-style: italic
+small
+  font-size: .8em
+q
+  display: block
+  font-size: 2.5rem
+  line-height: 1.4
+  font-style: italic
+  letter-spacing: .02em
+  color: $colors-home-secondary-0
+  position: relative
+  padding:
+    top: 3rem
+    bottom: 3rem
+  margin:
+    bottom: 3rem
+
+  &:before
+    content: ''
+    display: block
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 1px
+    background-color: $colors-home-tertiary-3
+  &:after
+    content: ''
+    display: block
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 1px
+    background-color: $colors-home-tertiary-3
+
+cite
+  display: block
+  font-style: italic
+  font-size: 1.5rem
+  line-height: 1.5
+  letter-spacing: .02em
+  color: $colors-home-tertiary-4
+  margin:
+    bottom: 1.6rem
+
+hr
+  border:
+    top: none
+    right: none
+    bottom: 1px solid $colors-home-tertiary-3
+    left: none
+
+code
+  font-family: monospace
+sub
+  vertical-align: sub
+  font-size: .8em
+sup
+  vertical-align: super
+  font-size: .8em
+samp
+  font-family: monospace
+kbd
+  font-family: monospace
+var
+  font-style: italic
+mark
+  background-color: fade-out($colors-home-secondary-2, .5)
+
+blockquote
+  font-size: 2.1rem
+  font-style: italic
+  line-height: 1.4
+  color: $colors-home-tertiary-1
+  border-left: 2px solid $colors-home-secondary-1
+  padding:
+    left: 2rem
+    right: 4rem
+  margin:
+    bottom: 2.5rem

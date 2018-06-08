@@ -1,0 +1,231 @@
+.interest-grid
+  display: flex
+  flex-wrap: wrap
+  position: relative
+  padding:
+    left: 0
+    right: 0
+    bottom: 2.5rem
+
+  +media(min, $breakpoints-tablet)
+    padding:
+      left: 2rem
+      right: 2rem
+      bottom: 1rem
+
+  &__item-wrapper
+    flex-basis: 50%
+    max-width: 50%
+    cursor: pointer
+    margin:
+      bottom: 2px
+
+    +media(min, $breakpoints-mobile)
+      flex-basis: calc(100% / 3)
+      max-width: calc(100% / 3)
+
+    +media(min, $breakpoints-tablet)
+      flex-basis: 25%
+      max-width: 25%
+
+    &.\--open
+
+      .interest-grid__item
+        position: relative
+
+        &:after
+          position: absolute
+          left: 50%
+          content: ""
+          display: block
+          width: 0
+          height: 0
+          border-left: .8rem solid transparent
+          border-right: .8rem solid transparent
+          border-bottom: 1.7rem solid $colors-home-primary-0
+          margin:
+            top: .3rem
+            left: -1rem
+
+      .interest-grid__dropdown
+        display: block
+
+  &__item
+    width: 100%
+    height: 160px
+    min-width: 0
+    background-color: transparent
+
+    padding:
+      top: 0
+      left: 2px
+      right: 2px
+      bottom: 0
+
+    border:
+      radius: 0
+
+    +media(min, $breakpoints-tablet)
+      height: 285px
+
+    &:hover
+      background-color: transparent
+    &:focus
+      background-color: transparent
+
+  &__item-content
+    width: 100%
+    height: 100%
+    background-color: #000000
+    background-size: cover
+    background-position: center center
+    background-repeat: no-repeat
+    position: relative
+    padding:
+      top: 4rem
+
+    +media(min, $breakpoints-tablet)
+      padding:
+        top: 8.5rem
+
+    &:before
+      content: ''
+      display: block
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      background-color: $colors-home-primary-0
+      z-index: 10
+      opacity: 0
+      transition opacity .3s
+
+    &:after
+      content: ''
+      display: block
+      background-color: fade-out(#000000, .7)
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      z-index: 10
+
+    &:focus
+      &:before
+        opacity: .5
+        transition: opacity .3s
+
+    &:hover
+      &:before
+        opacity: .5
+        transition: opacity .3s
+
+  &__text
+    text-transform: uppercase
+    color: $colors-home-primary-2
+    text-align: center
+    font-weight: 700
+    position: relative
+    z-index: 20
+    margin:
+      bottom: 4.5rem
+    +media(min, $breakpoints-tablet)
+      margin:
+        bottom: 8rem
+
+
+  &__locations
+    position: relative
+    z-index: 20
+    display: flex
+    justify-content: center
+
+  &__location
+    width: 2.5rem
+    height: 2.5rem
+    background-color: $colors-home-primary-2
+    color: $colors-home-primary-0
+    display: flex
+    align-items: center
+    justify-content: center
+    text-align: center
+    border-radius: 50%
+    margin:
+      left: 5px
+      right: 5px
+    +media(min, $breakpoints-tablet)
+      width: 3rem
+      height: 3rem
+
+  &__dropdown
+    display: none
+
+    &.\--hidden
+      visibility: hidden
+      display: block
+
+  &__dropdown-column-container
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    background-color: $colors-home-primary-0
+    color: $colors-home-primary-2
+    position: absolute
+    width: 100%
+    max-width: 114rem
+    left: 0
+    padding:
+      top: 4rem
+      bottom: 4rem
+      left: 1rem
+      right: 1rem
+    border:
+      left: 2px solid
+      right: 2px solid
+    margin:
+      top: 2rem
+
+    +media(min, $breakpoints-tablet)
+      flex-wrap: nowrap
+      left: 2rem
+      padding:
+        left: 2rem
+        right: 2rem
+
+  &__dropdown-column
+    flex-basis: 100%
+    padding:
+      left: 1.5rem
+      right: 1.5rem
+    +media(min, $breakpoints-tablet)
+      flex-basis: 25%
+
+  &__dropdown-column-items
+
+  &__dropdown-column-item
+    margin:
+      bottom: 10px
+
+  &__dropdown-column-link
+    color: $colors-home-primary-2
+    +linkStates( $colors-home-tertiary-3, .3s)
+
+  &__disclosure
+    text-align: center
+    display: block
+    max-width: 118rem
+    margin:
+      left: auto
+      right: auto
+    padding:
+      left: $site-padding-mobile
+      right: $site-padding-mobile
+      bottom: 5rem
+    +media(min, $breakpoints-tablet)
+      text-align: right
+      padding:
+        left: $site-padding-desktop
+        right: $site-padding-desktop
+        bottom: 7.5rem

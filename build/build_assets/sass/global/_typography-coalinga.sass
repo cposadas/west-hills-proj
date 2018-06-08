@@ -1,0 +1,89 @@
+
+
+%header1
+  color: $colors-coalinga-primary-0
+  &.\--alt-color
+    color: $headers-primary-0-colorAlt
+
+%header2
+  color: $colors-coalinga-primary-0
+  &.\--alt-color
+    color: $headers-primary-1-colorAlt
+
+%header3
+  color: $colors-coalinga-primary-0
+
+  &.\--alt-color
+    color: $headers-primary-2-colorAlt
+
+%header4
+  color: $colors-coalinga-primary-0
+  &.\--alt-color
+    color: $headers-primary-3-colorAlt
+
+%header5
+  color: $colors-coalinga-primary-0
+  &.\--alt-color
+    color: $headers-primary-4-colorAlt
+
+%header6
+  color: $colors-coalinga-primary-0
+  &.\--alt-color
+    color: $headers-primary-5-colorAlt
+
+h1, .header1
+  @extend %header1
+
+h2, .header2
+  @extend %header2
+
+h3, .header3
+  @extend %header3
+
+h4, .header4
+  @extend %header4
+
+h5, .header5
+  @extend %header5
+
+h6, .header6
+  @extend %header6
+
+a
+  color: $colors-coalinga-primary-1
+
+  +linkStates(darken($colors-coalinga-primary-1, 10%), .3s)
+
+q
+  color: $colors-home-secondary-0
+
+  &:before
+    content: ''
+    display: block
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 1px
+    background-color: $colors-home-tertiary-3
+  &:after
+    content: ''
+    display: block
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 1px
+    background-color: $colors-home-tertiary-3
+
+cite
+  color: $colors-home-tertiary-4
+
+hr
+  border:
+    bottom: 1px solid $colors-home-tertiary-3
+
+
+blockquote
+  color: $colors-home-tertiary-1
+  border-left: 2px solid $colors-home-secondary-1

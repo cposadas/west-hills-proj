@@ -1,0 +1,93 @@
+.image-slider
+  background-size: cover
+  background-position: center center
+  background-repeat: no-repeat
+  background-color: #000000
+
+  padding:
+    top: 5rem
+    bottom: 5rem
+
+  +media(min, $breakpoints-tablet)
+    padding:
+      top: 7.5rem
+      bottom: 7.5rem
+
+  &__overlay
+    background: red
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+
+  &__slide
+
+  &__testimonials
+    position: relative
+    z-index: 20
+    max-width: 118rem
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+    padding:
+      left: $site-padding-mobile
+      right: $site-padding-mobile
+
+    margin:
+      left: auto
+      right: auto
+
+    +media(min, $breakpoints-tablet)
+      flex-wrap: nowrap
+      padding:
+        left: $site-padding-desktop
+        right: $site-padding-desktop
+
+
+  &__circle-image
+    flex-shrink: 0
+    margin:
+      left: auto
+      right: auto
+      bottom: 2rem
+    +media(min, $breakpoints-tablet)
+      padding:
+        left: 5rem
+        right: 5rem
+      margin:
+        left: 0
+        bottom: 0
+    img
+      border:
+       width: 2px
+       style: solid
+       radius: 50%
+       color: #fff
+
+  &__content
+
+  &__quote
+    color: $colors-home-primary-2
+    text-indent: 0
+    padding:
+      right: 0
+    border:
+      left: 0
+    +media(min, $breakpoints-tablet)
+      padding:
+        right: 13.5rem
+
+  &__name
+    color: $colors-home-primary-2
+    font-size: 1.8rem
+    font-weight: 700
+    font-style: normal
+    margin:
+      bottom: 1rem
+
+  &__sub
+    color: $colors-home-primary-2
+    font-size: 1.4rem
+    font-style: normal
+    font-weight: 400

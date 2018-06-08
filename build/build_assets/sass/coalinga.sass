@@ -1,0 +1,146 @@
+@import global/site-vars
+@import helpers/mixins
+@import global/typography-coalinga
+
+
+.header__logo
+  +media(min, $breakpoints-tablet)
+    margin:
+      right: calc(100% - 783px)
+.header__cta-link
+  background-color: $colors-coalinga-primary-1
+  +linkStates(darken($colors-home-primary-2, 10%), .3s, darken($colors-coalinga-primary-1, 10%))
+  text-shadow: none
+
+.main-nav__items
+  background-color: $colors-coalinga-primary-0
+  border-top-color: $colors-coalinga-primary-0
+
+.main-nav__item
+  background-color: $colors-coalinga-primary-0
+
+.main-nav.\--shrunk
+  border-bottom-color: $colors-coalinga-primary-0
+
+.header__top-bar
+  // border-bottom-color: $colors-coalinga-primary-0
+.circles__number
+  color: $colors-home-primary-2
+
+.icon-grid__item:hover:before
+  background-color: $colors-coalinga-primary-0
+
+.icon-grid__item:focus:before
+  background-color: $colors-coalinga-primary-0
+
+.base-grid__item:before
+  background-color: fade-out($colors-coalinga-primary-0, .4)
+
+.dual-container
+  background-color: $colors-coalinga-primary-0
+
+.icon-grid__item
+  color: $colors-coalinga-primary-1
+
+.icon-grid__item:focus
+  color: $colors-coalinga-primary-1
+
+.link__button-table
+  color: $colors-coalinga-primary-1
+  border-color: $colors-coalinga-primary-1
+
+.link__button-table:hover
+  background-color: fade-out($colors-coalinga-primary-1, .9)
+  color: $colors-coalinga-primary-1
+
+.link__button-focus
+  background-color: fade-out($colors-coalinga-primary-1, .9)
+  color: $colors-coalinga-primary-1
+
+.event-listing__filter-bar
+  background-color: $colors-coalinga-primary-0
+
+.icon-cta__icon
+  color: $colors-coalinga-primary-0
+
+.icon-cta__link
+  color: $colors-coalinga-primary-1
+
+.news-blocks__item-content-title
+  color: $colors-home-primary-2
+
+.spotlight__content-title
+  color: $colors-home-primary-2
+
+.table__head
+  background-color: $colors-coalinga-primary-0
+
+.table__column-head
+  color: $colors-coalinga-primary-0
+
+.filter-bar__bar
+  background-color: $colors-coalinga-primary-0
+
+.interest-builder__list-heading
+  color: $colors-coalinga-primary-0
+
+.spotlight-links__section-content-item-date
+  color: $colors-coalinga-primary-0
+
+.spotlight-links__section-content-item-link
+  color: $colors-coalinga-primary-0
+  +linkStates(darken($colors-coalinga-primary-0, 10%), .3s)
+
+.spotlight-links__section-image-item-link
+  color: $colors-coalinga-primary-0
+  +linkStates(darken($colors-coalinga-primary-0, 10%), .3s)
+
+.link-blocks__link-list-link
+  color: $colors-coalinga-primary-0
+  +linkStates(darken($colors-coalinga-primary-0, 10%), .3s)
+
+.link-blocks__ribbon-date
+  color: $colors-coalinga-primary-0
+
+.link-blocks__ribbon-text
+  color: $colors-coalinga-primary-0
+  +linkStates(darken($colors-coalinga-primary-0, 10%), .3s)
+
+.wysiwyg
+
+
+.footer
+  background: $colors-home-secondary-4
+
+  &__intro
+    border:
+      right: 1px solid #3379ba
+
+  &__contact-tel
+    border:
+      right: 1px solid #3379ba
+
+  &__aside
+    background: #004687
+    border:
+      top: 1px solid #336b9f
+
+.link
+  &__button-primary
+    color: $colors-home-primary-2
+    background-color: $colors-coalinga-primary-1
+    text-shadow: none
+    +linkStates(darken($colors-home-primary-2, 10%), .3s, darken($colors-coalinga-primary-1, 10%))
+
+  &__button-secondary
+    color: $colors-coalinga-primary-0
+    +linkStates(darken($colors-coalinga-primary-0, 10%), .3s, darken($colors-home-primary-2, 10%))
+
+  &__button-tertiary
+    background-color: $colors-coalinga-primary-0
+    +linkStates(darken($colors-home-primary-2, 10%), .3s, darken($colors-coalinga-primary-0, 10%))
+
+  &__button-outline
+
+.table-listing__list-item-campus-circle, .inline-table__list-item-campus-circle, .interest-builder__list-item-campus-circle
+  background-color: $colors-coalinga-primary-1

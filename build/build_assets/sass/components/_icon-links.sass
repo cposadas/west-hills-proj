@@ -1,0 +1,76 @@
+.icon-links
+  max-width: 100%
+
+  +media(min, $breakpoints-tablet)
+    max-width: (10/12)*100%
+    width: 100%
+    margin:
+      right: 0
+      left: auto
+
+  &__items
+
+  &__item
+    position: relative
+    border:
+      bottom: 1px solid $colors-home-primary-2
+    margin:
+      bottom: 2rem
+
+    &:last-child
+      border:
+        bottom: 0
+
+  &__link
+    display: block
+    padding:
+      left: 5.5rem
+      right: 3.5rem
+    &:before
+      @extend %icon
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      display: flex
+      justify-content: flex-start
+      align-items: flex-start
+      color: $colors-home-primary-2
+      font-size: 3.5rem
+    &:after
+      @extend %icon
+      position: absolute
+      left: 0
+      top: 0
+      width: 100%
+      height: 100%
+      display: flex
+      justify-content: flex-end
+      align-items: flex-start
+      content: map-get($icons, cta-arrow)
+      color: $colors-home-primary-2
+      font-size: 1.5rem
+    +media(min, $breakpoints-tablet)
+      padding:
+        left: 9.6rem
+        right: 7.5rem
+
+      &:before
+        font-size: 7rem
+
+      &:after
+        align-items: center
+        font-size: 2rem
+
+  &__title
+    text-transform: uppercase
+    font-weight: bold
+    color: $colors-home-primary-2
+    margin:
+      bottom: .5rem
+
+  &__subtitle
+    color: $colors-home-primary-2
+    margin:
+      bottom: 2.5rem

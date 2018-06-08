@@ -1,0 +1,16 @@
+.site
+  max-width: 192rem
+  width: 100%
+  overflow: hidden
+  margin:
+    left: auto
+    right: auto
+
+  &.\--open
+    height: 100vh
+
+  &__main-content
+    transition: transform .3s
+    &.\--open
+      transform: translate3d(-26.5rem, 0, 0)
+    

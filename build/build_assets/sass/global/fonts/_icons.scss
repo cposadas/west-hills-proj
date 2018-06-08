@@ -1,0 +1,404 @@
+@font-face {
+  font-family: "whcc_icons";
+  src: url('../../fonts/whcc_icons.woff') format('woff'),
+    url('../../fonts/whcc_icons.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+%icon {
+  font-family: 'whcc_icons';
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+  text-decoration: inherit;
+  text-transform: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+$icons: (
+
+  West-Hills-College-Coalinga: "\EA01",
+
+  West-Hills-College-District: "\EA02",
+
+  West-Hills-College-Lemoore: "\EA03",
+
+  West-Hills-College-Main: "\EA04",
+
+  West-Hills-College-Tagline: "\EA05",
+
+  accordion: "\EA06",
+
+  advisor: "\EA07",
+
+  announcements: "\EA08",
+
+  arrow: "\EA09",
+
+  book-2: "\EA0A",
+
+  book-3: "\EA0B",
+
+  book: "\EA0C",
+
+  books: "\EA0D",
+
+  calculator: "\EA0E",
+
+  calendar: "\EA0F",
+
+  checklist: "\EA10",
+
+  checkmark-circle: "\EA11",
+
+  checkmark: "\EA12",
+
+  close: "\EA13",
+
+  contact: "\EA14",
+
+  cta-arrow: "\EA15",
+
+  desk: "\EA16",
+
+  drawer: "\EA17",
+
+  drop-down-form: "\EA18",
+
+  email-footer: "\EA19",
+
+  events: "\EA1A",
+
+  family: "\EA1B",
+
+  faq: "\EA1C",
+
+  financial-aid: "\EA1D",
+
+  globe: "\EA1E",
+
+  graduation: "\EA1F",
+
+  grants: "\EA20",
+
+  login: "\EA21",
+
+  mini-nav-drop-down: "\EA22",
+
+  newspaper: "\EA23",
+
+  play: "\EA24",
+
+  rss: "\EA25",
+
+  school: "\EA26",
+
+  search-form: "\EA27",
+
+  search-header: "\EA28",
+
+  social-facebook: "\EA29",
+
+  social-flickr: "\EA2A",
+
+  social-instagram: "\EA2B",
+
+  social-twitter: "\EA2C",
+
+  social-youtube: "\EA2D",
+
+  social: "\EA2E",
+
+  tuition: "\EA2F",
+
+);
+
+
+
+.icon-West-Hills-College-Coalinga:before,
+[data-icon="West-Hills-College-Coalinga"]:before, [data-after-icon="West-Hills-College-Coalinga"]:after {
+  content: "\EA01";
+  @extend %icon;
+};
+
+.icon-West-Hills-College-District:before,
+[data-icon="West-Hills-College-District"]:before, [data-after-icon="West-Hills-College-District"]:after {
+  content: "\EA02";
+  @extend %icon;
+};
+
+.icon-West-Hills-College-Lemoore:before,
+[data-icon="West-Hills-College-Lemoore"]:before, [data-after-icon="West-Hills-College-Lemoore"]:after {
+  content: "\EA03";
+  @extend %icon;
+};
+
+.icon-West-Hills-College-Main:before,
+[data-icon="West-Hills-College-Main"]:before, [data-after-icon="West-Hills-College-Main"]:after {
+  content: "\EA04";
+  @extend %icon;
+};
+
+.icon-West-Hills-College-Tagline:before,
+[data-icon="West-Hills-College-Tagline"]:before, [data-after-icon="West-Hills-College-Tagline"]:after {
+  content: "\EA05";
+  @extend %icon;
+};
+
+.icon-accordion:before,
+[data-icon="accordion"]:before, [data-after-icon="accordion"]:after {
+  content: "\EA06";
+  @extend %icon;
+};
+
+.icon-advisor:before,
+[data-icon="advisor"]:before, [data-after-icon="advisor"]:after {
+  content: "\EA07";
+  @extend %icon;
+};
+
+.icon-announcements:before,
+[data-icon="announcements"]:before, [data-after-icon="announcements"]:after {
+  content: "\EA08";
+  @extend %icon;
+};
+
+.icon-arrow:before,
+[data-icon="arrow"]:before, [data-after-icon="arrow"]:after {
+  content: "\EA09";
+  @extend %icon;
+};
+
+.icon-book-2:before,
+[data-icon="book-2"]:before, [data-after-icon="book-2"]:after {
+  content: "\EA0A";
+  @extend %icon;
+};
+
+.icon-book-3:before,
+[data-icon="book-3"]:before, [data-after-icon="book-3"]:after {
+  content: "\EA0B";
+  @extend %icon;
+};
+
+.icon-book:before,
+[data-icon="book"]:before, [data-after-icon="book"]:after {
+  content: "\EA0C";
+  @extend %icon;
+};
+
+.icon-books:before,
+[data-icon="books"]:before, [data-after-icon="books"]:after {
+  content: "\EA0D";
+  @extend %icon;
+};
+
+.icon-calculator:before,
+[data-icon="calculator"]:before, [data-after-icon="calculator"]:after {
+  content: "\EA0E";
+  @extend %icon;
+};
+
+.icon-calendar:before,
+[data-icon="calendar"]:before, [data-after-icon="calendar"]:after {
+  content: "\EA0F";
+  @extend %icon;
+};
+
+.icon-checklist:before,
+[data-icon="checklist"]:before, [data-after-icon="checklist"]:after {
+  content: "\EA10";
+  @extend %icon;
+};
+
+.icon-checkmark-circle:before,
+[data-icon="checkmark-circle"]:before, [data-after-icon="checkmark-circle"]:after {
+  content: "\EA11";
+  @extend %icon;
+};
+
+.icon-checkmark:before,
+[data-icon="checkmark"]:before, [data-after-icon="checkmark"]:after {
+  content: "\EA12";
+  @extend %icon;
+};
+
+.icon-close:before,
+[data-icon="close"]:before, [data-after-icon="close"]:after {
+  content: "\EA13";
+  @extend %icon;
+};
+
+.icon-contact:before,
+[data-icon="contact"]:before, [data-after-icon="contact"]:after {
+  content: "\EA14";
+  @extend %icon;
+};
+
+.icon-cta-arrow:before,
+[data-icon="cta-arrow"]:before, [data-after-icon="cta-arrow"]:after {
+  content: "\EA15";
+  @extend %icon;
+};
+
+.icon-desk:before,
+[data-icon="desk"]:before, [data-after-icon="desk"]:after {
+  content: "\EA16";
+  @extend %icon;
+};
+
+.icon-drawer:before,
+[data-icon="drawer"]:before, [data-after-icon="drawer"]:after {
+  content: "\EA17";
+  @extend %icon;
+};
+
+.icon-drop-down-form:before,
+[data-icon="drop-down-form"]:before, [data-after-icon="drop-down-form"]:after {
+  content: "\EA18";
+  @extend %icon;
+};
+
+.icon-email-footer:before,
+[data-icon="email-footer"]:before, [data-after-icon="email-footer"]:after {
+  content: "\EA19";
+  @extend %icon;
+};
+
+.icon-events:before,
+[data-icon="events"]:before, [data-after-icon="events"]:after {
+  content: "\EA1A";
+  @extend %icon;
+};
+
+.icon-family:before,
+[data-icon="family"]:before, [data-after-icon="family"]:after {
+  content: "\EA1B";
+  @extend %icon;
+};
+
+.icon-faq:before,
+[data-icon="faq"]:before, [data-after-icon="faq"]:after {
+  content: "\EA1C";
+  @extend %icon;
+};
+
+.icon-financial-aid:before,
+[data-icon="financial-aid"]:before, [data-after-icon="financial-aid"]:after {
+  content: "\EA1D";
+  @extend %icon;
+};
+
+.icon-globe:before,
+[data-icon="globe"]:before, [data-after-icon="globe"]:after {
+  content: "\EA1E";
+  @extend %icon;
+};
+
+.icon-graduation:before,
+[data-icon="graduation"]:before, [data-after-icon="graduation"]:after {
+  content: "\EA1F";
+  @extend %icon;
+};
+
+.icon-grants:before,
+[data-icon="grants"]:before, [data-after-icon="grants"]:after {
+  content: "\EA20";
+  @extend %icon;
+};
+
+.icon-login:before,
+[data-icon="login"]:before, [data-after-icon="login"]:after {
+  content: "\EA21";
+  @extend %icon;
+};
+
+.icon-mini-nav-drop-down:before,
+[data-icon="mini-nav-drop-down"]:before, [data-after-icon="mini-nav-drop-down"]:after {
+  content: "\EA22";
+  @extend %icon;
+};
+
+.icon-newspaper:before,
+[data-icon="newspaper"]:before, [data-after-icon="newspaper"]:after {
+  content: "\EA23";
+  @extend %icon;
+};
+
+.icon-play:before,
+[data-icon="play"]:before, [data-after-icon="play"]:after {
+  content: "\EA24";
+  @extend %icon;
+};
+
+.icon-rss:before,
+[data-icon="rss"]:before, [data-after-icon="rss"]:after {
+  content: "\EA25";
+  @extend %icon;
+};
+
+.icon-school:before,
+[data-icon="school"]:before, [data-after-icon="school"]:after {
+  content: "\EA26";
+  @extend %icon;
+};
+
+.icon-search-form:before,
+[data-icon="search-form"]:before, [data-after-icon="search-form"]:after {
+  content: "\EA27";
+  @extend %icon;
+};
+
+.icon-search-header:before,
+[data-icon="search-header"]:before, [data-after-icon="search-header"]:after {
+  content: "\EA28";
+  @extend %icon;
+};
+
+.icon-social-facebook:before,
+[data-icon="social-facebook"]:before, [data-after-icon="social-facebook"]:after {
+  content: "\EA29";
+  @extend %icon;
+};
+
+.icon-social-flickr:before,
+[data-icon="social-flickr"]:before, [data-after-icon="social-flickr"]:after {
+  content: "\EA2A";
+  @extend %icon;
+};
+
+.icon-social-instagram:before,
+[data-icon="social-instagram"]:before, [data-after-icon="social-instagram"]:after {
+  content: "\EA2B";
+  @extend %icon;
+};
+
+.icon-social-twitter:before,
+[data-icon="social-twitter"]:before, [data-after-icon="social-twitter"]:after {
+  content: "\EA2C";
+  @extend %icon;
+};
+
+.icon-social-youtube:before,
+[data-icon="social-youtube"]:before, [data-after-icon="social-youtube"]:after {
+  content: "\EA2D";
+  @extend %icon;
+};
+
+.icon-social:before,
+[data-icon="social"]:before, [data-after-icon="social"]:after {
+  content: "\EA2E";
+  @extend %icon;
+};
+
+.icon-tuition:before,
+[data-icon="tuition"]:before, [data-after-icon="tuition"]:after {
+  content: "\EA2F";
+  @extend %icon;
+};

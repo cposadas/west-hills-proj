@@ -1,0 +1,27 @@
+=media($media-query, $res: 0em, $res2: 0em)
+  @if $media-query == retina
+    @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and ( min--moz-device-pixel-ratio: 2), only screen and ( -o-min-device-pixel-ratio: 2/1), only screen and ( min-device-pixel-ratio: 2), only screen and ( min-resolution: 192dpi), only screen and ( min-resolution: 2dppx)
+      @content
+
+  @if $media-query == min
+    @media screen and ( min-width: $res )
+      @content
+
+  @if $media-query == max
+    @media screen and ( max-width: $res )
+      @content
+
+
+=linkStates($color, $transitionTime, $backgroundColor : transparent)
+  &:focus
+    color: $color
+    background-color: $backgroundColor
+    transition: color $transitionTime, background-color $transitionTime
+  &:active
+    color: $color
+    background-color: $backgroundColor
+    transition: color $transitionTime, background-color $transitionTime
+  &:hover
+    color: $color
+    background-color: $backgroundColor
+    transition: color $transitionTime, background-color $transitionTime

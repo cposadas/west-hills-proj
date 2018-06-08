@@ -1,0 +1,110 @@
+<header class="header" id="header">
+    <div class="header__top-bar">
+        <div class="header__logo">
+            <img src="../../svg/West-Hills-College-Main.svg" alt="West Hills College" class="header__logo-image">
+        </div>
+        <div class="header__selector" id="site-select" v-on:focusout="checkFocus">
+            <button class="header__selector-current" data-icon="mini-nav-drop-down" tabindex="0" v-on:focus="containerFocus" v-on:click="openList" aria-controls="site-select-list">Home</button>
+            <ul class="header__selector-list js-site-select-list" id="site-select-list">
+                <li class="header__selector-item"><a href="#" class="header__selector-link" data-focus-parent="site-select">Coalinga</a></li>
+                <li class="header__selector-item"><a href="#" class="header__selector-link" data-focus-parent="site-select">Lemoore</a></li>
+                <li class="header__selector-item"><a href="#" class="header__selector-link" data-focus-parent="site-select">NDC</a></li>
+                <li class="header__selector-item"><a href="#" class="header__selector-link" data-focus-parent="site-select">District</a></li>
+            </ul>
+        </div>
+        <div class="header__login">
+            <a href="#" class="header__login-link" data-icon="login">myWestHills</a>
+        </div>
+        <div class="header__search">
+            <button type="button" class="header__search-button" aria-label="Search Display" data-icon="search-form"></button>
+        </div>
+        <div class="header__cta">
+            <a href="#" class="header__cta-link">Apply Now</a>
+        </div>
+    </div>
+    <nav class="main-nav" aria-labelledby="mainNavHeader" id="main-nav" v-on:focusout="checkFocus">
+        <h2 class="main-nav__title" id="mainNavHeader">Main Navigation</h2>
+        <ul class="main-nav__items">
+            <li class="main-nav__item">
+                <a href="#" class="main-nav__item-link" aria-haspopup="true" v-on:focus="topLinkFocus" data-focus-parent="main-nav">Academics</a>
+                <button type="button" class="main-nav__item-button" aria-controls="Academics" data-focus-parent="main-nav" data-focus-parent="main-nav">Academics</button>
+                <div class="main-nav__item-dropdown js-dropdown" id="Academics">
+                    <div class="main-nav__item-dropdown-column">
+                        <div class="main-nav__item-dropdown-column-title">Find a Program</div>
+                        <ul class="main-nav__item-dropdown-column-items">
+                            <li class="main-nav__item-dropdown-column-item"><a href="#" class="main-nav__item-dropdown-column-link" data-focus-parent="main-nav">Browse by Interest</a></li>
+                            <li class="main-nav__item-dropdown-column-item"><a href="#" class="main-nav__item-dropdown-column-link" data-focus-parent="main-nav">Degrees and Certificates</a></li>
+                        </ul>
+                    </div>
+                    <div class="main-nav__item-dropdown-column">
+                        <div class="main-nav__item-dropdown-column-title">Academic resources</div>
+                        <ul class="main-nav__item-dropdown-column-items">
+                            <li class="main-nav__item-dropdown-column-item"><a href="#" class="main-nav__item-dropdown-column-link" data-focus-parent="main-nav">Community Education</a></li>
+                            <li class="main-nav__item-dropdown-column-item"><a href="#" class="main-nav__item-dropdown-column-link" data-focus-parent="main-nav">Academic Calendar</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="main-nav__item">
+                <a href="#" class="main-nav__item-link" aria-haspopup="true" v-on:focus="topLinkFocus" data-focus-parent="main-nav">Admissions</a>
+                <button type="button" class="main-nav__item-button" aria-controls="Admissions" data-focus-parent="main-nav">Admissions</button>
+                <div class="main-nav__item-dropdown js-dropdown" id="Admissions">
+                    <div class="main-nav__item-dropdown-column">
+                        <div class="main-nav__item-dropdown-column-title">Find a Program</div>
+                        <ul class="main-nav__item-dropdown-column-items">
+                            <li class="main-nav__item-dropdown-column-item"><a href="#" class="main-nav__item-dropdown-column-link" data-focus-parent="main-nav">Browse by Interest</a></li>
+                            <li class="main-nav__item-dropdown-column-item"><a href="#" class="main-nav__item-dropdown-column-link" data-focus-parent="main-nav">Degrees and Certificates</a></li>
+                        </ul>
+                    </div>
+                    <div class="main-nav__item-dropdown-column">
+                        <div class="main-nav__item-dropdown-column-title">Academic resources</div>
+                        <ul class="main-nav__item-dropdown-column-items">
+                            <li class="main-nav__item-dropdown-column-item"><a href="#" class="main-nav__item-dropdown-column-link" data-focus-parent="main-nav">Community Education</a></li>
+                            <li class="main-nav__item-dropdown-column-item"><a href="#" class="main-nav__item-dropdown-column-link" data-focus-parent="main-nav">Academic Calendar</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="main-nav__item">
+                <a href="#" class="main-nav__item-link" aria-haspopup="true" v-on:focus="topLinkFocus" data-focus-parent="main-nav">about</a>
+                <button type="button" class="main-nav__item-button" aria-controls="about" data-focus-parent="main-nav">about</button>
+                <div class="main-nav__item-dropdown js-dropdown" id="about">
+                    <div class="main-nav__item-dropdown-column">
+                        <div class="main-nav__item-dropdown-column-title">Find a Program</div>
+                        <ul class="main-nav__item-dropdown-column-items">
+                            <li class="main-nav__item-dropdown-column-item"><a href="#" class="main-nav__item-dropdown-column-link" data-focus-parent="main-nav">Browse by Interest</a></li>
+                            <li class="main-nav__item-dropdown-column-item"><a href="#" class="main-nav__item-dropdown-column-link" data-focus-parent="main-nav">Degrees and Certificates</a></li>
+                        </ul>
+                    </div>
+                    <div class="main-nav__item-dropdown-column">
+                        <div class="main-nav__item-dropdown-column-title">Academic resources</div>
+                        <ul class="main-nav__item-dropdown-column-items">
+                            <li class="main-nav__item-dropdown-column-item"><a href="#" class="main-nav__item-dropdown-column-link" data-focus-parent="main-nav">Community Education</a></li>
+                            <li class="main-nav__item-dropdown-column-item"><a href="#" class="main-nav__item-dropdown-column-link" data-focus-parent="main-nav">Academic Calendar</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="main-nav__item">
+                <a href="#" class="main-nav__item-link" aria-haspopup="true" v-on:focus="topLinkFocus" data-focus-parent="main-nav">locations</a>
+                <button type="button" class="main-nav__item-button" aria-controls="locations" data-focus-parent="main-nav">locations</button>
+                <div class="main-nav__item-dropdown js-dropdown" id="locations">
+                    <div class="main-nav__item-dropdown-column">
+                        <div class="main-nav__item-dropdown-column-title">Find a Program</div>
+                        <ul class="main-nav__item-dropdown-column-items">
+                            <li class="main-nav__item-dropdown-column-item"><a href="#" class="main-nav__item-dropdown-column-link" data-focus-parent="main-nav">Browse by Interest</a></li>
+                            <li class="main-nav__item-dropdown-column-item"><a href="#" class="main-nav__item-dropdown-column-link" data-focus-parent="main-nav">Degrees and Certificates</a></li>
+                        </ul>
+                    </div>
+                    <div class="main-nav__item-dropdown-column">
+                        <div class="main-nav__item-dropdown-column-title">Academic resources</div>
+                        <ul class="main-nav__item-dropdown-column-items">
+                            <li class="main-nav__item-dropdown-column-item"><a href="#" class="main-nav__item-dropdown-column-link" data-focus-parent="main-nav">Community Education</a></li>
+                            <li class="main-nav__item-dropdown-column-item"><a href="#" class="main-nav__item-dropdown-column-link" data-focus-parent="main-nav">Academic Calendar</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+</header>

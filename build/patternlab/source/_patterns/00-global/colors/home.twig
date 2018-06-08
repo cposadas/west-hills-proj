@@ -1,0 +1,17 @@
+<div class="whsg__colors">
+    <ul class="whsg__colors-property">
+    {% for key, palette in colors.home %}
+        <li class="whsg__colors-palette">
+            <div class="whsg__colors-title">{{ key }}</div>
+            <ul class="whsg__colors-list">
+                {% for number, color in palette %}
+                    <li class="whsg__colors-item">
+                        <div class="whsg__colors-swatch" style="background-color: {{ color }}"></div>
+                        <div><div class="whsg__colors-name">colors-home-{{ key }}-{{ number }}</div> <div class="whsg__colors-value">{{ color }}</div></div>
+                    </li>
+                {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+    </ul>
+</div>

@@ -1,0 +1,90 @@
+.hero-sub
+
+  &__featured
+    height: 70vh
+    max-height: 29.5rem
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center center
+    display: flex
+    align-items: flex-end
+    position: relative
+
+    +media(min, $breakpoints-tablet)
+      max-height: 43.5rem
+
+  &__image-container
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: #fff
+    background-size: cover
+    background-position: center center
+
+  &__image
+    height: 0
+    width: 100%
+
+  &__cta
+    width: 100%
+    max-width: 90rem
+    position: relative
+    z-index: 10
+    text-align: center
+    padding:
+      left: 1.5rem
+      right: 1.5rem
+    margin:
+      left: auto
+      right: auto
+      top: auto
+      bottom: 4.5rem
+
+    +media(min, $breakpoints-tablet)
+      width: 75%
+      padding:
+        left: 2rem
+        right: 2rem
+      margin:
+        top: initial
+        bottom: 5rem
+
+  &__title
+    font-size: 3.6rem
+    flex-basis: 100%
+    margin:
+      bottom: 1.5rem
+
+    +media(min, $breakpoints-tablet)
+      font-size: 5.5rem
+
+  &__text
+    color: $colors-district-primary-2
+    font:
+      size: 1.8rem
+      weight: bold
+
+  &__button
+    margin:
+      top: 1.5rem
+
+  &__overlay
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 17%,rgba(0,0,0,0) 53%,rgba(0,0,0,0) 100%)
+    +media(min, $breakpoints-tablet)
+      background-image: linear-gradient(to top, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 17%,rgba(0,0,0,0) 53%,rgba(0,0,0,0) 100%)
+    &:after
+      content: ''
+      display: block
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      background-color: fade-out(#000000, .6)
