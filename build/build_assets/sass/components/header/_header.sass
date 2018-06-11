@@ -51,7 +51,7 @@
       flex-basis: 20rem
       max-height: 7rem
       margin:
-        right: calc(100% - 71rem)
+        right: calc(100% - 91rem)
         left: 3.5rem
 
   &__logo-link
@@ -277,6 +277,42 @@
     font-weight: bold
     text-transform: uppercase
     +linkStates(darken($colors-home-primary-2, 10%), .3s, darken($colors-home-primary-1, 10%))
+  
+  /*class-search
+  &__class-search
+    display: none
+    +media(min, $breakpoints-tablet)
+      display: block
+
+  &__class-search-link
+    color: $colors-home-primary-0
+    font-weight: 700
+    font-size: 1.2rem
+    position: relative
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 100%
+    padding:
+      left: 5rem
+      right: 1.5rem
+    border:
+      left: 1px solid $colors-home-tertiary-3
+
+    &:before
+      color: $colors-home-primary-0
+      position: absolute
+      top: 0
+      left: 1.5rem
+      width: 3rem
+      height: 100%
+      font-size: 3rem
+      display: flex
+      align-items: center
+    +linkStates(darken($colors-home-primary-0, 25%), .3s, darken($colors-home-primary-2, 10%))
+
+    +media(min, $breakpoints-tablet)
+      height: 7rem  
 
 #info-select
   display: none
