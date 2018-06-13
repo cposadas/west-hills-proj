@@ -1,0 +1,6 @@
+// Variations
+@mixin callout-variant($color) {
+  border-left-color: $color;
+
+  h4 { color: $color; }
+}
