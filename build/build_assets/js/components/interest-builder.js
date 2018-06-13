@@ -3,7 +3,7 @@
   let InterestBuilder = new Vue({
     el: '#interest-builder',
     data: {
-      ajaxUrl: 'assets/js/data/programs.json',
+      ajaxUrl: '/_resources/includes/programs.json',
       ajaxMethod: 'GET',
       programData: [],
       sortedResults: [],
@@ -11,7 +11,7 @@
       showResults: false,
       filterLocation: 'All',
       filterDegree: 'All',
-      displayDegrees: { 'AA': 'AA Degree', 'AS-T': 'AS-T Degree', 'AS': 'AS Degree', 'C': 'Certificate', 'LC': 'Local Certificate', 'L': 'Licensure', 'AA-T': 'AA-T Degree' },
+      displayDegrees: { 'AA': 'AA Degree', 'AS-T': 'AS-T Degree', 'AS': 'AS Degree', 'C': 'Certificate', 'LC': 'Local Certificate', 'L': 'Licensure', 'AA-T': 'AA-T Degree', 'ICP': 'Industry Certification Prep' },
       displayLocations: {'C': 'Coalinga', 'D': 'District', 'L': 'Lemoore', 'O': 'Online'},
       likes: [],
       studies: [],

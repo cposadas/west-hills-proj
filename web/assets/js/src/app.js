@@ -125,7 +125,7 @@ if (document.querySelector('#faq') !== null) {
   var Faq = new Vue({
     el: '#faq',
     data: {
-      ajaxEndpoint: 'assets/js/data/faq.json',
+      ajaxEndpoint: '/faq/index.json',
       rawData: [],
       searchIndex: [],
       processedData: [],
@@ -759,7 +759,7 @@ if (document.querySelector('#interest-builder') !== null) {
   var InterestBuilder = new Vue({
     el: '#interest-builder',
     data: {
-      ajaxUrl: 'assets/js/data/programs.json',
+      ajaxUrl: '/_resources/includes/programs.json',
       ajaxMethod: 'GET',
       programData: [],
       sortedResults: [],
@@ -767,7 +767,7 @@ if (document.querySelector('#interest-builder') !== null) {
       showResults: false,
       filterLocation: 'All',
       filterDegree: 'All',
-      displayDegrees: { 'AA': 'AA Degree', 'AS-T': 'AS-T Degree', 'AS': 'AS Degree', 'C': 'Certificate', 'LC': 'Local Certificate', 'L': 'Licensure', 'AA-T': 'AA-T Degree' },
+      displayDegrees: { 'AA': 'AA Degree', 'AS-T': 'AS-T Degree', 'AS': 'AS Degree', 'C': 'Certificate', 'LC': 'Local Certificate', 'L': 'Licensure', 'AA-T': 'AA-T Degree', 'ICP': 'Industry Certification Prep' },
       displayLocations: { 'C': 'Coalinga', 'D': 'District', 'L': 'Lemoore', 'O': 'Online' },
       likes: [],
       studies: [],

@@ -5,7 +5,7 @@ if(document.querySelector('#faq') !== null ){
   let Faq = new Vue({
     el: '#faq',
     data: {
-      ajaxEndpoint: 'assets/js/data/faq.json',
+      ajaxEndpoint: '/faq/index.json',
       rawData: [],
       searchIndex: [],
       processedData: [],
