@@ -117,6 +117,66 @@ $icons: (
 
   tuition: "\EA2F",
 
+  wh-banknote: "\EA30",
+
+  wh-bookmark: "\EA31",
+
+  wh-books: "\EA32",
+
+  wh-bulb: "\EA33",
+
+  wh-calendar: "\EA34",
+
+  wh-cart: "\EA35",
+
+  wh-coffee: "\EA36",
+
+  wh-cogs: "\EA37",
+
+  wh-cup: "\EA38",
+
+  wh-key: "\EA39",
+
+  wh-lab: "\EA3A",
+
+  wh-lamp: "\EA3B",
+
+  wh-lifebuoy: "\EA3C",
+
+  wh-lock: "\EA3D",
+
+  wh-mail: "\EA3E",
+
+  wh-map: "\EA3F",
+
+  wh-megaphone: "\EA40",
+
+  wh-news: "\EA41",
+
+  wh-note: "\EA42",
+
+  wh-open-book: "\EA43",
+
+  wh-open-book2: "\EA44",
+
+  wh-settings: "\EA45",
+
+  wh-stats-bars: "\EA46",
+
+  wh-stats-bars2: "\EA47",
+
+  wh-stats-dots: "\EA48",
+
+  wh-study: "\EA49",
+
+  wh-tag: "\EA4A",
+
+  wh-user: "\EA4B",
+
+  wh-wallet: "\EA4C",
+
+  wh-world: "\EA4D",
+
 );
 
 
@@ -400,5 +460,185 @@ $icons: (
 .icon-tuition:before,
 [data-icon="tuition"]:before, [data-after-icon="tuition"]:after {
   content: "\EA2F";
+  @extend %icon;
+};
+
+.icon-wh-banknote:before,
+[data-icon="wh-banknote"]:before, [data-after-icon="wh-banknote"]:after {
+  content: "\EA30";
+  @extend %icon;
+};
+
+.icon-wh-bookmark:before,
+[data-icon="wh-bookmark"]:before, [data-after-icon="wh-bookmark"]:after {
+  content: "\EA31";
+  @extend %icon;
+};
+
+.icon-wh-books:before,
+[data-icon="wh-books"]:before, [data-after-icon="wh-books"]:after {
+  content: "\EA32";
+  @extend %icon;
+};
+
+.icon-wh-bulb:before,
+[data-icon="wh-bulb"]:before, [data-after-icon="wh-bulb"]:after {
+  content: "\EA33";
+  @extend %icon;
+};
+
+.icon-wh-calendar:before,
+[data-icon="wh-calendar"]:before, [data-after-icon="wh-calendar"]:after {
+  content: "\EA34";
+  @extend %icon;
+};
+
+.icon-wh-cart:before,
+[data-icon="wh-cart"]:before, [data-after-icon="wh-cart"]:after {
+  content: "\EA35";
+  @extend %icon;
+};
+
+.icon-wh-coffee:before,
+[data-icon="wh-coffee"]:before, [data-after-icon="wh-coffee"]:after {
+  content: "\EA36";
+  @extend %icon;
+};
+
+.icon-wh-cogs:before,
+[data-icon="wh-cogs"]:before, [data-after-icon="wh-cogs"]:after {
+  content: "\EA37";
+  @extend %icon;
+};
+
+.icon-wh-cup:before,
+[data-icon="wh-cup"]:before, [data-after-icon="wh-cup"]:after {
+  content: "\EA38";
+  @extend %icon;
+};
+
+.icon-wh-key:before,
+[data-icon="wh-key"]:before, [data-after-icon="wh-key"]:after {
+  content: "\EA39";
+  @extend %icon;
+};
+
+.icon-wh-lab:before,
+[data-icon="wh-lab"]:before, [data-after-icon="wh-lab"]:after {
+  content: "\EA3A";
+  @extend %icon;
+};
+
+.icon-wh-lamp:before,
+[data-icon="wh-lamp"]:before, [data-after-icon="wh-lamp"]:after {
+  content: "\EA3B";
+  @extend %icon;
+};
+
+.icon-wh-lifebuoy:before,
+[data-icon="wh-lifebuoy"]:before, [data-after-icon="wh-lifebuoy"]:after {
+  content: "\EA3C";
+  @extend %icon;
+};
+
+.icon-wh-lock:before,
+[data-icon="wh-lock"]:before, [data-after-icon="wh-lock"]:after {
+  content: "\EA3D";
+  @extend %icon;
+};
+
+.icon-wh-mail:before,
+[data-icon="wh-mail"]:before, [data-after-icon="wh-mail"]:after {
+  content: "\EA3E";
+  @extend %icon;
+};
+
+.icon-wh-map:before,
+[data-icon="wh-map"]:before, [data-after-icon="wh-map"]:after {
+  content: "\EA3F";
+  @extend %icon;
+};
+
+.icon-wh-megaphone:before,
+[data-icon="wh-megaphone"]:before, [data-after-icon="wh-megaphone"]:after {
+  content: "\EA40";
+  @extend %icon;
+};
+
+.icon-wh-news:before,
+[data-icon="wh-news"]:before, [data-after-icon="wh-news"]:after {
+  content: "\EA41";
+  @extend %icon;
+};
+
+.icon-wh-note:before,
+[data-icon="wh-note"]:before, [data-after-icon="wh-note"]:after {
+  content: "\EA42";
+  @extend %icon;
+};
+
+.icon-wh-open-book:before,
+[data-icon="wh-open-book"]:before, [data-after-icon="wh-open-book"]:after {
+  content: "\EA43";
+  @extend %icon;
+};
+
+.icon-wh-open-book2:before,
+[data-icon="wh-open-book2"]:before, [data-after-icon="wh-open-book2"]:after {
+  content: "\EA44";
+  @extend %icon;
+};
+
+.icon-wh-settings:before,
+[data-icon="wh-settings"]:before, [data-after-icon="wh-settings"]:after {
+  content: "\EA45";
+  @extend %icon;
+};
+
+.icon-wh-stats-bars:before,
+[data-icon="wh-stats-bars"]:before, [data-after-icon="wh-stats-bars"]:after {
+  content: "\EA46";
+  @extend %icon;
+};
+
+.icon-wh-stats-bars2:before,
+[data-icon="wh-stats-bars2"]:before, [data-after-icon="wh-stats-bars2"]:after {
+  content: "\EA47";
+  @extend %icon;
+};
+
+.icon-wh-stats-dots:before,
+[data-icon="wh-stats-dots"]:before, [data-after-icon="wh-stats-dots"]:after {
+  content: "\EA48";
+  @extend %icon;
+};
+
+.icon-wh-study:before,
+[data-icon="wh-study"]:before, [data-after-icon="wh-study"]:after {
+  content: "\EA49";
+  @extend %icon;
+};
+
+.icon-wh-tag:before,
+[data-icon="wh-tag"]:before, [data-after-icon="wh-tag"]:after {
+  content: "\EA4A";
+  @extend %icon;
+};
+
+.icon-wh-user:before,
+[data-icon="wh-user"]:before, [data-after-icon="wh-user"]:after {
+  content: "\EA4B";
+  @extend %icon;
+};
+
+.icon-wh-wallet:before,
+[data-icon="wh-wallet"]:before, [data-after-icon="wh-wallet"]:after {
+  content: "\EA4C";
+  @extend %icon;
+};
+
+.icon-wh-world:before,
+[data-icon="wh-world"]:before, [data-after-icon="wh-world"]:after {
+  content: "\EA4D";
   @extend %icon;
 };

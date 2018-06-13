@@ -1,7 +1,7 @@
 /*
 Error: Inconsistent indentation: 3 spaces were used for indentation, but the rest of the document was indented using 2 spaces.
         on line 167 of C:/inetpub/west-hills-proj/build/build_assets/sass/components/footer/_footer.sass
-        from line 21 of C:\inetpub\west-hills-proj\build\build_assets\sass\app.sass
+        from line 25 of C:\inetpub\west-hills-proj\build\build_assets\sass\app.sass
 
 162:       flex-basis: 50%
 163: 
@@ -17,7 +17,7 @@ Error: Inconsistent indentation: 3 spaces were used for indentation, but the res
 
 Backtrace:
 C:/inetpub/west-hills-proj/build/build_assets/sass/components/footer/_footer.sass:167
-C:\inetpub\west-hills-proj\build\build_assets\sass\app.sass:21
+C:\inetpub\west-hills-proj\build\build_assets\sass\app.sass:25
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:483:in `block in tabulate'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:441:in `each'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:441:in `each_with_index'
@@ -60,4 +60,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Inconsistent indentation: 3 spaces were used for indentation, but the rest of the document was indented using 2 spaces.\A         on line 167 of C:/inetpub/west-hills-proj/build/build_assets/sass/components/footer/_footer.sass\A         from line 21 of C:\inetpub\west-hills-proj\build\build_assets\sass\app.sass\A \A 162:       flex-basis: 50%\A 163: \A 164:     +media(min, $breakpoints-tablet)\A 165: \A 166:   &__nav-list-item\A 167:    flex-basis: 100%\A 168:    margin:\A 169:      bottom: 2.5rem\A 170: \A 171:   &__nav-list-link\A 172:     color: $colors-home-primary-2"; }
+  content: "Error: Inconsistent indentation: 3 spaces were used for indentation, but the rest of the document was indented using 2 spaces.\A         on line 167 of C:/inetpub/west-hills-proj/build/build_assets/sass/components/footer/_footer.sass\A         from line 25 of C:\inetpub\west-hills-proj\build\build_assets\sass\app.sass\A \A 162:       flex-basis: 50%\A 163: \A 164:     +media(min, $breakpoints-tablet)\A 165: \A 166:   &__nav-list-item\A 167:    flex-basis: 100%\A 168:    margin:\A 169:      bottom: 2.5rem\A 170: \A 171:   &__nav-list-link\A 172:     color: $colors-home-primary-2"; }
