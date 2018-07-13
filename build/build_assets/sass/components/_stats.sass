@@ -1,0 +1,151 @@
+.stats
+  background-image: url('../../images/stats-opt1-mobile.jpg')
+  background-size: cover
+  background-position: center center
+
+  +media(min, $breakpoints-tablet)
+    background-image: url('../../images/stats-opt1.jpg')
+
+  &.opt2
+    background-image: url('../../images/stats-opt2-mobile.jpg')
+    
+    +media(min, $breakpoints-tablet)
+      background-image: url('../../images/stats-opt2.jpg')
+    
+  &__container
+    max-width: 118rem
+    width: 100%
+    padding:
+      left: 1.5rem
+      right: 1.5rem
+      bottom: 7rem
+
+    margin:
+      left: auto
+      right: auto
+
+  &__header
+    padding:
+      top: 4rem
+    +media(min, $breakpoints-tablet)
+      padding:
+        top: 7rem
+
+  &__title
+    text-align: center
+    margin:
+      bottom: 2rem
+
+  &__text
+    text-align: center
+    font-size: 2rem
+    color: $colors-home-primary-2
+    margin:
+      bottom: 2.5rem
+    +media(min, $breakpoints-tablet)
+      font-size: 2.4rem
+
+  &__stat-container
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    //margin:
+      bottom: 4rem
+
+    +media(min, $breakpoints-tablet)
+      flex-wrap: nowrap
+
+  &__stat
+    flex-basis: 100%
+    display: flex
+    //margin:
+      bottom: 4rem
+
+    &:last-child
+      margin:
+        bottom: 0
+    +media(min, $breakpoints-tablet)
+      display: block
+      flex-basis: 45rem
+      width: 45rem
+      height: 25rem
+      //border-radius: 50%
+      margin:
+        left: -1rem
+        right: -1rem
+        bottom: 0
+
+      //&:nth-child(1)
+        background-color: fade-out($colors-home-secondary-0, .25)
+      //&:nth-child(2)
+        background-color: fade-out($colors-home-primary-1, .25)
+      //&:nth-child(3)
+        background-color: fade-out($colors-home-secondary-2, .25)
+      //&:nth-child(4)
+        background-color: fade-out($colors-home-secondary-1, .25)
+
+  &__number
+    text-align: center
+    color: $colors-home-primary-2
+    position: relative
+    flex-basis: 50%
+    margin:
+      bottom: 0
+    +media(min, $breakpoints-tablet)
+      padding:
+        top: 6rem
+      margin:
+        bottom: 2rem
+
+    &:after
+      content: ''
+      display: block
+      width: 6rem
+      height: 2px
+      background-color: $colors-home-primary-2
+      position: absolute
+      bottom: -.6rem
+      left: 50%
+      margin:
+        left: -3rem
+
+  &__label
+    text-align: left
+    font-weight: bold
+    text-transform: uppercase
+    color: $colors-home-primary-2
+    flex-basis: 50%
+    letter-spacing: .07rem
+    margin:
+      left: auto
+      right: auto
+      bottom: 0
+    +media(min, $breakpoints-tablet)
+      text-align: center
+      width: 25rem
+      margin:
+        bottom: 2rem
+
+  &__link-container
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    padding:
+      bottom: 5rem
+
+    +media(min, $breakpoints-tablet)
+      flex-wrap: nowrap
+      padding:
+        bottom: 7.5rem
+
+  &__link
+    margin:
+      left: 1rem
+      right: 1rem
+    &:first-child
+      margin:
+        bottom: 2rem
+    +media(min, $breakpoints-tablet)
+      &:first-child
+        margin:
+          bottom: 0
