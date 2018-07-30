@@ -3,7 +3,7 @@
   let InterestBuilder = new Vue({
     el: '#interest-builder',
     data: {
-      ajaxUrl: '/_resources/includes/programs.json',
+      ajaxUrl: '/_resources/php/programs/program-listing.php',
       ajaxMethod: 'GET',
       programData: [],
       sortedResults: [],
