@@ -2574,6 +2574,15 @@ table {
   font-size: 1.8rem;
   font-weight: bold; }
 
+.hero-sub__dept-info {
+  color: #ffffff;
+  margin-top: 1em; }
+  .hero-sub__dept-info a {
+    color: #fff;
+    text-decoration: none; }
+    .hero-sub__dept-info a:hover {
+      text-decoration: underline; }
+
 .hero-sub__button {
   margin-top: 1.5rem; }
 
