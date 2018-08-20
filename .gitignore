@@ -2,3 +2,15 @@ node_modules
 yarn.lock
 .DS_Store
 /build/build_assets/sass/whccd/_notes/dwsync.xml
+/web/assets/images/_notes/dwsync.xml
+/web/assets/fonts/_notes/dwsync.xml
+/web/assets/js/dist/_notes/dwsync.xml
+/web/assets/js/data/_notes/dwsync.xml
+/web/assets/js/src/_notes/dwsync.xml
+/web/assets/video/_notes/dwsync.xml
+/web/assets/svg/_notes/dwsync.xml
+/web/partials/_notes/dwsync.xml
+/build/build_assets/sass/components/section/_notes/dwsync.xml
+/web/_notes/dwsync.xml
+/web/assets/css/dist/_notes/dwsync.xml
+/web/assets/css/src/_notes/dwsync.xml

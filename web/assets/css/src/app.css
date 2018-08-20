@@ -2403,6 +2403,66 @@ table {
     background-color: #ffffff; }
   .section__content-full.\--color-fill-alt {
     background-color: #f0f0f0; }
+  .section__content-full.\--image-bg {
+    position: relative;
+    background-image: url("../../images/Lemoore-Campus-mobile.jpg");
+    border-bottom: 0;
+    margin-bottom: 0; }
+    @media screen and (min-width: 641px) {
+      .section__content-full.\--image-bg {
+        background-image: url("../../images/Lemoore-Campus.jpg"); } }
+    .section__content-full.\--image-bg:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 17%, transparent 50%, transparent 100%); }
+    .section__content-full.\--image-bg:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 38, 100, 0.2); }
+    .section__content-full.\--image-bg .dual-container__wrapper {
+      position: relative;
+      z-index: 20; }
+  .section__content-full.\--image-bg-alt {
+    position: relative;
+    background-image: url("");
+    background-size: cover;
+    border-bottom: 0;
+    margin-bottom: 0; }
+    @media screen and (min-width: 641px) {
+      .section__content-full.\--image-bg-alt {
+        background-image: url("");
+        background-image: cover; } }
+    .section__content-full.\--image-bg-alt:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 17%, transparent 50%, transparent 100%); }
+    .section__content-full.\--image-bg-alt:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6); }
+    .section__content-full.\--image-bg-alt .dual-container__wrapper {
+      position: relative;
+      z-index: 20; }
 
 .dual-container {
   background-color: #002664;
@@ -7857,15 +7917,6 @@ table {
   .step-process__description {
     margin-bottom: 2.5rem; }
 
-.mb-10 {
-  margin-bottom: 10; }
-
-.mb-20 {
-  margin-bottom: 20; }
-
-.mb-30 {
-  margin-bottom: 30; }
-
 /* Class Schedule Search */
 #class-search {
   width: 1px;
@@ -7928,6 +7979,23 @@ main {
 
 #lw_cal .page-detail__sidebar-cta-buttons a {
   color: #fff; }
+
+#lw_cal_tag_selector > ul {
+  display: block !important; }
+
+#lw_cal_tag_toggle {
+  display: none; }
+
+.formstack-inverted .fsBody .fsForm {
+  background-color: transparent; }
+
+.formstack-inverted .fsBody .fsLabel, .formstack-inverted .fsBodylabel {
+  color: #fff; }
+  .formstack-inverted .fsBody .fsLabel .fsRequiredMarker, .formstack-inverted .fsBodylabel .fsRequiredMarker {
+    color: #fff; }
+
+.fsEmbed input, .fsEmbed select, .fsEmbed textarea, label.fsEmbed {
+  margin-bottom: 0; }
 
 /*
 h1, h2, h3, h4, h5, h6,

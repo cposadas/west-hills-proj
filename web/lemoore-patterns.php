@@ -30,6 +30,7 @@
                     require_once './partials/careers.php';
                     require_once './partials/courses.php';
                     require_once './partials/degree-options.php';
+                    require_once './partials/section-dual-column-background.php';
                     require_once './partials/event-listing.php';
                     require_once './partials/explore-programs.php';
                     require_once './partials/faq-full.php';
