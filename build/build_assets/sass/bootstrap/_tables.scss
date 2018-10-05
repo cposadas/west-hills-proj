@@ -136,8 +136,11 @@
 
   th,
   td,
-  thead th {
+  thead th {    
     border-color: $table-dark-border-color;
+  }
+  thead th {
+    color: $table-dark-color;
   }
 
   &.table-bordered {

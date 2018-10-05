@@ -39,7 +39,6 @@ html {
     width: device-width;
   }
 }
-
 // stylelint-disable selector-list-comma-newline-after
 // Shim for "new" HTML5 structural elements to display correctly (IE10, older browsers)
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -203,7 +202,7 @@ a {
 
   @include hover {
     color: $link-hover-color;
-    text-decoration: $link-hover-decoration;
+    //text-decoration: $link-hover-decoration;
   }
 }
 
