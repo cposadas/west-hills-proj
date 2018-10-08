@@ -7,11 +7,11 @@
   <form action="/action_page.php">
     <div class="form-group">
       <label for="usr">Name:</label>
-      <input type="text" class="form-control" id="usr" name="username">
+      <input type="text" class="form-control" id="usr4" name="username">
     </div>
     <div class="form-group">
       <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd" name="password">
+      <input type="password" class="form-control" id="pwd4" name="password">
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
@@ -60,12 +60,12 @@
   <form action="/action_page.php">
     <div class="form-check-inline">
       <label class="form-check-label" for="check1">
-        <input type="checkbox" class="form-check-input" id="check1" name="vehicle1" value="something" checked>Option 1
+        <input type="checkbox" class="form-check-input" id="check1a" name="vehicle1" value="something" checked>Option 1
       </label>
     </div>
     <div class="form-check-inline">
       <label class="form-check-label" for="check2">
-        <input type="checkbox" class="form-check-input" id="check2" name="vehicle2" value="something">Option 2
+        <input type="checkbox" class="form-check-input" id="check2a" name="vehicle2" value="something">Option 2
       </label>
     </div>
     <div class="form-check-inline">
@@ -107,12 +107,12 @@
   <form action="/action_page.php">
     <div class="form-check-inline">
       <label class="form-check-label" for="radio1">
-        <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Option 1
+        <input type="radio" class="form-check-input" id="radio1a" name="optradio" value="option1" checked>Option 1
       </label>
     </div>
     <div class="form-check-inline">
       <label class="form-check-label" for="radio2">
-        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Option 2
+        <input type="radio" class="form-check-input" id="radio2a" name="optradio" value="option2">Option 2
       </label>
     </div>
     <div class="form-check-inline">

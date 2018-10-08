@@ -7,10 +7,10 @@
   <a href="#" data-toggle="tooltip" title="Hooray!">Hover over me</a>
 </div>
 
-<script>
+<script>/*
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();   
-});
+});*/
 </script>
 
 
@@ -23,8 +23,8 @@ $(document).ready(function(){
   <a href="#" data-toggle="tooltip2" data-placement="right" title="Hooray!">Right</a>
 </div>
 
-<script>
+<script>/*
 $(document).ready(function(){
     $('[data-toggle="tooltip2"]').tooltip();   
-});
+});*/
 </script>

@@ -40,10 +40,12 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
+    "bootstrap": "^4.1.3",
     "del": "^2.2.2",
     "gulp-run": "^1.7.1",
     "lunr": "^2.0.1",
     "picturefill": "^3.0.2",
+    "popper.js": "^1.14.4",
     "slick-carousel": "1.6.0",
     "vue": "^2.1.10"
   },
