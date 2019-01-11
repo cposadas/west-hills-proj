@@ -990,7 +990,7 @@ blockquote {
 [data-icon="wh-world"]:before, [data-after-icon="wh-world"]:after {
   content: "\EA4D"; }
 
-.button__primary, .button__secondary, .button__tertiary, .button__table, .button__outline, input[type=submit], input[type=button], input[type=reset], .link__button-primary, .link__button-secondary, .link__button-tertiary, .link__button-table, .link__button-outline {
+button, .button__primary, .button__secondary, .button__tertiary, .button__table, .button__outline, input[type=submit], input[type=button], input[type=reset], .link__button-primary, .link__button-secondary, .link__button-tertiary, .link__button-table, .link__button-outline {
   font-family: "PT Sans", sans-serif;
   min-width: 14rem;
   height: 5.5rem;
@@ -1008,32 +1008,23 @@ blockquote {
   font-size: 1.4rem;
   font-weight: 700;
   letter-spacing: .07em; }
-  .button__primary:focus, .button__secondary:focus, .button__tertiary:focus, .button__table:focus, .button__outline:focus, input[type=submit]:focus, input[type=button]:focus, input[type=reset]:focus, .link__button-primary:focus, .link__button-secondary:focus, .link__button-tertiary:focus, .link__button-table:focus, .link__button-outline:focus {
+  button:focus, .button__primary:focus, .button__secondary:focus, .button__tertiary:focus, .button__table:focus, .button__outline:focus, input[type=submit]:focus, input[type=button]:focus, input[type=reset]:focus, .link__button-primary:focus, .link__button-secondary:focus, .link__button-tertiary:focus, .link__button-table:focus, .link__button-outline:focus {
     color: #e6e6e6;
     background-color: #b85e12;
     transition: color 0.3s, background-color 0.3s; }
-  .button__primary:active, .button__secondary:active, .button__tertiary:active, .button__table:active, .button__outline:active, input[type=submit]:active, input[type=button]:active, input[type=reset]:active, .link__button-primary:active, .link__button-secondary:active, .link__button-tertiary:active, .link__button-table:active, .link__button-outline:active {
+  button:active, .button__primary:active, .button__secondary:active, .button__tertiary:active, .button__table:active, .button__outline:active, input[type=submit]:active, input[type=button]:active, input[type=reset]:active, .link__button-primary:active, .link__button-secondary:active, .link__button-tertiary:active, .link__button-table:active, .link__button-outline:active {
     color: #e6e6e6;
     background-color: #b85e12;
     transition: color 0.3s, background-color 0.3s; }
-  .button__primary:hover, .button__secondary:hover, .button__tertiary:hover, .button__table:hover, .button__outline:hover, input[type=submit]:hover, input[type=button]:hover, input[type=reset]:hover, .link__button-primary:hover, .link__button-secondary:hover, .link__button-tertiary:hover, .link__button-table:hover, .link__button-outline:hover {
+  button:hover, .button__primary:hover, .button__secondary:hover, .button__tertiary:hover, .button__table:hover, .button__outline:hover, input[type=submit]:hover, input[type=button]:hover, input[type=reset]:hover, .link__button-primary:hover, .link__button-secondary:hover, .link__button-tertiary:hover, .link__button-table:hover, .link__button-outline:hover {
     color: #e6e6e6;
     background-color: #b85e12;
     transition: color 0.3s, background-color 0.3s; }
   @media screen and (min-width: 1025px) {
-    .button__primary, .button__secondary, .button__tertiary, .button__table, .button__outline, input[type=submit], input[type=button], input[type=reset], .link__button-primary, .link__button-secondary, .link__button-tertiary, .link__button-table, .link__button-outline {
+    button, .button__primary, .button__secondary, .button__tertiary, .button__table, .button__outline, input[type=submit], input[type=button], input[type=reset], .link__button-primary, .link__button-secondary, .link__button-tertiary, .link__button-table, .link__button-outline {
       height: 4.5rem;
       padding-left: 3rem;
       padding-right: 3rem; } }
-
-button {
-  font-family: "PT Sans", sans-serif;
-  cursor: pointer;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  border: 0;
-  border-radius: 4px; }
 
 button {
   transition: color .3s, background-color .3s; }
