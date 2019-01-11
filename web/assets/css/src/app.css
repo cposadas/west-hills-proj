@@ -6117,14 +6117,10 @@ table {
 .wysiwyg ul {
   list-style-type: initial;
   margin-left: 3rem; }
-  .wysiwyg ul li {
-    margin-bottom: 10px; }
 
 .wysiwyg ol {
   list-style-type: decimal;
   margin-left: 3rem; }
-  .wysiwyg ol li {
-    margin-bottom: 10px; }
 
 .breadcrumb {
   color: #afafaf;
