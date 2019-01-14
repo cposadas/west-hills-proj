@@ -1350,9 +1350,6 @@ table {
     border-bottom: 1px solid #d3d3d3; }
     table tr:first-of-type {
       border-top: 2px solid #d3d3d3; }
-    table tr td:nth-of-type(2) {
-      font-size: 1.4rem;
-      letter-spacing: .02rem; }
   table td {
     padding: .75rem; }
 
@@ -6121,6 +6118,11 @@ table {
 .wysiwyg ol {
   list-style-type: decimal;
   margin-left: 3rem; }
+
+.wysiwyg .faq__items {
+  margin-bottom: 5rem;
+  margin-left: 0;
+  list-style-type: none; }
 
 .breadcrumb {
   color: #afafaf;
