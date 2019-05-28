@@ -6,8 +6,8 @@
 <div class="container">
   <h2>Simple Collapsible</h2>
   <p>Click on the button to toggle between showing and hiding content.</p>
-  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
-  <div id="demo" class="collapse">
+  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo0">Simple collapsible</button>
+  <div id="demo0" class="collapse">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -17,8 +17,8 @@
 
 <div class="container">
   <h2>Simple Collapsible</h2>
-  <a href="#demo" class="btn btn-primary" data-toggle="collapse">Simple collapsible</a>
-  <div id="demo" class="collapse">
+  <a href="#demo1" class="btn btn-primary" data-toggle="collapse">Simple collapsible</a>
+  <div id="demo1" class="collapse">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -30,8 +30,8 @@
   <h2>Show Collapsible Content By Default</h2>
   <p>Add the show class next to the collapse class to show the content by default.</p>
   <p>Click on the button to toggle between showing and hiding content.</p>
-  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
-  <div id="demo" class="collapse show">
+  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo2">Simple collapsible</button>
+  <div id="demo2" class="collapse show">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

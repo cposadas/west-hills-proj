@@ -3,7 +3,7 @@
 <a href="https://www.w3schools.com/bootstrap4/bootstrap_utilities.aspUtiltiies" target="_blank"/>w3schools</a>
 
   <style>
-  .border {
+  .border1 {
     display: inline-block;
     width: 70px;
     height: 70px;
@@ -14,36 +14,26 @@
 <div class="container">
   <h2>Borders</h2>
   <p>Use the border classes to add or remove borders from an element:</p> 
-  <span class="border"></span>
-  <span class="border border-0"></span>
-  <span class="border border-top-0"></span>
-  <span class="border border-right-0"></span>
-  <span class="border border-bottom-0"></span>
-  <span class="border border-left-0"></span>
+  <span class="border1"></span>
+  <span class="border1 border-0"></span>
+  <span class="border1 border-top-0"></span>
+  <span class="border1 border-right-0"></span>
+  <span class="border1 border-bottom-0"></span>
+  <span class="border1 border-left-0"></span>
 </div>
-
- <style>
-  .border {
-    display: inline-block;
-    width: 70px;
-    height: 70px;
-    margin: 6px;
-  }
-</style>
-  
 
 <div class="container">
   <h2>Borders</h2>
   <p>Use a contextual border color to add a color to the border:</p> 
-  <span class="border border-primary"></span>
-  <span class="border border-secondary"></span>
-  <span class="border border-success"></span>
-  <span class="border border-danger"></span>
-  <span class="border border-warning"></span>
-  <span class="border border-info"></span>
-  <span class="border border-light"></span>
-  <span class="border border-dark"></span>
-  <span class="border border-white"></span>
+  <span class="border1 border-primary"></span>
+  <span class="border1 border-secondary"></span>
+  <span class="border1 border-success"></span>
+  <span class="border1 border-danger"></span>
+  <span class="border1 border-warning"></span>
+  <span class="border1 border-info"></span>
+  <span class="border1 border-light"></span>
+  <span class="border1 border-dark"></span>
+  <span class="border1 border-white"></span>
 </div>
 
   <style>
