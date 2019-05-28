@@ -7464,6 +7464,7 @@ table {
       .faq__item {
         padding-left: 3.5rem; } }
   .faq__question {
+    font-size: 100%;
     position: relative;
     background-color: transparent;
     color: #000000;
