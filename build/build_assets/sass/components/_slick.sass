@@ -41,4 +41,19 @@
     button
       background-color: #ffffff
 
-
+.slick-magazine-responsive
+  max-width: 118rem
+  width: 100%
+  display: flex
+  justify-content: center
+  padding:
+    left: $site-padding-mobile
+    right: $site-padding-mobile
+  margin:
+    left: auto
+    right: auto
+  +media(min, $breakpoints-tablet)
+    justify-content: flex-end
+    padding:
+      left: $site-padding-desktop
+      right: $site-padding-desktop
