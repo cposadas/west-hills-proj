@@ -32,6 +32,7 @@ require('./components/dropdown-grid');
 require('./components/hero-video');
 require('./components/inline-faq');
 require('./components/video-blocks');
+require('./components/toybox-feedback');
 
 require("popper.js");
 require("bootstrap");

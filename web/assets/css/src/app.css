@@ -8389,6 +8389,14 @@ main {
     width: 100%;
     height: 100%; }
 
+/* Toybox Feedback Tool */
+#toybox-feedback {
+  opacity: 0; }
+
+@media screen and (max-width: 1025px) {
+  #toybox-feedback {
+    display: none; } }
+
 @media screen and (min-width: 1025px) {
   #lw_cal .page-detail__main {
     -ms-flex-preferred-size: 70%;
