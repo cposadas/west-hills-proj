@@ -1,6 +1,6 @@
 
  if(document.querySelector('#interest-builder') !== null ){
-  let InterestBuilder = new Vue({
+  let InterestBuilder = new Vue({    
     el: '#interest-builder',
     data: {
       ajaxUrl: '/_resources/php/programs/program-listing.php',
@@ -16,10 +16,13 @@
       likes: [],
       studies: [],
       pageDisplayOptions: [10,20,50],
-      pageDisplay: 20,
+      pageDisplay: 10,
       currentPage: 1,
       prevButtonDisabled: true,
       nextButtonDisabled: false
+    },
+    beforeMount: function beforeMount() {
+      this.filterLocation = this.$el.attributes['filter-location'].value;
     },
     computed: {
       displayedResults: function() {
@@ -34,9 +37,14 @@
       displayedRange: function() {
         let end = this.currentPage * this.pageDisplay;
         let start = (end - this.pageDisplay) + 1;
-        if(end > this.programData.length)
-        {
+        if(end >= this.programData.length){
           end = this.programData.length;
+          this.nextButtonDisabled = true;
+        }else {
+          this.nextButtonDisabled = false;
+        }
+        if(this.currentPage == 1){
+          this.prevButtonDisabled = true;
         }
         return start+"-"+end;
       },
@@ -79,7 +87,7 @@
             console.error("error", error.statusText);
         })
         .always(function() {
-          this.showResults = true;
+          this.showResults = true;          
         });
       },
 
@@ -98,6 +106,7 @@
           return 0;
         });
         this.programData = this.sortedResults;
+        this.programData = this.filterResults();
       },
 
       nextStep: function() {

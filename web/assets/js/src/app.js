@@ -776,10 +776,13 @@ if (document.querySelector('#interest-builder') !== null) {
       likes: [],
       studies: [],
       pageDisplayOptions: [10, 20, 50],
-      pageDisplay: 20,
+      pageDisplay: 10,
       currentPage: 1,
       prevButtonDisabled: true,
       nextButtonDisabled: false
+    },
+    beforeMount: function beforeMount() {
+      this.filterLocation = this.$el.attributes['filter-location'].value;
     },
     computed: {
       displayedResults: function displayedResults() {
@@ -794,8 +797,14 @@ if (document.querySelector('#interest-builder') !== null) {
       displayedRange: function displayedRange() {
         var end = this.currentPage * this.pageDisplay;
         var start = end - this.pageDisplay + 1;
-        if (end > this.programData.length) {
+        if (end >= this.programData.length) {
           end = this.programData.length;
+          this.nextButtonDisabled = true;
+        } else {
+          this.nextButtonDisabled = false;
+        }
+        if (this.currentPage == 1) {
+          this.prevButtonDisabled = true;
         }
         return start + "-" + end;
       },
@@ -853,6 +862,7 @@ if (document.querySelector('#interest-builder') !== null) {
           return 0;
         });
         this.programData = this.sortedResults;
+        this.programData = this.filterResults();
       },
 
       nextStep: function nextStep() {
