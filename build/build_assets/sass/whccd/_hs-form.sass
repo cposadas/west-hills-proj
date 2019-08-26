@@ -75,11 +75,12 @@
       +box-shadow($btn-focus-box-shadow, $btn-active-box-shadow)  
 
 .hs-form
+  
   // Form Field (selector for form field wrapper)
   .hs-form-field
     margin-bottom: 1.2rem
   // Descriptions (targets class applied to Help Text divs)
-  .hs-field-desc
+  .hs-field-desc 
     //display: block
     //margin-top: $form-text-margin-top
     
@@ -192,7 +193,8 @@
     margin-top: 18px
     margin-bottom: 18px
     padding: 17px 20px 18px 0px
-    
+
+      
 /* Placeholder Text (styles the placeholder attribute text)
 \::-webkit-input-placeholder
   // Webkit Browsers
@@ -246,3 +248,19 @@ body
   .hs-form
     .actions
       text-align: center
+
+.--alt-color
+  .hs-form
+    color: $headers-primary-0-colorAlt
+    
+    label
+      color: $headers-primary-0-colorAlt
+    
+    .hs-error-msgs label
+      color: $form-feedback-invalid-color-alt
+    
+.bg-primary
+  .hs-form
+    input
+      &[type="submit"], &[type="button"]        
+        @include button-variant($success, $success);

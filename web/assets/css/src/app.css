@@ -8570,6 +8570,38 @@ main {
 .modal .hs-form .actions {
   text-align: center; }
 
+.--alt-color .hs-form {
+  color: #ffffff; }
+  .--alt-color .hs-form label {
+    color: #ffffff; }
+  .--alt-color .hs-form .hs-error-msgs label {
+    color: #eb8c95; }
+
+.bg-primary .hs-form input[type="submit"], .bg-primary .hs-form input[type="button"] {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745; }
+  .bg-primary .hs-form input[type="submit"]:hover, .bg-primary .hs-form input[type="button"]:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34; }
+  .bg-primary .hs-form input[type="submit"]:focus, .bg-primary .hs-form input[type="submit"].focus, .bg-primary .hs-form input[type="button"]:focus, .bg-primary .hs-form input[type="button"].focus {
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5); }
+  .bg-primary .hs-form input[type="submit"].disabled, .bg-primary .hs-form input[type="submit"]:disabled, .bg-primary .hs-form input[type="button"].disabled, .bg-primary .hs-form input[type="button"]:disabled {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745; }
+  .bg-primary .hs-form input[type="submit"]:not(:disabled):not(.disabled):active, .bg-primary .hs-form input[type="submit"]:not(:disabled):not(.disabled).active,
+  .show > .bg-primary .hs-form input[type="submit"].dropdown-toggle, .bg-primary .hs-form input[type="button"]:not(:disabled):not(.disabled):active, .bg-primary .hs-form input[type="button"]:not(:disabled):not(.disabled).active,
+  .show > .bg-primary .hs-form input[type="button"].dropdown-toggle {
+    color: #fff;
+    background-color: #1e7e34;
+    border-color: #1c7430; }
+    .bg-primary .hs-form input[type="submit"]:not(:disabled):not(.disabled):active:focus, .bg-primary .hs-form input[type="submit"]:not(:disabled):not(.disabled).active:focus,
+    .show > .bg-primary .hs-form input[type="submit"].dropdown-toggle:focus, .bg-primary .hs-form input[type="button"]:not(:disabled):not(.disabled):active:focus, .bg-primary .hs-form input[type="button"]:not(:disabled):not(.disabled).active:focus,
+    .show > .bg-primary .hs-form input[type="button"].dropdown-toggle:focus {
+      box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5); }
+
 /*
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
