@@ -1,4 +1,4 @@
-<h1 class="mt-5">::::Buttons</h1>
+<h1 class="mt-5" id="buttons">::::Buttons</h1>
 <hr/>
 <a href="https://www.w3schools.com/bootstrap4/bootstrap_buttons.asp" target="_blank"/>w3schools</a>
 <div class="container">

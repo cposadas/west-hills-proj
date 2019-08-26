@@ -1,4 +1,4 @@
-<h1 class="mt-5">::::Input Groups</h1>
+<h1 class="mt-5" id="input-groups">::::Input Groups</h1>
 <hr/>
 <a href="https://www.w3schools.com/bootstrap4/bootstrap_forms_input_group.asp" target="_blank"/>w3schools</a>
 

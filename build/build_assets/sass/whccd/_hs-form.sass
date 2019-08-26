@@ -1,0 +1,248 @@
+// All HubSpot Forms
+// ==========================================================================
+%form-control
+  display: block
+  width: 100%
+  padding: $input-padding-y $input-padding-x
+  font-size: $font-size-base
+  line-height: $input-line-height
+  color: $input-color
+  background-color: $input-bg
+  background-clip: padding-box
+  border: $input-border-width solid $input-border-color
+  // Note: This has no effect on <select>s in some browsers, due to the limited stylability of `<select>`s in CSS.
+  @if $enable-rounded
+    // Manually use the if/else instead of the mixin to account for iOS override
+    border-radius: $input-border-radius
+  @else
+    // Otherwise undo the iOS default
+    border-radius: 0
+  +box-shadow($input-box-shadow)
+  +transition($input-transition)
+  // Unstyle the caret on `<select>`s in IE10+.
+  &::-ms-expand
+    background-color: transparent
+    border: 0
+  // Customize the `:focus` state to imitate native WebKit styles.
+  +form-control-focus
+  // Placeholder
+  &::placeholder
+    color: $input-placeholder-color
+    // Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526.
+    opacity: 1
+  // Disabled and read-only inputs
+  //
+  // HTML5 says that controls under a fieldset > legend:first-child won't be
+  // disabled if the fieldset is disabled. Due to implementation difficulty, we
+  // don't honor that edge case; we style them as disabled anyway.
+  &:disabled,
+  &[readonly]
+    background-color: $input-disabled-bg
+    // iOS fix for unreadable disabled content; see https://github.com/twbs/bootstrap/issues/11655.
+    opacity: 1
+
+%btn
+  display: inline-block
+  font-weight: $btn-font-weight
+  text-align: center
+  white-space: nowrap
+  vertical-align: middle
+  user-select: none
+  border: $btn-border-width solid transparent
+  +button-size($btn-padding-y, $btn-padding-x, $font-size-base, $btn-line-height, $btn-border-radius)
+  +transition($btn-transition)
+  // Share hover and focus styles
+  +hover-focus
+    text-decoration: none
+
+  &:focus,
+  &.focus
+    outline: 0
+    box-shadow: $btn-focus-box-shadow
+  // Disabled comes first so active can properly restyle
+  &.disabled,
+  &:disabled
+    opacity: $btn-disabled-opacity
+    +box-shadow(none)
+  // Opinionated: add "hand" cursor to non-disabled .btn elements
+  &:not(:disabled):not(.disabled)
+    cursor: pointer
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active
+    background-image: none
+    +box-shadow($btn-active-box-shadow)
+    &:focus
+      +box-shadow($btn-focus-box-shadow, $btn-active-box-shadow)  
+
+.hs-form
+  // Form Field (selector for form field wrapper)
+  .hs-form-field
+    margin-bottom: 1.2rem
+  // Descriptions (targets class applied to Help Text divs)
+  .hs-field-desc
+    //display: block
+    //margin-top: $form-text-margin-top
+    
+  // Labels (selects field labels and error messages)
+  label
+    display: inline-block
+    margin-bottom: $label-margin-bottom
+    color: $blue
+    
+    .hs-form-required
+      color: $red
+    
+
+  .hs-form-field > label
+    display: inline-block
+    margin-bottom: $label-margin-bottom
+    
+      
+  // Inputs (selectors for all inputs)
+  input
+    @extend %form-control
+    
+    &[type="text"], &[type="password"], &[type="datetime"], &[type="datetime-local"], &[type="date"], &[type="month"], &[type="time"], &[type="week"], &[type="number"], &[type="email"], &[type="url"], &[type="search"], &[type="tel"], &[type="color"], &[type="file"]
+      
+  textarea, select
+   @extend %form-control
+  // Inputs in focus (selectors for all inputs when clicked)
+  input
+    &[type="text"]:focus, &[type="password"]:focus, &[type="datetime"]:focus, &[type="datetime-local"]:focus, &[type="date"]:focus, &[type="month"]:focus, &[type="time"]:focus, &[type="week"]:focus, &[type="number"]:focus, &[type="email"]:focus, &[type="url"]:focus, &[type="search"]:focus, &[type="tel"]:focus, &[type="color"]:focus, &[type="file"]:focus
+      
+  // Multi-line inputs (selectors to target multi-line fields
+  textarea:focus, select:focus
+    
+  textarea
+    &:focus
+      
+  // Dropdowns (selectors for dropdowns)
+  select
+    &:focus
+      
+  // Multi-select (selectors for multi-select fields)
+  //.hs-fieldtype-radio
+    //position: relative
+    //display: block
+    //padding-left: $form-check-input-gutter
+    
+  .hs-form-field ul.inputs-list
+    margin: 0 0 5px
+    width: 100%
+    padding-left: 5px
+    
+    &:first-child
+      margin-top: 6px
+  
+    li
+      display: block
+      padding: 0
+      width: 100%
+      padding-top: 0
+    
+      label
+        display: block
+        float: none
+        width: auto
+        padding: 0
+        line-height: 18px
+        text-align: left
+        white-space: normal
+        font-weight: normal
+        input
+          display: inline-block
+
+  input
+    &[type="submit"], &[type="button"]
+      @extend %btn
+      @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $font-size-lg, $btn-line-height-lg, $btn-border-radius-lg);
+      width: inherit
+      @include button-variant($primary, $primary);
+      
+  input
+    &[type="submit"]:hover, &[type="button"]:hover
+      
+  input
+    &[type="radio"], &[type="checkbox"]
+      cursor: pointer
+      width: auto
+      height: auto
+      padding: 0
+      margin: 3px 5px 3px 0px
+      line-height: normal
+      border: none
+      
+      
+    // Required (selectors for fields, when they do not pass validation) 
+    &:focus:required:invalid
+      
+  // Required (selectors for fields, when they do not pass validation) 
+  textarea:focus:required:invalid, select:focus:required:invalid
+    
+  input:focus:required:invalid:focus, textarea:focus:required:invalid:focus, select:focus:required:invalid:focus
+    
+  // Error message (selector for validation messages) 
+  .hs-error-msgs label    
+    width: 100%
+    margin-top: $form-feedback-margin-top
+    font-size: $form-feedback-font-size
+    color: $form-feedback-invalid-color
+    
+  .actions
+    margin-top: 18px
+    margin-bottom: 18px
+    padding: 17px 20px 18px 0px
+    
+/* Placeholder Text (styles the placeholder attribute text)
+\::-webkit-input-placeholder
+  // Webkit Browsers
+
+\:-moz-placeholder
+  // Firefox 18-
+
+\::-moz-placeholder
+  // Firefox 19+
+
+\:-ms-input-placeholder
+  // IE10
+
+// Multi Column Form (selectors for fieldsets and field wrappers) 
+// ==========================================================================
+
+.hs-form .hs-form fieldset
+  &.form-columns-1
+    
+    .hs-form-field
+      
+  &.form-columns-2
+    
+    .hs-form-field
+      
+  &.form-columns-3
+    
+    .hs-form-field
+      
+
+// Submit buttons (selectors for all non-CTA buttons) 
+// ==========================================================================
+
+body
+  .hs-button.primary
+    
+  input
+    &[type="submit"], &[type="button"]
+      
+  .hs-button.primary:hover
+    
+  input
+    &[type="submit"]:hover, &[type="button"]:hover
+      
+  .hs-button.primary:focus
+    
+  input
+    &[type="submit"]:focus, &[type="button"]:focus
+      
+.modal
+  .hs-form
+    .actions
+      text-align: center

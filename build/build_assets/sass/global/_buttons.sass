@@ -23,7 +23,7 @@
       left: 3rem
       right: 3rem
 
-%button2
+%wh-button
   font-family: $fonts-primary
   //min-width: 14rem
   //height: 5.5rem
@@ -49,6 +49,10 @@
       right: 3rem
 
 button
+  transition: color .3s, background-color .3s
+  @extend %wh-button
+
+header button
   transition: color .3s, background-color .3s
   @extend %button
 
