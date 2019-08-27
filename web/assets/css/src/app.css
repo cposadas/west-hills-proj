@@ -456,7 +456,7 @@ h5, .header5 {
   h5.\--alt-color, .\--alt-color.header5 {
     color: #ffffff; }
 
-h6, .header6 {
+h6, .header6, .footer__search-label, .interest-builder__step-choice, .search-results__filter-order-label {
   font-size: 1.8rem;
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -464,12 +464,12 @@ h6, .header6 {
   color: #002664;
   margin-bottom: 2rem; }
   @media screen and (min-width: 1025px) {
-    h6, .header6 {
+    h6, .header6, .footer__search-label, .interest-builder__step-choice, .search-results__filter-order-label {
       font-size: 1.8rem;
       font-weight: 700;
       letter-spacing: 0.02em;
       line-height: 1.4; } }
-  h6.\--alt-color, .\--alt-color.header6 {
+  h6.\--alt-color, .\--alt-color.header6, .\--alt-color.footer__search-label, .\--alt-color.interest-builder__step-choice, .\--alt-color.search-results__filter-order-label {
     color: #ffffff; }
 
 p {
@@ -1116,7 +1116,7 @@ header button {
     background-color: #ffffff;
     transition: color 0.3s, background-color 0.3s; }
 
-.main-nav__mobile-search-input, .footer__search-input, .interest-builder__footer-pagination-options-select, .event-listing__filter-select, .event-listing__footer-pagination-options-select, .filter-bar__filter-select, .filter-bar__filter-search, .filter-bar__filter-search-submit, .table-listing__footer-pagination-options-select, .faq__search-bar input, .search-results__filter-order-select, .search-results-pagination__footer-pagination-options-select {
+.main-nav__mobile-search-input, .footer__search-input, .interest-builder__step-checkbox, .interest-builder__footer-pagination-options-select, .event-listing__filter-select, .event-listing__footer-pagination-options-select, .filter-bar__filter-select-container select, .filter-bar__filter-select select, .filter-bar__filter-search, .filter-bar__filter-search-submit, .table-listing__footer-pagination-options-select, .faq__search-bar input, .search-results__filter-order-select, .search-results-pagination__footer-pagination-options-select {
   font-family: "PT Sans", sans-serif;
   background: #ffffff;
   border-radius: 4px;
@@ -1129,13 +1129,19 @@ header button {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   margin-bottom: 2.5rem; }
-  .\--plain.main-nav__mobile-search-input, .\--plain.footer__search-input, .\--plain.interest-builder__footer-pagination-options-select, .\--plain.event-listing__filter-select, .\--plain.event-listing__footer-pagination-options-select, .\--plain.filter-bar__filter-select, .\--plain.filter-bar__filter-search, .\--plain.filter-bar__filter-search-submit, .\--plain.table-listing__footer-pagination-options-select, .faq__search-bar input.\--plain, .\--plain.search-results__filter-order-select, .\--plain.search-results-pagination__footer-pagination-options-select {
+  .\--plain.main-nav__mobile-search-input, .\--plain.footer__search-input, .\--plain.interest-builder__step-checkbox, .\--plain.interest-builder__footer-pagination-options-select, .\--plain.event-listing__filter-select, .\--plain.event-listing__footer-pagination-options-select, .filter-bar__filter-select-container select.\--plain, .filter-bar__filter-select select.\--plain, .\--plain.filter-bar__filter-search, .\--plain.filter-bar__filter-search-submit, .\--plain.table-listing__footer-pagination-options-select, .faq__search-bar input.\--plain, .\--plain.search-results__filter-order-select, .\--plain.search-results-pagination__footer-pagination-options-select {
     border: none;
     font-size: 1.4rem;
     font-style: italic;
     color: #6c6c6c;
     background-color: transparent;
     width: auto; }
+
+.footer__search-label, .interest-builder__step-choice, .search-results__filter-order-label {
+  display: inline-block;
+  height: auto;
+  cursor: pointer;
+  margin-bottom: 1rem; }
 
 .link__button-primary {
   transition: color .3s, background-color .3s;
@@ -6808,6 +6814,8 @@ table {
     padding-bottom: 0;
     padding-left: 1rem;
     font-size: 1.4rem; }
+  .filter-bar__filter-select-container select {
+    margin-bottom: 0; }
 
 .filter-bar__filter-select {
   color: #002664;
@@ -8411,7 +8419,7 @@ main {
   .formstack-inverted .fsBody .fsLabel .fsRequiredMarker, .formstack-inverted .fsBodylabel .fsRequiredMarker {
     color: #fff; }
 
-.fsEmbed .main-nav__mobile-search-input, .fsEmbed .footer__search-input, .fsEmbed .interest-builder__footer-pagination-options-select, .fsEmbed .event-listing__filter-select, .fsEmbed .event-listing__footer-pagination-options-select, .fsEmbed .filter-bar__filter-select, .fsEmbed .filter-bar__filter-search, .fsEmbed .filter-bar__filter-search-submit, .fsEmbed .table-listing__footer-pagination-options-select, .fsEmbed .faq__search-bar input, .faq__search-bar .fsEmbed input, .fsEmbed .search-results__filter-order-select, .fsEmbed .search-results-pagination__footer-pagination-options-select {
+.fsEmbed .main-nav__mobile-search-input, .fsEmbed .footer__search-input, .fsEmbed .interest-builder__step-checkbox, .fsEmbed .interest-builder__footer-pagination-options-select, .fsEmbed .event-listing__filter-select, .fsEmbed .event-listing__footer-pagination-options-select, .fsEmbed .filter-bar__filter-select-container select, .filter-bar__filter-select-container .fsEmbed select, .fsEmbed .filter-bar__filter-select select, .filter-bar__filter-select .fsEmbed select, .fsEmbed .filter-bar__filter-search, .fsEmbed .filter-bar__filter-search-submit, .fsEmbed .table-listing__footer-pagination-options-select, .fsEmbed .faq__search-bar input, .faq__search-bar .fsEmbed input, .fsEmbed .search-results__filter-order-select, .fsEmbed .search-results-pagination__footer-pagination-options-select, .fsEmbed.footer__search-label, .fsEmbed.interest-builder__step-choice, .fsEmbed.search-results__filter-order-label {
   margin-bottom: 0; }
 
 .hs-form input, .hs-form textarea, .hs-form select {
