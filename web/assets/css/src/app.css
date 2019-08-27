@@ -1116,7 +1116,7 @@ header button {
     background-color: #ffffff;
     transition: color 0.3s, background-color 0.3s; }
 
-.interest-builder__footer-pagination-options-select, .event-listing__filter-select, .event-listing__footer-pagination-options-select, .filter-bar__filter-select, .filter-bar__filter-search, .filter-bar__filter-search-submit, .table-listing__footer-pagination-options-select, .faq__search-bar input, .search-results__filter-order-select, .search-results-pagination__footer-pagination-options-select {
+.main-nav__mobile-search-input, .footer__search-input, .interest-builder__footer-pagination-options-select, .event-listing__filter-select, .event-listing__footer-pagination-options-select, .filter-bar__filter-select, .filter-bar__filter-search, .filter-bar__filter-search-submit, .table-listing__footer-pagination-options-select, .faq__search-bar input, .search-results__filter-order-select, .search-results-pagination__footer-pagination-options-select {
   font-family: "PT Sans", sans-serif;
   background: #ffffff;
   border-radius: 4px;
@@ -1129,7 +1129,7 @@ header button {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   margin-bottom: 2.5rem; }
-  .\--plain.interest-builder__footer-pagination-options-select, .\--plain.event-listing__filter-select, .\--plain.event-listing__footer-pagination-options-select, .\--plain.filter-bar__filter-select, .\--plain.filter-bar__filter-search, .\--plain.filter-bar__filter-search-submit, .\--plain.table-listing__footer-pagination-options-select, .faq__search-bar input.\--plain, .\--plain.search-results__filter-order-select, .\--plain.search-results-pagination__footer-pagination-options-select {
+  .\--plain.main-nav__mobile-search-input, .\--plain.footer__search-input, .\--plain.interest-builder__footer-pagination-options-select, .\--plain.event-listing__filter-select, .\--plain.event-listing__footer-pagination-options-select, .\--plain.filter-bar__filter-select, .\--plain.filter-bar__filter-search, .\--plain.filter-bar__filter-search-submit, .\--plain.table-listing__footer-pagination-options-select, .faq__search-bar input.\--plain, .\--plain.search-results__filter-order-select, .\--plain.search-results-pagination__footer-pagination-options-select {
     border: none;
     font-size: 1.4rem;
     font-style: italic;
@@ -8411,7 +8411,7 @@ main {
   .formstack-inverted .fsBody .fsLabel .fsRequiredMarker, .formstack-inverted .fsBodylabel .fsRequiredMarker {
     color: #fff; }
 
-.fsEmbed .interest-builder__footer-pagination-options-select, .fsEmbed .event-listing__filter-select, .fsEmbed .event-listing__footer-pagination-options-select, .fsEmbed .filter-bar__filter-select, .fsEmbed .filter-bar__filter-search, .fsEmbed .filter-bar__filter-search-submit, .fsEmbed .table-listing__footer-pagination-options-select, .fsEmbed .faq__search-bar input, .faq__search-bar .fsEmbed input, .fsEmbed .search-results__filter-order-select, .fsEmbed .search-results-pagination__footer-pagination-options-select {
+.fsEmbed .main-nav__mobile-search-input, .fsEmbed .footer__search-input, .fsEmbed .interest-builder__footer-pagination-options-select, .fsEmbed .event-listing__filter-select, .fsEmbed .event-listing__footer-pagination-options-select, .fsEmbed .filter-bar__filter-select, .fsEmbed .filter-bar__filter-search, .fsEmbed .filter-bar__filter-search-submit, .fsEmbed .table-listing__footer-pagination-options-select, .fsEmbed .faq__search-bar input, .faq__search-bar .fsEmbed input, .fsEmbed .search-results__filter-order-select, .fsEmbed .search-results-pagination__footer-pagination-options-select {
   margin-bottom: 0; }
 
 .hs-form input, .hs-form textarea, .hs-form select {
