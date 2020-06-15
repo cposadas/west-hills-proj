@@ -28,3 +28,4 @@
 <?php require_once 'partials/bootstrap-components-flex.php'; ?>
 <?php require_once 'partials/bootstrap-components-media-objects.php'; ?>
 <?php require_once 'partials/bootstrap-components-filters.php'; ?>
+<?php require_once 'partials/bootstrap-components-toasts.php'; ?>
