@@ -195,6 +195,20 @@
     padding:
       right: 1.5rem
       top: 2.5rem
+
+    h1
+      @extend %header4
+
+    h2
+      @extend %header5
+
+    h3
+      @extend %header6
+
+    h4, h5, h6
+      @extend %header6
+      font-style: italic
+      
     +media(min, $breakpoints-tablet)
       padding:
         right: 0rem
