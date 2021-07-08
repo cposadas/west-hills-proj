@@ -17833,3 +17833,87 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 2.25rem;
     font-weight: 300;
     line-height: 1.0; } }
+
+.wh-step-process {
+  margin-bottom: 60px;
+  position: relative; }
+
+.wh-step-process-label {
+  position: absolute;
+  top: 217px;
+  left: -355px;
+  background: #f6f6f6;
+  width: 544px;
+  height: 110px;
+  transform: rotate(-90deg);
+  border-radius: 50px;
+  box-shadow: 0px 2px 11px -2px rgba(0, 0, 0, 0.4); }
+  .wh-step-process-label h4 {
+    font-size: 54px;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #001942;
+    font-weight: 800; }
+
+.wh-step-secondary-theme {
+  color: #f89705; }
+
+.wh-step-process .panel {
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+  color: #fff;
+  font-size: 16px;
+  background: #001942;
+  box-shadow: 0px 1px 7px 1px rgba(0, 0, 0, 0.4);
+  margin-bottom: 15px; }
+  .wh-step-process .panel span, .wh-step-process .panel:hover span {
+    transition: all ease-out 0.3s; }
+  .wh-step-process .panel:nth-child(even) {
+    background: #002664; }
+
+.wh-step-process .panel-body {
+  overflow-y: auto;
+  overflow: visible;
+  /*height: 120px; */
+  padding-left: 120px;
+  position: relative;
+  padding-bottom: 1.2rem;
+  text-align: left; }
+  .wh-step-process .panel-body span {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    color: #f89705;
+    background: #f6f6f6;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    border-radius: 50%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4); }
+
+.wh-step-process .panel:nth-child(even) span {
+  color: #f89705; }
+
+.wh-step-process .step-heading {
+  font-size: 28px;
+  margin-top: 0px;
+  color: rgba(255, 255, 255, 0.85);
+  padding-top: 15px; }
+
+.wh-step-process .link__cta {
+  color: #fff;
+  display: inline-block; }
+
+@media (max-width: 767.98px) {
+  .wh-step-process .panel-body {
+    padding-left: 80px; }
+    .wh-step-process .panel-body span {
+      width: 60px;
+      height: 60px;
+      line-height: 60px; }
+  .wh-step-process .step-heading {
+    font-size: 22px; } }
