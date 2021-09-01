@@ -68,16 +68,12 @@
   background: #00163b; }
   .wh-step-process .panel:nth-child(even) {
     background: #002664; }
-
 .wh-step-process .panel-body span {
   color: #fbac35;
   background: #f6f6f6; }
-
 .wh-step-process .panel:nth-child(even) span {
   color: #fbac35; }
-
 .wh-step-process .step-heading {
   color: rgba(255, 255, 255, 0.85); }
-
 .wh-step-process .link__cta {
   color: #fff; }

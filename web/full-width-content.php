@@ -25,6 +25,7 @@
                     require_once './partials/faq-full.php';
                     require_once './partials/related-stories.php';
                     require_once './partials/opportunity.php';
+                    require_once './partials/wh-step-process.php';
                 ?>
             </main>
             <?php require_once './partials/footer.php' ?>

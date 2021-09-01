@@ -58,6 +58,7 @@
                     require_once './partials/study.php';
                     require_once './partials/testimonials.php';
                     require_once './partials/video-blocks.php';
+                    require_once './partials/wh-step-process.php';
                 ?>
             </main>
             <?php require_once './partials/footer.php' ?>
