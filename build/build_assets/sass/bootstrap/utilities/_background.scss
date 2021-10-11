@@ -3,6 +3,11 @@
 @each $color, $value in $theme-colors {
   @include bg-variant(".bg-#{$color}", $value);
 }
+@each $color, $value in $theme-colors {
+  @each $opacity, $value2 in $bg-opacities {
+    @include bg-opacity-variant(".bg-#{$color}-#{$opacity}", rgba($value, $value2));
+  }
+}
 
 @if $enable-gradients {
   @each $color, $value in $theme-colors {

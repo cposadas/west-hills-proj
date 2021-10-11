@@ -147,6 +147,26 @@ $spacers: map-merge(
   40: ($spacer * 40)
 ), $spacers);
 
+// WHCCD BG Opacity
+// 
+
+$bg-opacity: 1 !default;
+$bg-opacities: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$bg-opacities: map-merge(
+  (
+  10: .1,
+  15: .15,
+  20: .2,
+  25: .25,
+  50: .5,
+  75: .75,
+  80: .8,
+  85: .85,
+  90: .9,    
+  100: 1
+), $bg-opacities);
+
 // This variable affects the `.h-*` and `.w-*` classes.
 $sizes: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
