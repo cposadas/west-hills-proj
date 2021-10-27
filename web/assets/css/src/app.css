@@ -582,6 +582,9 @@ blockquote {
   margin: 1em 0;
   padding: 0 0 0 40px; }
 
+.base-content li, .wysiwyg li, .faq__item li {
+  display: list-item; }
+
 .base-content ol ol, .wysiwyg ol ol, .faq__item ol ol, .base-content ul ol, .wysiwyg ul ol, .faq__item ul ol {
   list-style-type: lower-latin;
   margin-left: 15px; }
@@ -592,9 +595,6 @@ blockquote {
 
 .base-content ol, .wysiwyg ol, .faq__item ol {
   list-style-type: decimal; }
-
-.base-content ul, .wysiwyg ul, .faq__item ul {
-  display: list-item; }
 
 @font-face {
   font-family: "whcc_icons";

@@ -222,6 +222,10 @@ blockquote
   list-style: disc outside none
   margin: 1em 0
   padding: 0 0 0 40px
+
+%li
+  li
+    display: list-item
   
 %ol-nested
   ol
@@ -242,8 +246,7 @@ blockquote
   
 %ul
   ul
-    @extend  %ol-ul-base
-    display: list-item
+    @extend %ol-ul-base
     @extend %ol-nested
     @extend %ul-nested
 
