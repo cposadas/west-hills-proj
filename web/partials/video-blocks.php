@@ -15,19 +15,19 @@
     <div class="section__content video-blocks" id="video-blocks">
         <div class="video-blocks__item" data-video-id="rEg6oeazTNY" v-on:click="videoDisplay" v-on:keyup.enter="videoDisplay" tabindex="0">
             <div class="video-blocks__content-container">
-                <div class="video-blocks__content-image" style="background-image: url('http://placehold.it/370/170')" data-icon="play"></div>
+                <div class="video-blocks__content-image" style="background-image: url('https://via.placeholder.com/370x170')" data-icon="play"></div>
                 <div class="video-blocks__content-title header6">Keller auto center supports the WHC president's scholars program</div>
             </div>
         </div>
         <div class="video-blocks__item" data-video-id="0weSjPKi4cs" v-on:click="videoDisplay" tabindex="0">
             <div class="video-blocks__content-container">
-                <div class="video-blocks__content-image" style="background-image: url('http://placehold.it/370/170')" data-icon="play"></div>
+                <div class="video-blocks__content-image" style="background-image: url('https://via.placeholder.com/370x170')" data-icon="play"></div>
                 <div class="video-blocks__content-title header6">Keller auto center supports the WHC president's scholars program</div>
             </div>
         </div>
         <div class="video-blocks__item" data-video-id="nn72FTYjIAY" v-on:click="videoDisplay" tabindex="0">
             <div class="video-blocks__content-container">
-                <div class="video-blocks__content-image" style="background-image: url('http://placehold.it/370/170')" data-icon="play"></div>
+                <div class="video-blocks__content-image" style="background-image: url('https://via.placeholder.com/370x170')" data-icon="play"></div>
                 <div class="video-blocks__content-title header6">Keller auto center supports the WHC president's scholars program</div>
             </div>
         </div>

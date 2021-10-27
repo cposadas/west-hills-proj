@@ -11,7 +11,7 @@
                 </div>
             </div>
             <div class="spotlight__content-container">
-                <div class="spotlight__content" style="background-image: url('http://placehold.it/700/300')">
+                <div class="spotlight__content" style="background-image: url('https://via.placeholder.com/700x300')">
                     <div class="spotlight__content-category">Student Life</div>
                 </div>
             </div>

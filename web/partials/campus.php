@@ -11,7 +11,7 @@
     </div>
     <div class="section__content-full college-bricks">
         <div class="college-bricks__row">
-            <a href="#" class="college-bricks__item --coalinga" style="background-image: url('http://placehold.it/700/301')">
+            <a href="#" class="college-bricks__item --coalinga" style="background-image: url('https://via.placeholder.com/700x301')">
                 <div class="college-bricks__info">
                     <div class="college-bricks__info-content">
                         <div class="college-bricks__title header4 --alt-color">West Hills College Coalinga</div>
@@ -22,7 +22,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#" class="college-bricks__item --lemoore" style="background-image: url('http://placehold.it/700/301')">
+            <a href="#" class="college-bricks__item --lemoore" style="background-image: url('https://via.placeholder.com/700x301')">
                 <div class="college-bricks__info">
                     <div class="college-bricks__info-content">
                         <div class="college-bricks__title header4 --alt-color">West Hills College Lemoore</div>
@@ -35,7 +35,7 @@
             </a>
         </div>
         <div class="college-bricks__row">
-            <a href="#" class="college-bricks__item --district" style="background-image: url('http://placehold.it/700/301')">
+            <a href="#" class="college-bricks__item --district" style="background-image: url('https://via.placeholder.com/700x301')">
                 <div class="college-bricks__info">
                     <div class="college-bricks__info-content">
                         <div class="college-bricks__title header4 --alt-color">West Hills College Coalinga</div>
@@ -46,7 +46,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#" class="college-bricks__item --online" style="background-image: url('http://placehold.it/700/301')">
+            <a href="#" class="college-bricks__item --online" style="background-image: url('https://via.placeholder.com/700x301')">
                 <div class="college-bricks__info">
                     <div class="college-bricks__info-content">
                         <div class="college-bricks__title header4 --alt-color">West Hills College online</div>
@@ -57,7 +57,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#" class="college-bricks__item --employees" style="background-image: url('http://placehold.it/700/301')">
+            <a href="#" class="college-bricks__item --employees" style="background-image: url('https://via.placeholder.com/700x301')">
                 <div class="college-bricks__info">
                     <div class="college-bricks__info-content">
                         <div class="college-bricks__title header4 --alt-color">Employees, Alumni & community</div>

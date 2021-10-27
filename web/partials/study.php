@@ -27,7 +27,7 @@
     <div class="section__content interest-grid" id="dropdown-grid">
         <div class="interest-grid__item-wrapper">
             <div role="button" tabindex="0" class="interest-grid__item" aria-label="sub interest display toggle" aria-controls="sub-interest-dropdown" v-on:click="dropdownToggle">
-                <div class="interest-grid__item-content" style="background-image: url('http://placehold.it/300/300/');">
+                <div class="interest-grid__item-content" style="background-image: url('https://via.placeholder.com/300x300/');">
                     <div class="interest-grid__text">sub interest</div>
                     <div class="interest-grid__locations">
                         <div class="interest-grid__location" aria-label="Coalinga">C</div>
@@ -91,7 +91,7 @@
         </div>
         <div class="interest-grid__item-wrapper">
             <div role="button" tabindex="0" class="interest-grid__item" aria-label="sub interest display toggle" aria-controls="sub-interest2-dropdown" v-on:click.capture="dropdownToggle">
-                <div class="interest-grid__item-content" style="background-image: url('http://placehold.it/300/300/');">
+                <div class="interest-grid__item-content" style="background-image: url('https://via.placeholder.com/300x300/');">
                     <div class="interest-grid__text">sub interest</div>
                     <div class="interest-grid__locations">
                         <div class="interest-grid__location" aria-label="Coalinga">C</div>
@@ -157,7 +157,7 @@
         </div>
         <div class="interest-grid__item-wrapper">
             <div role="button" tabindex="0" class="interest-grid__item" aria-label="sub interest display toggle" aria-controls="sub-interest3-dropdown" v-on:click.capture="dropdownToggle">
-                <div class="interest-grid__item-content" style="background-image: url('http://placehold.it/300/300/');">
+                <div class="interest-grid__item-content" style="background-image: url('https://via.placeholder.com/300x300/');">
                     <div class="interest-grid__text">sub interest</div>
                     <div class="interest-grid__locations">
                         <div class="interest-grid__location" aria-label="Coalinga">C</div>
@@ -221,7 +221,7 @@
         </div>
         <div class="interest-grid__item-wrapper">
             <div role="button" tabindex="0" class="interest-grid__item" aria-label="sub interest display toggle" aria-controls="sub-interest4-dropdown" v-on:click.capture="dropdownToggle">
-                <div class="interest-grid__item-content" style="background-image: url('http://placehold.it/300/300/');">
+                <div class="interest-grid__item-content" style="background-image: url('https://via.placeholder.com/300x300/');">
                     <div class="interest-grid__text">sub interest</div>
                     <div class="interest-grid__locations">
                         <div class="interest-grid__location" aria-label="Lemoore">L</div>
@@ -292,7 +292,7 @@
         </div>
         <div class="interest-grid__item-wrapper">
             <div role="button" tabindex="0" class="interest-grid__item" aria-label="sub interest display toggle" aria-controls="sub-interest-dropdown1" v-on:click.capture="dropdownToggle">
-                <div class="interest-grid__item-content" style="background-image: url('http://placehold.it/300/300/');">
+                <div class="interest-grid__item-content" style="background-image: url('https://via.placeholder.com/300x300/');">
                     <div class="interest-grid__text">sub interest</div>
                     <div class="interest-grid__locations">
                         <div class="interest-grid__location" aria-label="Coalinga">C</div>
@@ -356,7 +356,7 @@
         </div>
         <div class="interest-grid__item-wrapper">
             <div role="button" tabindex="0" class="interest-grid__item" aria-label="sub interest display toggle" aria-controls="sub-interest2-dropdown1" v-on:click.capture="dropdownToggle">
-                <div class="interest-grid__item-content" style="background-image: url('http://placehold.it/300/300/');">
+                <div class="interest-grid__item-content" style="background-image: url('https://via.placeholder.com/300x300/');">
                     <div class="interest-grid__text">sub interest</div>
                     <div class="interest-grid__locations">
                         <div class="interest-grid__location" aria-label="Coalinga">C</div>
@@ -422,7 +422,7 @@
         </div>
         <div class="interest-grid__item-wrapper">
             <div role="button" tabindex="0" class="interest-grid__item" aria-label="sub interest display toggle" aria-controls="sub-interest3-dropdown1" v-on:click.capture="dropdownToggle">
-                <div class="interest-grid__item-content" style="background-image: url('http://placehold.it/300/300/');">
+                <div class="interest-grid__item-content" style="background-image: url('https://via.placeholder.com/300x300/');">
                     <div class="interest-grid__text">sub interest</div>
                     <div class="interest-grid__locations">
                         <div class="interest-grid__location" aria-label="Coalinga">C</div>
@@ -486,7 +486,7 @@
         </div>
         <div class="interest-grid__item-wrapper">
             <div role="button" tabindex="0" class="interest-grid__item" aria-label="sub interest display toggle" aria-controls="sub-interest4-dropdown1" v-on:click.capture="dropdownToggle">
-                <div class="interest-grid__item-content" style="background-image: url('http://placehold.it/300/300/');">
+                <div class="interest-grid__item-content" style="background-image: url('https://via.placeholder.com/300x300/');">
                     <div class="interest-grid__text">sub interest</div>
                     <div class="interest-grid__locations">
                         <div class="interest-grid__location" aria-label="Lemoore">L</div>
@@ -557,7 +557,7 @@
         </div>
         <div class="interest-grid__item-wrapper">
             <div role="button" tabindex="0" class="interest-grid__item" aria-label="sub interest display toggle" aria-controls="sub-interest-dropdown2" v-on:click.capture="dropdownToggle">
-                <div class="interest-grid__item-content" style="background-image: url('http://placehold.it/300/300/');">
+                <div class="interest-grid__item-content" style="background-image: url('https://via.placeholder.com/300x300/');">
                     <div class="interest-grid__text">sub interest</div>
                     <div class="interest-grid__locations">
                         <div class="interest-grid__location" aria-label="Coalinga">C</div>
@@ -621,7 +621,7 @@
         </div>
         <div class="interest-grid__item-wrapper">
             <div role="button" tabindex="0" class="interest-grid__item" aria-label="sub interest display toggle" aria-controls="sub-interest2-dropdown2" v-on:click.capture="dropdownToggle">
-                <div class="interest-grid__item-content" style="background-image: url('http://placehold.it/300/300/');">
+                <div class="interest-grid__item-content" style="background-image: url('https://via.placeholder.com/300x300/');">
                     <div class="interest-grid__text">sub interest</div>
                     <div class="interest-grid__locations">
                         <div class="interest-grid__location" aria-label="Coalinga">C</div>
@@ -687,7 +687,7 @@
         </div>
         <div class="interest-grid__item-wrapper">
             <div role="button" tabindex="0" class="interest-grid__item" aria-label="sub interest display toggle" aria-controls="sub-interest3-dropdown2" v-on:click.capture="dropdownToggle">
-                <div class="interest-grid__item-content" style="background-image: url('http://placehold.it/300/300/');">
+                <div class="interest-grid__item-content" style="background-image: url('https://via.placeholder.com/300x300/');">
                     <div class="interest-grid__text">sub interest</div>
                     <div class="interest-grid__locations">
                         <div class="interest-grid__location" aria-label="Coalinga">C</div>
@@ -751,7 +751,7 @@
         </div>
         <div class="interest-grid__item-wrapper">
             <div role="button" tabindex="0" class="interest-grid__item" aria-label="sub interest display toggle" aria-controls="sub-interest4-dropdown2" v-on:click.capture="dropdownToggle">
-                <div class="interest-grid__item-content" style="background-image: url('http://placehold.it/300/300/');">
+                <div class="interest-grid__item-content" style="background-image: url('https://via.placeholder.com/300x300/');">
                     <div class="interest-grid__text">sub interest</div>
                     <div class="interest-grid__locations">
                         <div class="interest-grid__location" aria-label="Lemoore">L</div>

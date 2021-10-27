@@ -33,7 +33,7 @@
             <div class="event-blocks">
                 <a href="#" class="event-blocks__item">
                     <div class="event-blocks__content-container">
-                        <div class="event-blocks__content-image" style="background-image: url('http://placehold.it/370/170')">
+                        <div class="event-blocks__content-image" style="background-image: url('https://via.placeholder.com/370x170')">
                             <div class="event-blocks__category --red">student life</div>
                         </div>
                         <div class="event-blocks__content">
@@ -44,7 +44,7 @@
                 </a>
                 <a href="#" class="event-blocks__item">
                     <div class="event-blocks__content-container">
-                        <div class="event-blocks__content-image" style="background-image: url('http://placehold.it/370/170')">
+                        <div class="event-blocks__content-image" style="background-image: url('https://via.placeholder.com/370x170')">
                             <div class="event-blocks__category --green">business</div>
                         </div>
                         <div class="event-blocks__content">
@@ -55,7 +55,7 @@
                 </a>
                 <a href="#" class="event-blocks__item">
                     <div class="event-blocks__content-container">
-                        <div class="event-blocks__content-image" style="background-image: url('http://placehold.it/370/170')">
+                        <div class="event-blocks__content-image" style="background-image: url('https://via.placeholder.com/370x170')">
                             <div class="event-blocks__category --blue">campus life</div>
                         </div>
                         <div class="event-blocks__content">
@@ -66,7 +66,7 @@
                 </a>
                 <a href="#" class="event-blocks__item">
                     <div class="event-blocks__content-container">
-                        <div class="event-blocks__content-image" style="background-image: url('http://placehold.it/370/170')">
+                        <div class="event-blocks__content-image" style="background-image: url('https://via.placeholder.com/370x170')">
                             <div class="event-blocks__category --red">student life</div>
                         </div>
                         <div class="event-blocks__content">
@@ -77,7 +77,7 @@
                 </a>
                 <a href="#" class="event-blocks__item">
                     <div class="event-blocks__content-container">
-                        <div class="event-blocks__content-image" style="background-image: url('http://placehold.it/370/170')">
+                        <div class="event-blocks__content-image" style="background-image: url('https://via.placeholder.com/370x170')">
                             <div class="event-blocks__category --green">business</div>
                         </div>
                         <div class="event-blocks__content">
@@ -88,7 +88,7 @@
                 </a>
                 <a href="#" class="event-blocks__item">
                     <div class="event-blocks__content-container">
-                        <div class="event-blocks__content-image" style="background-image: url('http://placehold.it/370/170')">
+                        <div class="event-blocks__content-image" style="background-image: url('https://via.placeholder.com/370x170')">
                             <div class="event-blocks__category --blue">campus life</div>
                         </div>
                         <div class="event-blocks__content">
@@ -99,7 +99,7 @@
                 </a>
                 <a href="#" class="event-blocks__item">
                     <div class="event-blocks__content-container">
-                        <div class="event-blocks__content-image" style="background-image: url('http://placehold.it/370/170')">
+                        <div class="event-blocks__content-image" style="background-image: url('https://via.placeholder.com/370x170')">
                             <div class="event-blocks__category --red">student life</div>
                         </div>
                         <div class="event-blocks__content">
@@ -110,7 +110,7 @@
                 </a>
                 <a href="#" class="event-blocks__item">
                     <div class="event-blocks__content-container">
-                        <div class="event-blocks__content-image" style="background-image: url('http://placehold.it/370/170')">
+                        <div class="event-blocks__content-image" style="background-image: url('https://via.placeholder.com/370x170')">
                             <div class="event-blocks__category --green">business</div>
                         </div>
                         <div class="event-blocks__content">
@@ -121,7 +121,7 @@
                 </a>
                 <a href="#" class="event-blocks__item">
                     <div class="event-blocks__content-container">
-                        <div class="event-blocks__content-image" style="background-image: url('http://placehold.it/370/170')">
+                        <div class="event-blocks__content-image" style="background-image: url('https://via.placeholder.com/370x170')">
                             <div class="event-blocks__category --blue">campus life</div>
                         </div>
                         <div class="event-blocks__content">

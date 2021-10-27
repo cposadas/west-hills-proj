@@ -2,7 +2,7 @@
     <div class="section__content-full hero-not-found">
         <div class="hero-not-found__featured">
             <picture class="hero__image-container" v-image="">
-                <source srcset="https://unsplash.it/700/300?image=838" media="(max-width: 640px)">
+                <source srcset="https://unsplash.it/700x300?image=838" media="(max-width: 640px)">
                 <img src="https://unsplash.it/1920/565?image=838" class="hero__image" alt="">
             </picture>
             <div class="hero-not-found__cta">

@@ -29,15 +29,15 @@
             <div class="spotlight-links__section-content">
                 <ul class="spotlight-links__section-image-items">
                     <li class="spotlight-links__section-image-item">
-                        <div class="spotlight-links__section-image-item-image" style="background-image: url('http://placehold.it/260/120/');"></div>
+                        <div class="spotlight-links__section-image-item-image" style="background-image: url('https://via.placeholder.com/260/120/');"></div>
                         <a href="" class="spotlight-links__section-image-item-link">Short Term/Weekend WHCL Classes Still Open for Spring 2017</a>
                     </li>
                     <li class="spotlight-links__section-image-item">
-                        <div class="spotlight-links__section-image-item-image" style="background-image: url('http://placehold.it/260/120/');"></div>
+                        <div class="spotlight-links__section-image-item-image" style="background-image: url('https://via.placeholder.com/260/120/');"></div>
                         <a href="" class="spotlight-links__section-image-item-link">Short Term/Weekend WHCL Classes Still Open for Spring 2017</a>
                     </li>
                     <li class="spotlight-links__section-image-item">
-                        <div class="spotlight-links__section-image-item-image" style="background-image: url('http://placehold.it/260/120/');"></div>
+                        <div class="spotlight-links__section-image-item-image" style="background-image: url('https://via.placeholder.com/260/120/');"></div>
                         <a href="" class="spotlight-links__section-image-item-link">Short Term/Weekend WHCL Classes Still Open for Spring 2017</a>
                     </li>
                 </ul>

@@ -15,62 +15,62 @@
     <div class="section__content-full ">
         <div class="base-grid">
             <div class="base-grid__item-wrapper">
-                <a href="#" class="base-grid__item" style="background-image: url('http://lorempixel.com/200/200');">
+                <a href="#" class="base-grid__item" style="background-image: url('https://via.placeholder.com/200x200');">
                     <h3 class="header4 --alt-color  base-grid__title">Agriculture</h3>
                 </a>
             </div>
             <div class="base-grid__item-wrapper">
-                <a href="#" class="base-grid__item" style="background-image: url('http://lorempixel.com/200/200');">
+                <a href="#" class="base-grid__item" style="background-image: url('https://via.placeholder.com/200x200');">
                     <h3 class="header4 --alt-color  base-grid__title">Agriculture</h3>
                 </a>
             </div>
             <div class="base-grid__item-wrapper">
-                <a href="#" class="base-grid__item" style="background-image: url('http://lorempixel.com/200/200');">
+                <a href="#" class="base-grid__item" style="background-image: url('https://via.placeholder.com/200x200');">
                     <h3 class="header4 --alt-color  base-grid__title">Agriculture</h3>
                 </a>
             </div>
             <div class="base-grid__item-wrapper">
-                <a href="#" class="base-grid__item" style="background-image: url('http://lorempixel.com/200/200');">
+                <a href="#" class="base-grid__item" style="background-image: url('https://via.placeholder.com/200x200');">
                     <h3 class="header4 --alt-color  base-grid__title">Agriculture</h3>
                 </a>
             </div>
             <div class="base-grid__item-wrapper">
-                <a href="#" class="base-grid__item" style="background-image: url('http://lorempixel.com/200/200');">
+                <a href="#" class="base-grid__item" style="background-image: url('https://via.placeholder.com/200x200');">
                     <h3 class="header4 --alt-color  base-grid__title">Agriculture</h3>
                 </a>
             </div>
             <div class="base-grid__item-wrapper">
-                <a href="#" class="base-grid__item" style="background-image: url('http://lorempixel.com/200/200');">
+                <a href="#" class="base-grid__item" style="background-image: url('https://via.placeholder.com/200x200');">
                     <h3 class="header4 --alt-color  base-grid__title">Agriculture</h3>
                 </a>
             </div>
             <div class="base-grid__item-wrapper">
-                <a href="#" class="base-grid__item" style="background-image: url('http://lorempixel.com/200/200');">
+                <a href="#" class="base-grid__item" style="background-image: url('https://via.placeholder.com/200x200');">
                     <h3 class="header4 --alt-color  base-grid__title">Agriculture</h3>
                 </a>
             </div>
             <div class="base-grid__item-wrapper">
-                <a href="#" class="base-grid__item" style="background-image: url('http://lorempixel.com/200/200');">
+                <a href="#" class="base-grid__item" style="background-image: url('https://via.placeholder.com/200x200');">
                     <h3 class="header4 --alt-color  base-grid__title">Agriculture</h3>
                 </a>
             </div>
             <div class="base-grid__item-wrapper">
-                <a href="#" class="base-grid__item" style="background-image: url('http://lorempixel.com/200/200');">
+                <a href="#" class="base-grid__item" style="background-image: url('https://via.placeholder.com/200x200');">
                     <h3 class="header4 --alt-color  base-grid__title">Agriculture</h3>
                 </a>
             </div>
             <div class="base-grid__item-wrapper">
-                <a href="#" class="base-grid__item" style="background-image: url('http://lorempixel.com/200/200');">
+                <a href="#" class="base-grid__item" style="background-image: url('https://via.placeholder.com/200x200');">
                     <h3 class="header4 --alt-color  base-grid__title">Agriculture</h3>
                 </a>
             </div>
             <div class="base-grid__item-wrapper">
-                <a href="#" class="base-grid__item" style="background-image: url('http://lorempixel.com/200/200');">
+                <a href="#" class="base-grid__item" style="background-image: url('https://via.placeholder.com/200x200');">
                     <h3 class="header4 --alt-color  base-grid__title">Agriculture</h3>
                 </a>
             </div>
             <div class="base-grid__item-wrapper">
-                <a href="#" class="base-grid__item" style="background-image: url('http://lorempixel.com/200/200');">
+                <a href="#" class="base-grid__item" style="background-image: url('https://via.placeholder.com/200x200');">
                     <h3 class="header4 --alt-color  base-grid__title">Agriculture</h3>
                 </a>
             </div>

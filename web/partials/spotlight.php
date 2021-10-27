@@ -23,14 +23,14 @@
                     </div>
                 </div>
                 <div class="spotlight__content-container">
-                    <div class="spotlight__content" style="background-image: url('http://placehold.it/700/300')">
+                    <div class="spotlight__content" style="background-image: url('https://via.placeholder.com/700x300')">
                         <div class="spotlight__content-category">Student Life</div>
                     </div>
                 </div>
             </a>
             <a href="#" class="spotlight__link">
                 <div class="spotlight__content-container">
-                    <div class="spotlight__content" style="background-image: url('http://placehold.it/550/200')">
+                    <div class="spotlight__content" style="background-image: url('https://via.placeholder.com/550x200')">
                         <div class="spotlight__content-title header6">The 22 Best Classes to Take For Returning Students to West Hills College</div>
                         <div class="spotlight__content-category">Student Life</div>
                     </div>
@@ -38,7 +38,7 @@
             </a>
             <a href="#" class="spotlight__link">
                 <div class="spotlight__content-container">
-                    <div class="spotlight__content" style="background-image: url('http://placehold.it/550/200')">
+                    <div class="spotlight__content" style="background-image: url('https://via.placeholder.com/550x200')">
                         <div class="spotlight__content-title header6">Examples of Women With Successful Business Careers To Inspire You </div>
                         <div class="spotlight__content-category">business</div>
                     </div>

@@ -11,7 +11,7 @@
     </div>
     <div class="section__content-full college-bricks">
         <div class="college-bricks__row">
-            <a href="#" class="college-bricks__item --coalinga" style="background-image: url('http://lorempixel.com/700/301')">
+            <a href="#" class="college-bricks__item --coalinga" style="background-image: url('https://via.placeholder.com/700/300')">
                 <div class="college-bricks__info">
                     <div class="college-bricks__info-content">
                         <h3 class="college-bricks__title header4 --alt-color">West Hills College Coalinga</h3>
@@ -22,7 +22,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#" class="college-bricks__item --lemoore" style="background-image: url('http://lorempixel.com/700/301')">
+            <a href="#" class="college-bricks__item --lemoore" style="background-image: url('https://via.placeholder.com/700/300')">
                 <div class="college-bricks__info">
                     <div class="college-bricks__info-content">
                         <h3 class="college-bricks__title header4 --alt-color">West Hills College Lemoore</h3>
@@ -35,7 +35,7 @@
             </a>
         </div>
         <div class="college-bricks__row">
-            <a href="#" class="college-bricks__item --district" style="background-image: url('http://lorempixel.com/700/301')">
+            <a href="#" class="college-bricks__item --district" style="background-image: url('https://via.placeholder.com/700/300')">
                 <div class="college-bricks__info">
                     <div class="college-bricks__info-content">
                         <h3 class="college-bricks__title header4 --alt-color">West Hills College Coalinga</h3>
@@ -46,7 +46,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#" class="college-bricks__item --online" style="background-image: url('http://lorempixel.com/700/301')">
+            <a href="#" class="college-bricks__item --online" style="background-image: url('https://via.placeholder.com/700/300')">
                 <div class="college-bricks__info">
                     <div class="college-bricks__info-content">
                         <h3 class="college-bricks__title header4 --alt-color">West Hills College Lemoore</h3>
@@ -57,7 +57,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#" class="college-bricks__item --employees" style="background-image: url('http://lorempixel.com/700/301')">
+            <a href="#" class="college-bricks__item --employees" style="background-image: url('https://via.placeholder.com/700/300')">
                 <div class="college-bricks__info">
                     <div class="college-bricks__info-content">
                         <h3 class="college-bricks__title header4 --alt-color">West Hills College Coalinga</h3>

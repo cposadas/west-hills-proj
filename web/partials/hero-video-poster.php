@@ -1,7 +1,7 @@
 <section class="section__container">
     <div class="section__content-full">
         <div class="hero-video__container js-hero-video-container">
-          <video class="hero-video__video js-hero-video" muted poster="http://placehold.it/1140x565" src="" autoplay loop aria-label="background hero video">
+          <video class="hero-video__video js-hero-video" muted poster="https://via.placeholder.com/1140x565" src="" autoplay loop aria-label="background hero video">
             <track src="assets/js/data/herovideo.vtt" kind="descriptions" srclang="en" label="English">
             <track src="assets/js/data/herovideo.vtt" kind="captions" srclang="en" label="English">
           </video>

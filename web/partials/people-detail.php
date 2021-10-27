@@ -38,7 +38,7 @@
         </div>
         <aside class="people__sidebar">
             <div class="people__sidebar-section">
-                <img src="http://placehold.it/325/210" alt="Scott" />
+                <img src="https://via.placeholder.com/325/210" alt="Scott" />
                 <button class="header5 people__sidebar-section-title"><span class="header5 people__sidebar-section-title-text">Contact Scott</span></button>
                 559-934-2984<br />
                 <a href="mailto:scottwilson@whccd.edu">scottwilson@whccd.edu</a><br /><br />

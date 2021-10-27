@@ -21,7 +21,7 @@
                         <fieldset>
                             <div class="interest-builder__step-choices">
                                 <label class="interest-builder__step-choice" for="work_outdoors">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/200/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x200/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="work_outdoors" id="work_outdoors" class="interest-builder__step-checkbox" v-model="likes">
@@ -31,7 +31,7 @@
                                     </span>
                                 </label>
                                 <label class="interest-builder__step-choice" for="work_with_my_hands">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/200/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x200/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="work_with_my_hands" id="work_with_my_hands" class="interest-builder__step-checkbox" v-model="likes">
@@ -41,7 +41,7 @@
                                     </span>
                                 </label>
                                 <label class="interest-builder__step-choice" for="numbers_charts">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/200/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x200/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="numbers_charts" id="numbers_charts" class="interest-builder__step-checkbox" v-model="likes">
@@ -51,7 +51,7 @@
                                     </span>
                                 </label>
                                 <label class="interest-builder__step-choice" for="public_speaking">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/200/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x200/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="public_speaking" id="public_speaking" class="interest-builder__step-checkbox" v-model="likes">
@@ -61,7 +61,7 @@
                                     </span>
                                 </label>
                                 <label class="interest-builder__step-choice" for="work_outdoors2">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/200/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x200/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="work_outdoors2" id="work_outdoors2" class="interest-builder__step-checkbox" v-model="likes">
@@ -71,7 +71,7 @@
                                     </span>
                                 </label>
                                 <label class="interest-builder__step-choice" for="work_with_my_hands2">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/200/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x200/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="work_with_my_hands2" id="work_with_my_hands2" class="interest-builder__step-checkbox" v-model="likes">
@@ -81,7 +81,7 @@
                                     </span>
                                 </label>
                                 <label class="interest-builder__step-choice" for="numbers_charts2">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/200/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x200/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="numbers_charts2" id="numbers_charts2" class="interest-builder__step-checkbox" v-model="likes">
@@ -91,7 +91,7 @@
                                     </span>
                                 </label>
                                 <label class="interest-builder__step-choice" for="public_speaking2">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/200/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x200/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="public_speaking2" id="public_speaking2" class="interest-builder__step-checkbox" v-model="likes">
@@ -101,7 +101,7 @@
                                     </span>
                                 </label>
                                 <label class="interest-builder__step-choice" for="work_outdoors3">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/200/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x200/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="work_outdoors3" id="work_outdoors3" class="interest-builder__step-checkbox" v-model="likes">
@@ -111,7 +111,7 @@
                                     </span>
                                 </label>
                                 <label class="interest-builder__step-choice" for="work_with_my_hands3">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/200/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x200/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="work_with_my_hands3" id="work_with_my_hands3" class="interest-builder__step-checkbox" v-model="likes">
@@ -121,7 +121,7 @@
                                     </span>
                                 </label>
                                 <label class="interest-builder__step-choice" for="numbers_charts3">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/200/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x200/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="numbers_charts3" id="numbers_charts3" class="interest-builder__step-checkbox" v-model="likes">
@@ -131,7 +131,7 @@
                                     </span>
                                 </label>
                                 <label class="interest-builder__step-choice" for="public_speaking3">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/200/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x200/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="public_speaking3" id="public_speaking3" class="interest-builder__step-checkbox" v-model="likes">
@@ -158,7 +158,7 @@
                         <fieldset>
                             <div class="interest-builder__step-choices">
                                 <label class="interest-builder__step-choice" for="work_outdoors4">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/200/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x200/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="work_outdoors4" id="work_outdoors4" class="interest-builder__step-checkbox" v-model="likes">
@@ -168,7 +168,7 @@
                                     </span>
                                 </label>
                                 <label class="interest-builder__step-choice" for="work_with_my_hands4">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/200/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x200/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="work_with_my_hands4" id="work_with_my_hands4" class="interest-builder__step-checkbox" v-model="likes">
@@ -178,7 +178,7 @@
                                     </span>
                                 </label>
                                 <label class="interest-builder__step-choice" for="numbers_charts4">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/200/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x200/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="numbers_charts4" id="numbers_charts4" class="interest-builder__step-checkbox" v-model="likes">
@@ -188,7 +188,7 @@
                                     </span>
                                 </label>
                                 <label class="interest-builder__step-choice" for="public_speaking4">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/200/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x200/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="public_speaking4" id="public_speaking4" class="interest-builder__step-checkbox" v-model="likes">
@@ -198,7 +198,7 @@
                                     </span>
                                 </label>
                                 <label class="interest-builder__step-choice" for="work_outdoors5">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/200/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x200/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="work_outdoors5" id="work_outdoors5" class="interest-builder__step-checkbox" v-model="likes">
@@ -208,7 +208,7 @@
                                     </span>
                                 </label>
                                 <label class="interest-builder__step-choice" for="work_with_my_hands5">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/500/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x500/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="work_with_my_hands5" id="work_with_my_hands5" class="interest-builder__step-checkbox" v-model="likes">
@@ -218,7 +218,7 @@
                                     </span>
                                 </label>
                                 <label class="interest-builder__step-choice" for="numbers_charts5">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/500/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x500/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="numbers_charts5" id="numbers_charts5" class="interest-builder__step-checkbox" v-model="likes">
@@ -228,7 +228,7 @@
                                     </span>
                                 </label>
                                 <label class="interest-builder__step-choice" for="public_speaking5">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/500/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x500/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="public_speaking5" id="public_speaking5" class="interest-builder__step-checkbox" v-model="likes">
@@ -238,7 +238,7 @@
                                     </span>
                                 </label>
                                 <label class="interest-builder__step-choice" for="work_outdoors6">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/500/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x500/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="work_outdoors6" id="work_outdoors6" class="interest-builder__step-checkbox" v-model="likes">
@@ -248,7 +248,7 @@
                                     </span>
                                 </label>
                                 <label class="interest-builder__step-choice" for="work_with_my_hands6">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/500/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x500/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="work_with_my_hands6" id="work_with_my_hands6" class="interest-builder__step-checkbox" v-model="likes">
@@ -258,7 +258,7 @@
                                     </span>
                                 </label>
                                 <label class="interest-builder__step-choice" for="numbers_charts6">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/500/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x500/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="numbers_charts6" id="numbers_charts6" class="interest-builder__step-checkbox" v-model="likes">
@@ -268,7 +268,7 @@
                                     </span>
                                 </label>
                                 <label class="interest-builder__step-choice" for="public_speaking6">
-                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('http://placehold.it/600/500/');">
+                                    <span class="interest-builder__step-checkbox-container" style="background-image: url('https://via.placeholder.com/600x500/');">
                                         <span class="interest-builder__step-checkbox-overlay">
                                         </span>
                                         <input type="checkbox" value="public_speaking6" id="public_speaking6" class="interest-builder__step-checkbox" v-model="likes">

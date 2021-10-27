@@ -16,7 +16,7 @@
         <div class="section__content news-blocks --color-fill">
             <a href="#" class="news-blocks__item">
                 <div class="news-blocks__item-content-container">
-                    <div class="news-blocks__item-content" style="background-image: url('http://placehold.it/600/300/');">
+                    <div class="news-blocks__item-content" style="background-image: url('https://via.placeholder.com/600x300/');">
                         <div class="news-blocks__item-content-date">30 mar 2017</div>
                         <div class="news-blocks__item-content-title header6">West Hills College Lemoore Partners With First Solar to Support Innovative Solar Project</div>
                     </div>
@@ -24,7 +24,7 @@
             </a>
             <a href="#" class="news-blocks__item">
                 <div class="news-blocks__item-content-container">
-                    <div class="news-blocks__item-content" style="background-image: url('http://placehold.it/600/300/');">
+                    <div class="news-blocks__item-content" style="background-image: url('https://via.placeholder.com/600x300/');">
                         <div class="news-blocks__item-content-date">30 mar 2017</div>
                         <div class="news-blocks__item-content-title header6">West Hills College Lemoore Partners With First Solar to Support Innovative Solar Project</div>
                     </div>
@@ -32,7 +32,7 @@
             </a>
             <a href="#" class="news-blocks__item">
                 <div class="news-blocks__item-content-container">
-                    <div class="news-blocks__item-content" style="background-image: url('http://placehold.it/600/300/');">
+                    <div class="news-blocks__item-content" style="background-image: url('https://via.placeholder.com/600x300/');">
                         <div class="news-blocks__item-content-date">30 mar 2017</div>
                         <div class="news-blocks__item-content-title header6">West Hills College Lemoore Partners With First Solar to Support Innovative Solar Project</div>
                     </div>
@@ -40,7 +40,7 @@
             </a>
             <a href="#" class="news-blocks__item">
                 <div class="news-blocks__item-content-container">
-                    <div class="news-blocks__item-content" style="background-image: url('http://placehold.it/600/300/');">
+                    <div class="news-blocks__item-content" style="background-image: url('https://via.placeholder.com/600x300/');">
                         <div class="news-blocks__item-content-date">30 mar 2017</div>
                         <div class="news-blocks__item-content-title header6">West Hills College Lemoore Partners With First Solar to Support Innovative Solar Project</div>
                     </div>

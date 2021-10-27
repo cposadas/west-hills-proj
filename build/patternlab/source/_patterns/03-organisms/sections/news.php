@@ -14,7 +14,7 @@
         <div class=" link-blocks__link-list">
             <h3 class="link-blocks__title header4">announcments</h3>
             <div class="link-blocks__link-list-container">
-                <div class="link-blocks__link-list-image" style="background-image: url('http://lorempixel.com/280/126');"></div>
+                <div class="link-blocks__link-list-image" style="background-image: url('https://via.placeholder.com/280/126');"></div>
                 <ul class="link-blocks__link-list-items">
                     <li class="link-blocks__link-list-item">
                         <a href="" class="link-blocks__link-list-link">Short Term/Weekend WHCL Classes Still Open for Spring 2017</a>
@@ -32,7 +32,7 @@
         <div class="link-blocks__link-list">
             <h3 class="link-blocks__title header4">news</h3>
             <div class="link-blocks__link-list-container">
-                <div class="link-blocks__link-list-image" style="background-image: url('http://lorempixel.com/280/126');"></div>
+                <div class="link-blocks__link-list-image" style="background-image: url('https://via.placeholder.com/280/126');"></div>
                 <ul class="link-blocks__link-list-items">
                     <li class="link-blocks__link-list-item">
                         <a href="" class="link-blocks__link-list-link">West Hills College Lemoore Soccer Prepares for New Season with Scrimmage March 26</a>
@@ -50,11 +50,11 @@
         <div class="link-blocks__image-links">
             <h3 class="link-blocks__title header4">Spotlight</h3>
             <div class="link-blocks__image-links-container">
-                <a href="" class="link-blocks__image-links-link" style="background-image: url('http://lorempixel.com/565/250');">
+                <a href="" class="link-blocks__image-links-link" style="background-image: url('https://via.placeholder.com/565/250');">
                     <div class="link-blocks__image-links-text">7 Things You Need To Know Before Starting at West Hills College</div>
                     <div class="link-blocks__image-links-category">Student Life</div>
                 </a>
-                <a href="" class="link-blocks__image-links-link" style="background-image: url('http://lorempixel.com/565/250');">
+                <a href="" class="link-blocks__image-links-link" style="background-image: url('https://via.placeholder.com/565/250');">
                     <div class="link-blocks__image-links-text">Examples of Women With Successful Business Careers To Inspire You</div>
                     <div class="link-blocks__image-links-category">Business</div>
                 </a>

@@ -4,7 +4,7 @@
             <header class="page-detail__header">
                 <?php require_once 'partials/breadcrumbs.php'; ?>
                 <div class="page-detail__image-container">
-                    <div class="page-detail__image-content" style="background-image: url('http://placehold.it/550/200')">
+                    <div class="page-detail__image-content" style="background-image: url('https://via.placeholder.com/550x200')">
                         <div class="page-detail__image-category --green">Business</div>
                     </div>
                 </div>

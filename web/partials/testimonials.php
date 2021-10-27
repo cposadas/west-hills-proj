@@ -4,7 +4,7 @@
             <div class="image-slider__slide">
                 <figure class="image-slider__testimonials">
                     <div class="image-slider__circle-image">
-                        <img src="http://placehold.it/175/175" alt="persons name here" width="175" height="175">
+                        <img src="https://via.placeholder.com/175x175" alt="persons name here" width="175" height="175">
                     </div>
                     <figcaption class="image-slider__content">
                         <blockquote class="image-slider__quote">
@@ -20,7 +20,7 @@
             <div class="image-slider__slide">
                 <figure class="image-slider__testimonials">
                     <div class="image-slider__circle-image">
-                        <img src="http://placehold.it/175/175" alt="persons name here" width="175" height="175">
+                        <img src="https://via.placeholder.com/175x175" alt="persons name here" width="175" height="175">
                     </div>
                     <figcaption class="image-slider__content">
                         <blockquote class="image-slider__quote">
@@ -36,7 +36,7 @@
             <div class="image-slider__slide">
                 <figure class="image-slider__testimonials">
                     <div class="image-slider__circle-image">
-                        <img src="http://placehold.it/175/175" alt="persons name here" width="175" height="175">
+                        <img src="https://via.placeholder.com/175x175" alt="persons name here" width="175" height="175">
                     </div>
                     <figcaption class="image-slider__content">
                         <blockquote class="image-slider__quote">

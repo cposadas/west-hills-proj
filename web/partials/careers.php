@@ -1,5 +1,5 @@
  <section class="section__container">
-    <div class="section__content-full title-bar --image-alt" style="background-image: url('http://placehold.it/1000/400');">
+    <div class="section__content-full title-bar --image-alt" style="background-image: url('https://via.placeholder.com/1000x400');">
         <header class="title-bar__title">
             <h2 class="header3 --alt-color">Careers you could have</h2>
             <div class="title-bar__text --alt-color --large">
