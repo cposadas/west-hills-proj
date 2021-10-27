@@ -216,3 +216,36 @@ blockquote
     right: 4rem
   margin:
     bottom: 2.5rem
+
+%ol-ul-base  
+  display: block
+  list-style: disc outside none
+  margin: 1em 0
+  padding: 0 0 0 40px
+  
+%ol-nested
+  ol
+    list-style-type: lower-latin
+    margin-left: 15px
+
+%ul-nested
+  ul
+    list-style-type: circle
+    margin-left: 15px
+  
+%ol
+  ol
+    @extend  %ol-ul-base
+    list-style-type: decimal
+    @extend %ol-nested
+    @extend %ul-nested
+  
+%ul
+  ul
+    @extend  %ol-ul-base
+    display: list-item
+    @extend %ol-nested
+    @extend %ul-nested
+
+
+    

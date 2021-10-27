@@ -576,6 +576,26 @@ blockquote {
   padding-right: 4rem;
   margin-bottom: 2.5rem; }
 
+.base-content ol, .wysiwyg ol, .faq__item ol, .base-content ul, .wysiwyg ul, .faq__item ul {
+  display: block;
+  list-style: disc outside none;
+  margin: 1em 0;
+  padding: 0 0 0 40px; }
+
+.base-content ol ol, .wysiwyg ol ol, .faq__item ol ol, .base-content ul ol, .wysiwyg ul ol, .faq__item ul ol {
+  list-style-type: lower-latin;
+  margin-left: 15px; }
+
+.base-content ol ul, .wysiwyg ol ul, .faq__item ol ul, .base-content ul ul, .wysiwyg ul ul, .faq__item ul ul {
+  list-style-type: circle;
+  margin-left: 15px; }
+
+.base-content ol, .wysiwyg ol, .faq__item ol {
+  list-style-type: decimal; }
+
+.base-content ul, .wysiwyg ul, .faq__item ul {
+  display: list-item; }
+
 @font-face {
   font-family: "whcc_icons";
   src: url("../../fonts/whcc_icons.woff") format("woff"), url("../../fonts/whcc_icons.ttf") format("truetype");
@@ -6081,14 +6101,6 @@ table {
       margin-bottom: 1.5rem; }
       .page-detail__sidebar-cta-buttons a:first-child {
         margin-right: 1rem; }
-
-.wysiwyg ul {
-  list-style-type: initial;
-  margin-left: 3rem; }
-
-.wysiwyg ol {
-  list-style-type: decimal;
-  margin-left: 3rem; }
 
 .wysiwyg .faq__items {
   margin-bottom: 5rem;
