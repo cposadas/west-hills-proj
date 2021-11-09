@@ -4709,6 +4709,12 @@ table {
 .base-content__link {
   margin-bottom: 4.5rem; }
 
+.base-content .faq__items {
+  margin: 0 0 5rem 0;
+  list-style-type: none;
+  display: initial;
+  padding: 0; }
+
 .icon-links {
   max-width: 100%; }
   @media screen and (min-width: 1025px) {
@@ -7790,7 +7796,6 @@ table {
   padding-right: 1.5rem; }
 
 .dual-container__content .faq__items {
-  margin-bottom: 0;
   color: #000; }
 
 .dual-container__content .faq__main {
