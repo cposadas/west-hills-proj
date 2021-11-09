@@ -6066,6 +6066,16 @@ table {
     border-bottom: 1px solid #002664; }
   .page-detail__sidebar-section-items {
     margin-bottom: 4rem; }
+    .page-detail__sidebar-section-items li {
+      display: -ms-flexbox;
+      display: flex;
+      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(175, 175, 175, 0.2);
+      margin-bottom: 8px; }
+      .page-detail__sidebar-section-items li.\--tertiary {
+        padding-left: 15px; }
+      .page-detail__sidebar-section-items li a {
+        color: #6c6c6c; }
   .page-detail__sidebar-section-item {
     display: -ms-flexbox;
     display: flex;
