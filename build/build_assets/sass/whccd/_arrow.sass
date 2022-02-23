@@ -1,0 +1,40 @@
+%arrow
+  content: ''
+  display: block
+  position: absolute
+  
+.arrow
+  &-right
+    &:after
+      @extend %arrow
+      left: 100%
+      top: 50%
+      margin-top: -10px
+      width: 0
+      height: 0
+      border-top: 20px solid transparent
+      border-right: 20px solid transparent
+      border-bottom: 20px solid transparent
+      border-left: 20px solid #fff
+    
+      +media(max, 767.98px)
+        left: 45%
+        top: 100%
+        margin-top: 0px
+        border-top: 20px solid #fff
+        border-right: 20px solid transparent
+        border-bottom: 20px solid transparent
+        border-left: 20px solid transparent
+
+  &-bottom
+    &:after
+      @extend %arrow
+      left: 100%
+      top: 50%
+      left: 45%
+      top: 100%
+      margin-top: 0px
+      border-top: 20px solid #fff
+      border-right: 20px solid transparent
+      border-bottom: 20px solid transparent
+      border-left: 20px solid transparent
