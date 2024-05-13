@@ -6,12 +6,12 @@
 .header__logo
   +media(min, $breakpoints-tablet)
     margin:
-      right: calc(100% - 900px)
+      right: calc(100% - 1175px)
 .header__cta-link
-  background-color: $colors-lemoore-primary-1
+  background-color: $colors-lemoore-primary-1-cta
   color: $colors-home-primary-0
   text-shadow: none
-  +linkStates(darken($colors-home-primary-0, 10%), .3s, darken($colors-lemoore-primary-1, 10%))
+  +linkStates(darken($colors-home-primary-0, 10%), .3s, $colors-lemoore-primary-1)
 .main-nav__items
 
 
@@ -100,8 +100,13 @@
 
 
 .footer
-
-
+  background: $colors-lemoore-primary-0
+  
+  &__mobile-login    
+    background-color: $colors-lemoore-primary-1-cta
+    color: $colors-home-primary-0
+    +linkStates(darken($colors-home-primary-0, 10%), .3s, $colors-lemoore-primary-1)
+    
   &__intro
 
 
@@ -109,13 +114,14 @@
 
 
   &__aside
+    background: $colors-home-primary-0
 
 
 .link
   &__button-primary
     color: $colors-home-primary-0
-    background-color: $colors-lemoore-primary-1
-    +linkStates(darken($colors-home-primary-0, 10%), .3s, darken($colors-lemoore-primary-1, 10%))
+    background-color: $colors-lemoore-primary-1-cta
+    +linkStates(darken($colors-home-primary-0, 10%), .3s, $colors-lemoore-primary-1)
     text-shadow: none
 
   &__button-secondary

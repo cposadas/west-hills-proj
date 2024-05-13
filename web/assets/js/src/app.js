@@ -36,12 +36,11 @@ require('./components/dropdown-grid');
 require('./components/hero-video');
 require('./components/inline-faq');
 require('./components/video-blocks');
-require('./components/toybox-feedback');
 
 require("popper.js");
 require("bootstrap");
 
-},{"./components/dropdown-grid":2,"./components/faq":3,"./components/global-includes":4,"./components/header":5,"./components/hero":7,"./components/hero-video":6,"./components/inline-faq":8,"./components/interest-builder":9,"./components/slider":10,"./components/toybox-feedback":11,"./components/video-blocks":12,"./vendor/vue.min":13,"bootstrap":14,"jquery":15,"picturefill":17,"popper.js":18}],2:[function(require,module,exports){
+},{"./components/dropdown-grid":2,"./components/faq":3,"./components/global-includes":4,"./components/header":5,"./components/hero":7,"./components/hero-video":6,"./components/inline-faq":8,"./components/interest-builder":9,"./components/slider":10,"./components/video-blocks":11,"./vendor/vue.min":12,"bootstrap":13,"jquery":14,"picturefill":16,"popper.js":17}],2:[function(require,module,exports){
 'use strict';
 
 if (document.querySelector('#dropdown-grid') !== null) {
@@ -392,7 +391,7 @@ if (document.querySelector('#faq') !== null) {
   });
 }
 
-},{"lunr":16}],4:[function(require,module,exports){
+},{"lunr":15}],4:[function(require,module,exports){
 "use strict";
 
 Vue.directive("image", {
@@ -700,7 +699,7 @@ var heroVideo = function () {
  */
 heroVideo.init();
 
-},{"jquery":15}],7:[function(require,module,exports){
+},{"jquery":14}],7:[function(require,module,exports){
 "use strict";
 
 // Do not delete this it is used for the background fill directive
@@ -1013,22 +1012,7 @@ require('slick-carousel');
   }]
 });
 
-},{"jquery":15,"slick-carousel":19}],11:[function(require,module,exports){
-'use strict';
-
-$(window).on('scroll', function () {
-  var s = $(window).scrollTop(),
-      d = $(document).height(),
-      c = $(window).height();
-  var scrollPercent = s / (d - c) * 100;
-  if (scrollPercent > 98) {
-    $("#toybox-feedback").css('opacity', '0.75');
-  } else {
-    $("#toybox-feedback").css('opacity', '0');
-  }
-});
-
-},{}],12:[function(require,module,exports){
+},{"jquery":14,"slick-carousel":18}],11:[function(require,module,exports){
 'use strict';
 
 if (document.querySelector('#video-blocks') !== null) {
@@ -1067,7 +1051,7 @@ if (document.querySelector('#video-blocks') !== null) {
   });
 }
 
-},{}],13:[function(require,module,exports){
+},{}],12:[function(require,module,exports){
 (function (global){
 "use strict";
 
@@ -3184,7 +3168,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 });
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],14:[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 /*!
   * Bootstrap v4.4.1 (https://getbootstrap.com/)
   * Copyright 2011-2019 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
@@ -7707,7 +7691,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 })));
 
 
-},{"jquery":15,"popper.js":18}],15:[function(require,module,exports){
+},{"jquery":14,"popper.js":17}],14:[function(require,module,exports){
 /*!
  * jQuery JavaScript Library v3.3.1
  * https://jquery.com/
@@ -18073,7 +18057,7 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 
-},{}],16:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 /**
  * lunr - http://lunrjs.com - A bit like Solr, but much smaller and not as bright - 2.1.5
  * Copyright (C) 2017 Oliver Nightingale
@@ -21052,7 +21036,7 @@ lunr.QueryParser.parseBoost = function (parser) {
   }))
 })();
 
-},{}],17:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 /*! picturefill - v3.0.2 - 2016-02-12
  * https://scottjehl.github.io/picturefill/
  * Copyright (c) 2016 https://github.com/scottjehl/picturefill/blob/master/Authors.txt; Licensed MIT
@@ -22598,7 +22582,7 @@ lunr.QueryParser.parseBoost = function (parser) {
 
 } )( window, document );
 
-},{}],18:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 (function (global){
 /**!
  * @fileOverview Kickass library to create and place poppers near their reference elements.
@@ -25142,7 +25126,7 @@ return Popper;
 
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],19:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 /*
      _ _      _       _
  ___| (_) ___| | __  (_)___
@@ -28036,4 +28020,4 @@ return Popper;
 
 }));
 
-},{"jquery":15}]},{},[1]);
+},{"jquery":14}]},{},[1]);

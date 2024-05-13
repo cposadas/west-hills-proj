@@ -6,10 +6,10 @@
 .header__logo
   +media(min, $breakpoints-tablet)
     margin:
-      right: calc(100% - 900px)
+      right: calc(100% - 1100px)
 .header__cta-link
-  background-color: $colors-coalinga-primary-1
-  +linkStates(darken($colors-home-primary-2, 10%), .3s, darken($colors-coalinga-primary-1, 10%))
+  background-color: $colors-coalinga-primary-1-cta
+  +linkStates(darken($colors-home-primary-2, 10%), .3s, $colors-coalinga-primary-1)
   text-shadow: none
 
 .main-nav__items
@@ -110,7 +110,12 @@
 
 
 .footer
-  background: $colors-home-secondary-4
+  background: $colors-coalinga-primary-0
+  
+  &__mobile-login    
+    color: $colors-home-primary-2
+    background-color: $colors-coalinga-primary-1-cta
+    +linkStates(darken($colors-home-primary-2, 10%), .3s, $colors-coalinga-primary-1)
 
   &__intro
     border:
@@ -128,9 +133,9 @@
 .link
   &__button-primary
     color: $colors-home-primary-2
-    background-color: $colors-coalinga-primary-1
+    background-color: $colors-coalinga-primary-1-cta
     text-shadow: none
-    +linkStates(darken($colors-home-primary-2, 10%), .3s, darken($colors-coalinga-primary-1, 10%))
+    +linkStates(darken($colors-home-primary-2, 10%), .3s, $colors-coalinga-primary-1)
 
   &__button-secondary
     color: $colors-coalinga-primary-0
